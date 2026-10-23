@@ -1,0 +1,70 @@
+{
+  "name": "Arathi Highlands",
+  "slot": 0,
+  "map": 0,
+  "zone_id": 45,
+  "terrain": "turtle",
+  "_terrain": "stock = place spawns on stock 3.3.5 ground (no client terrain patch yet). turtle = keep Turtle heights (after the client terrain patch + map re-extraction).",
+  "exclude_creatures": [
+    50516,
+    51264,
+    73000,
+    73001,
+    73002,
+    73003,
+    73004,
+    73005,
+    73006,
+    80164,
+    50038
+  ],
+  "exclude_gameobjects": [
+    1000389,
+    2010844,
+    105578,
+    105579,
+    105581,
+    300203,
+    142102,
+    173221,
+    180685
+  ],
+  "extra_creature_templates": [
+    60313
+  ],
+  "force_display": {
+    "60313": 11686
+  },
+  "notes": [
+    "Thunder Ale boat party, Prince Herman II, training dummy and Moonkin Hatchling are Turtle systems/events, left out.",
+    "Kaja's Ammunition Crate / Mysterious Shipment belong to quest lines of other zones."
+  ],
+  "hold_until_terrain_patch": [
+    5012,
+    5013
+  ],
+  "_hold_until_terrain_patch": "Subzones Turtle rebuilt from scratch (Wildtusk Village, Ruins of Zul'Rasaz). On stock 3.3.5 terrain they are cliffs, so their NPCs, objects and quests are held back while terrain=stock.",
+  "terrain_tiles": [
+    "34_34",
+    "34_35",
+    "35_32",
+    "35_33",
+    "35_34",
+    "35_35",
+    "36_32",
+    "36_33",
+    "36_34",
+    "37_32",
+    "37_33"
+  ],
+  "_terrain_tiles": "Turtle ADT tiles (Azeroth_X_Y) shipped in the client patch and converted to server .map files.",
+  "area_bits": {
+    "5011": 3618,
+    "5012": 3619,
+    "5013": 3620,
+    "5014": 3621,
+    "5094": 3622,
+    "5095": 3623
+  },
+  "_area_bits": "Exploration bits for Turtle's new subzones. Never change one once players have explored it; new areas get the next free bit."
+}

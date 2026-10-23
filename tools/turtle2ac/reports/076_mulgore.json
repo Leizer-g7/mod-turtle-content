@@ -1,0 +1,140 @@
+{
+ "zone": "076_mulgore",
+ "name": "Mulgore",
+ "file": "mod_turtle_032_mulgore.sql",
+ "terrain": "turtle",
+ "custom_subzones": [
+  5096,
+  5100
+ ],
+ "counts": {
+  "areatable_dbc": 2,
+  "creature_template": 27,
+  "creature_template_model": 27,
+  "creature_template_movement": 27,
+  "smart_scripts": 4,
+  "creature_equip_template": 6,
+  "creature_default_trainer": 1,
+  "creature": 45,
+  "creature_addon": 5,
+  "waypoint_data": 63,
+  "npc_text": 11,
+  "gossip_menu": 11,
+  "gossip_menu_option": 1,
+  "npc_vendor": 17,
+  "creature_loot_template": 599,
+  "skinning_loot_template": 4,
+  "pickpocketing_loot_template": 4,
+  "quest_template": 22,
+  "quest_template_addon": 22,
+  "quest_offer_reward": 22,
+  "quest_request_items": 21,
+  "creature_queststarter": 21,
+  "creature_questender": 22,
+  "gameobject_template": 23,
+  "gameobject_template_addon": 6,
+  "gameobject_loot_template": 4,
+  "gameobject": 110
+ },
+ "go_pending": [],
+ "notes": {
+  "client_tiles": [
+   "Kalimdor_31_37: chunk 141 taken for Turtle's taurenchickenhut.wmo",
+   "Kalimdor_31_37: chunk 174 taken for Turtle's taurentepee.wmo",
+   "Kalimdor_32_37: chunk 128 taken for Turtle's taurenhutb.wmo",
+   "Kalimdor_33_32: merged on top of an earlier zone's tile",
+   "Kalimdor_33_32: chunk 254 taken for Turtle's taurentepee.wmo",
+   "Kalimdor_33_33: chunk 12 taken for Turtle's taurentepee.wmo",
+   "Kalimdor_33_33: chunk 62 taken for Turtle's taurentallhut.wmo",
+   "Kalimdor_34_32: merged on top of an earlier zone's tile",
+   "Kalimdor_34_33: chunk 101 taken for Turtle's taurentepee.wmo",
+   "Kalimdor_34_33: chunk 116 taken for Turtle's darkshorebridge03.wmo",
+   "60 reshaped chunks next to the zone taken (keep their 3.3.5 area); 44 reshaped chunks away from the zone left as 3.3.5",
+   "125 edge points where Turtle's own tiles do not meet: both sides set to the average",
+   "seams between Turtle and 3.3.5 chunks: 178 edge points aligned (largest step 0.48 yd)",
+   "9 edge points at the rim matched to the 3.3.5 tiles next to it",
+   "Kalimdor_30_36: merged - 6 of 256 chunks from Turtle (6 of them reshaped ground that keeps its 3.3.5 area)",
+   "Kalimdor_31_35: merged - 3 of 256 chunks from Turtle",
+   "Kalimdor_31_36: merged - 67 of 256 chunks from Turtle (15 of them reshaped ground that keeps its 3.3.5 area)",
+   "Kalimdor_31_37: merged - 64 of 256 chunks from Turtle (13 of them reshaped ground that keeps its 3.3.5 area)",
+   "Kalimdor_32_37: merged - 16 of 256 chunks from Turtle",
+   "Kalimdor_33_32: merged - 18 of 256 chunks from Turtle (10 of them reshaped ground that keeps its 3.3.5 area)",
+   "Kalimdor_33_33: merged - 71 of 256 chunks from Turtle",
+   "Kalimdor_34_32: merged - 15 of 256 chunks from Turtle (15 of them reshaped ground that keeps its 3.3.5 area)",
+   "Kalimdor_34_33: merged - 60 of 256 chunks from Turtle (1 of them reshaped ground that keeps its 3.3.5 area)",
+   "Kalimdor_34_34: merged - 8 of 256 chunks from Turtle"
+  ],
+  "client_assets": [
+   "0 Turtle files (buildings, textures) shipped in the client patch"
+  ],
+  "model_stand_in": [
+   "WORLD\\AZEROTH\\DUSKWOOD\\BUILDINGS\\GYPSYWAGON\\GYPSYWAGON2.M2 -> World\\Azeroth\\Duskwood\\Buildings\\GypsyWagon\\GypsyWagon.m2",
+   "WORLD\\KALIMDOR\\BALOR\\PASSIVEDOODADS\\WATERFALLS\\WaterfallRed.MDX -> World\\Kalimdor\\Mauradon\\PassiveDoodads\\Waterfalls\\MaraudonCorruptedFalls03.m2",
+   "World\\Azeroth\\balor\\shield_crest_a_02balor.MDX -> World\\Azeroth\\Elwynn\\PassiveDoodads\\BattleGladeShield1\\BattleGladeShield1.m2",
+   "world\\azeroth\\Balor\\BalorThrone.MDX -> World\\Azeroth\\Karazahn\\PassiveDoodads\\Throne\\KarazahnThrone01.m2"
+  ],
+  "new_areas": [
+   "5096 Red Cloud Roost (subzone of 215, map 1, exploration bit 3803, level 4)",
+   "5100 Suntail Pass (subzone of 215, map 1, exploration bit 3804, level 10)"
+  ],
+  "seasonal_spawns": [
+   "78 creature spawns that Turtle shows only during seasonal events left out",
+   "299 object spawns that Turtle shows only during seasonal events left out"
+  ],
+  "zone_quests_elsewhere": [
+   "quest 60138: given and turned in outside the zone ([2993] / [2993])",
+   "quest 40301: given and turned in outside the zone ([3884] / [6929])",
+   "quest 40586: given and turned in outside the zone ([5939] / [5939])",
+   "quest 42070: given and turned in outside the zone ([62977] / [2993])",
+   "quest 42071: given and turned in outside the zone ([2993] / [3057])"
+  ],
+  "display_stand_in": [
+   "60813 Ahnja Summerwind: Turtle display 18889 -> stand-in 22142",
+   "60814 Brave Cloudhorn: Turtle display 18890 -> stand-in 9898",
+   "60815 Brave Runebrace: Turtle display 18891 -> stand-in 3782",
+   "60816 Kolgo Highmane: Turtle display 18892 -> stand-in 6550",
+   "60817 Trainer Sinopa: Turtle display 18893 -> stand-in 3781",
+   "60818 Trainer Tokala: Turtle display 18894 -> stand-in 3777",
+   "60822 Brave Proudspear: Turtle display 18895 -> stand-in 2026",
+   "60823 Elder Pyrestrider: Turtle display 18896 -> stand-in 2097",
+   "60824 Kiona Stonefeather: Turtle display 18897 -> stand-in 2121",
+   "60825 Metahnze Hawkdreamer: Turtle display 18898 -> stand-in 3812",
+   "60826 Sokahn Truthwalker: Turtle display 18899 -> stand-in 2102"
+  ],
+  "cpp_script": [
+   "60821 Sunchaser: Turtle C++ script 'npc_sunchaser' (see manual/076_mulgore.sql)"
+  ],
+  "spell_sub": [
+   "Bristleback Boar: spell 7371 Charge -> stand-in 3385 Boar Charge"
+  ],
+  "trainer": [
+   "63096 Nuhlok Starstrider: class trainer (class 5) - uses 3.3.5's trainer list 11"
+  ],
+  "gossip": [
+   "menu 1294: same as 3.3.5's menu 1294 - 3.3.5's menu is used"
+  ],
+  "go_display_added": [
+   "2004584 World GENERIC TAUREN PASSIVE DOODADS BOWLS TaurenBowl01.mdx: new display row",
+   "2004640 World GENERIC TAUREN PASSIVE DOODADS Rattles TaurenRattle01.: new display row",
+   "2004641 World GENERIC TAUREN PASSIVE DOODADS Rattles TaurenRattle02.: new display row",
+   "2004750 World GENERIC TAUREN PASSIVE DOODADS Weapons Tauren_WeaponSp: new display row",
+   "2006434 World LORDAERON ALTERACMOUNTAINS PASSIVEDOODADS Rocks Altera: new display row",
+   "2006435 World LORDAERON ALTERACMOUNTAINS PASSIVEDOODADS Rocks Altera: new display row",
+   "2006436 World LORDAERON ALTERACMOUNTAINS PASSIVEDOODADS Rocks Altera: new display row",
+   "2007992 World wmo Kalimdor Buildings TaurenHuts TaurenTepee.wmo: new display row",
+   "2010895 Drum of Passing: new display row",
+   "2020269 Simple Wood Tree: new display row",
+   "2020287 Bright Wood Tree: new display row"
+  ],
+  "go_type_changed": [
+   "2007992 World wmo Kalimdor Buildings TaurenHuts TaurenTepee.wmo: type 14 (static WMO) -> 5 (generic)"
+  ],
+  "turtle_only_lock": [
+   "2020269 Simple Wood Tree: lock 1665 is a Turtle-only lock type (e.g. Survival gathering) - left out",
+   "2020287 Bright Wood Tree: lock 1660 is a Turtle-only lock type (e.g. Survival gathering) - left out"
+  ],
+  "quest_chain": [
+   "quest 40584: PrevQuestID 40583 is not in this build - link removed"
+  ]
+ }
+}

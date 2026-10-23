@@ -1,0 +1,34 @@
+mod-turtle-content - INSTALLATION RAPIDE (2026-10-14)
+=====================================================
+
+Avant : fais une sauvegarde de ta base acore_world et du dossier Data de ton client WoW 3.3.5a.
+Il faut aussi Python (python.org) pour l'etape 3.
+
+1. MODULE
+   Copie le dossier "mod-turtle-content" dans le dossier "modules" de tes sources AzerothCore
+   (remplace l'ancien s'il existe).
+
+2. COMPILATION
+   Relance CMake, puis compile comme d'habitude (worldserver).
+
+3. DONNEES SERVEUR (cartes)
+   - Worldserver ferme.
+   - Lance  mod-turtle-content\server-data\install_server_data.bat
+   - Quand il demande, tape YES. Il fait une sauvegarde avant de remplacer.
+   (Les dossiers sont trouves automatiquement. S'il ne trouve pas vmap4_extractor.exe etc.,
+    mets le bon dossier dans la ligne TOOLS_DIR en haut de install_server_data.py.)
+
+4. CLIENT
+   - WoW ferme.
+   - Copie  mod-turtle-content\client\patch-y.mpq  et  patch-z.mpq  dans le dossier Data de WoW 3.3.5a.
+   - Supprime le dossier Cache de WoW.
+
+5. DEMARRAGE
+   Lance le worldserver : les fichiers SQL du module s'appliquent tout seuls.
+   S'il y a un probleme, regarde Errors.log.
+
+6. TEST RAPIDE EN JEU (compte GM)
+   - Ouvre la carte (M) : Sparkwater Port (Durotar) et Anchor's Edge (Barrens) y sont.
+   - Connu : les tuiles d'eau d'Anchor's Edge sont brisees (a corriger plus tard).
+
+Annuler : remets tes sauvegardes (base + Data), et enleve le module puis recompile.

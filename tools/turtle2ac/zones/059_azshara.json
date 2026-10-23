@@ -1,0 +1,103 @@
+{
+  "name": "Azshara",
+  "slot": 14,
+  "map": 1,
+  "zone_id": 16,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle reworked: two new camps (Flaxwhisker Front, gnomes, south coast; Bloodfist Point, orcs, north-east), new NPCs and quests across the zone (Rethress naga, Keepers of Eldarath, Magus Bromley, Archmage Xylem's apprentice, the Macrochelys camp). The 3.3.5 Azshara, its NPCs and quests stay; Turtle's additions are merged in.",
+  "merge_region": {
+    "x": [
+      40,
+      45
+    ],
+    "y": [
+      20,
+      28
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "own_exclude_areas": [
+      2321,
+      1216,
+      1225
+    ],
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "reshaped_skip_zones": [
+      5642,
+      616,
+      618,
+      331,
+      14,
+      332
+    ],
+    "heal_turtle_seams": true,
+    "drop_removed_wmos": true
+  },
+  "_merge_region": "own=changed: only Azshara chunks Turtle reshaped or gave a new subzone. own_exclude_areas: The Great Sea (2321, reshaped for Moonwhisper Coast) and Timbermaw Hold / Ursolan (1216, 1225: Turtle reshaped them by up to 72 yd for the furbolg village of Winterspring's Darkwhisper Gorge and the approach to its Timbermaw Hold raid - both left for Winterspring). reshaped_skip_zones: Moonwhisper Coast (5642, a Turtle zone not ported), Hyjal (616, already merged), Winterspring, Ashenvale, Durotar (Turtle's Sparkwater Port) and the Great Sea.",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "_zone_from_335_tiles": "Turtle's server maps miss Azshara: where Turtle did not change a tile, the zone and subzone come from the 3.3.5 tile.",
+  "ship_assets": true,
+  "area_bits": {
+    "5073": 3769,
+    "5074": 3770
+  },
+  "_area_bits": "Flaxwhisker Front 5073, Bloodfist Point 5074. (Maw of Ursoc 5633 has no ground in Turtle's tiles: not added.)",
+  "spawn_existing_in_subzones": [
+    5073,
+    5074
+  ],
+  "exclude_creatures": [
+    91254,
+    91255,
+    63160,
+    62629,
+    62632
+  ],
+  "_exclude_creatures": "Gazztoggle Krewpipe and Frix Tallycog: Turtle's Sparkwater Port chain (55007 starts at Sparkwater Port in Durotar, new Turtle land not ported). Sentinel Velaya: her only quest goes to Moonwhisper Coast. Grathnol and Darg: the Azshara edge of Winterspring's furbolg village (their ground is left out with it).",
+  "exclude_gameobjects": [],
+  "exclude_quests": [
+    55007,
+    55008,
+    55009,
+    55010,
+    55014,
+    55015,
+    55016,
+    55017,
+    55018,
+    40033,
+    41324,
+    41325,
+    41651,
+    42063,
+    41900,
+    41901,
+    41902,
+    41903,
+    41904
+  ],
+  "_exclude_quests": "55007-55018 Sparkwater Port chain; 40033 Finding Akh Z'ador (Sanv K'la gives it; built with the Swamp of Sorrows, which ports her chain - Akh Z'ador's own 41320-41323 follow it here); Akh Z'ador's 41324/41325 (goes to Kas'tal in the Blasted Lands); 41651 (Hidden Locker, follows 41650 elsewhere, ends at Zappo Zapblast in Winterspring); 42063 (to Moonwhisper Coast). 41900-41904 the Sapta quests of Grathnol (left out with the furbolg village).",
+  "taxi_nodes": [],
+  "notes": [],
+  "extra_creature_templates": [
+    60312,
+    60319,
+    60335,
+    60336,
+    60340,
+    60341,
+    60342,
+    60343,
+    61980,
+    61981
+  ],
+  "extra_spawns": [],
+  "extra_gameobject_spawns": [
+    5000022
+  ],
+  "_extra_creature_templates": "Quest credit dummies (Turtle's quest_*_dummy_triger): 40124, 40068, 40247, 40253, 40285, 40289, 40293, 40295; the Amplified and Volatile Arcane Monstrosities the Resonating Pedestal summons (41315).",
+  "_extra_gameobject_spawns": "The Sunken Locker on the sea floor south of the Bay of Storms (The Gyronautical Compass, 40064).",
+  "_left_out": "41345 Altar of an Ancient Evil (Altar of Cla'ckora) and 41395 A Hidden Compartment (Pedestal Plaque): object-started quests whose required items (Ancient Idol of Cla'ckora; Palatinate, Cobalt and Cardinal Shards) have no source anywhere in Turtle's DB, and the plaque has no spawn. 41935 Rite of Resurrection is started by an item."
+}

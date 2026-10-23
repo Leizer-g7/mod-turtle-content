@@ -1,0 +1,53 @@
+{
+  "name": "Felwood",
+  "slot": 23,
+  "map": 1,
+  "zone_id": 361,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle changed lightly: the Shrine of the Betrayer (Niremius Darkwind's Illidari), Talonbranch Glade's new buildings, the Shadeflayer trolls, new NPCs and quests. The 3.3.5 zone, its NPCs and quests stay; Turtle's additions are merged in.",
+  "merge_region": {
+    "x": [
+      32,
+      36
+    ],
+    "y": [
+      19,
+      23
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "reshaped_skip_zones": [
+      616,
+      618,
+      331,
+      493,
+      148,
+      16
+    ],
+    "heal_turtle_seams": true,
+    "drop_removed_wmos": false,
+    "take_new_wmos": true,
+    "match_stock_edges": true
+  },
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5224": 3793
+  },
+  "_area_bits": "Shrine of the Betrayer 5224.",
+  "exclude_creatures": [],
+  "exclude_gameobjects": [
+    2020095
+  ],
+  "exclude_quests": [],
+  "notes": [],
+  "extra_spawns": [],
+  "extra_creature_templates": [
+    60370
+  ],
+  "_extra_creature_templates": "Quest credit of By Any Means Necessary V (given by manual/068).",
+  "_exclude_gameobjects": "Gemstone Deposit (Turtle Jewelcrafting gem node, left out as in Badlands and Feralas)."
+}

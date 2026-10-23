@@ -1,0 +1,232 @@
+# Stormwind City
+
+File: `data/sql/db-world/mod_turtle_016_stormwind_city.sql`  
+Terrain mode: **turtle**
+
+## Counts
+
+- areatable_dbc: 1
+- conditions: 1
+- creature: 127
+- creature_addon: 16
+- creature_default_trainer: 5
+- creature_equip_template: 22
+- creature_loot_template: 724
+- creature_questender: 11
+- creature_queststarter: 12
+- creature_template: 96
+- creature_template_model: 111
+- creature_template_movement: 96
+- creature_template_resistance: 6
+- creature_text: 2
+- gameobject: 617
+- gameobject_template: 127
+- gameobject_template_addon: 1
+- gossip_menu: 37
+- gossip_menu_option: 2
+- npc_text: 37
+- npc_vendor: 280
+- pickpocketing_loot_template: 7
+- quest_offer_reward: 12
+- quest_request_items: 12
+- quest_template: 12
+- quest_template_addon: 12
+- smart_scripts: 4
+- waypoint_data: 64
+
+## Client tiles (10)
+
+- Azeroth_28_46: merged on top of an earlier zone's tile
+- Azeroth_29_46: merged on top of an earlier zone's tile
+- Azeroth_29_47: merged on top of an earlier zone's tile
+- Azeroth_30_46: merged on top of an earlier zone's tile
+- Azeroth_30_47: merged on top of an earlier zone's tile
+- 0 reshaped chunks outside the zone left as 3.3.5 (reshaped: none)
+- seams between Turtle and 3.3.5 chunks: 15 edge points aligned (largest step 33.92 yd)
+-   seam step 33.9 yd at Azeroth_30_47 chunk 255 (world x -8517, y 550, 1519)
+- Azeroth_29_47: merged - 12 of 256 chunks from Turtle
+- Azeroth_30_47: merged - 1 of 256 chunks from Turtle
+
+## Client assets (1)
+
+- 16 Turtle files (buildings, textures) shipped in the client patch
+
+## Model stand in (4)
+
+- WORLD\AZEROTH\DUSKWOOD\BUILDINGS\GYPSYWAGON\GYPSYWAGON2.M2 -> World\Azeroth\Duskwood\Buildings\GypsyWagon\GypsyWagon.m2
+- WORLD\KALIMDOR\BALOR\PASSIVEDOODADS\WATERFALLS\WaterfallRed.MDX -> World\Kalimdor\Mauradon\PassiveDoodads\Waterfalls\MaraudonCorruptedFalls03.m2
+- World\Azeroth\balor\shield_crest_a_02balor.MDX -> World\Azeroth\Elwynn\PassiveDoodads\BattleGladeShield1\BattleGladeShield1.m2
+- world\azeroth\Balor\BalorThrone.MDX -> World\Azeroth\Karazahn\PassiveDoodads\Throne\KarazahnThrone01.m2
+
+## New areas (1)
+
+- 5115 Davenburg (subzone of 1519, map 0, exploration bit 3771, level 0)
+
+## Spawned elsewhere (2)
+
+- Marine Hornby (tw guid 2572080): already spawned by 046_balor (its extra_spawns)
+- Ronald Gillian (tw guid 2591478): already spawned by 046_balor (its extra_spawns)
+
+## Seasonal spawns (2)
+
+- 141 creature spawns that Turtle shows only during seasonal events left out
+- 754 object spawns that Turtle shows only during seasonal events left out
+
+## Existing templates (2)
+
+- 3 creature spawns of 1 templates 3.3.5 already has (AzerothCore's template is used)
+- 9 object spawns of 4 templates 3.3.5 already has (herbs, ore, chests ...)
+
+## Zone quests elsewhere (1)
+
+- quest 40255: given and turned in outside the zone ([1444] / [92017])
+
+## Object id taken (1)
+
+- 112898 Adventurer's Inn: 3.3.5 uses this id for 'The Gilded Rose' - not spawned
+
+## Display stand in (33)
+
+- 60811 Pathstrider Protector: Turtle display 18221 -> stand-in 16088
+- 60811 Pathstrider Protector: Turtle display 18223 -> stand-in 16090
+- 60926 Commando Harwall: Turtle display 18972 -> stand-in 10354
+- 60927 Darwin Holdfall: Turtle display 18973 -> stand-in 2072
+- 60928 Kelly Vaulstone: Turtle display 18975 -> stand-in 2073
+- 60929 Petty Officer Milldough: Turtle display 18976 -> stand-in 21687
+- 60930 Quartermaster Alden: Turtle display 18977 -> stand-in 4398
+- 60931 Sailor Borus: Turtle display 18978 -> stand-in 3637
+- 60932 Sailor Shalwynd: Turtle display 18979 -> stand-in 3637
+- 60933 Sailor Valia: Turtle display 18980 -> stand-in 1449
+- 60934 Vice Admiral Renhoff: Turtle display 18981 -> stand-in 2965
+- 60935 Marine Dalus: Turtle display 18656 -> stand-in 11372
+- 60937 Marine Larwell: Turtle display 18653 -> stand-in 11372
+- 60938 Deckmaster Javin: Turtle display 18974 -> stand-in 3633
+- 61013 Sailor Hylreth: Turtle display 18994 -> stand-in 21644
+- 61014 Sailor Capewind: Turtle display 18995 -> stand-in 24309
+- 61015 Sailor Brewen: Turtle display 18996 -> stand-in 1486
+- 61016 Sailor Pardol: Turtle display 18997 -> stand-in 1748
+- 61017 Emissary Godwin Valorcall: Turtle display 18983 -> stand-in 10551
+- 61614 Lord Ivar Pyrewood: Turtle display 18753 -> stand-in 5573
+- 61624 AJ Springberry: Turtle display 20455 -> stand-in 2151
+- 61628 Willhelm Rockdust: Turtle display 20460 -> stand-in 24513
+- 61896 Rixi Lamour: Turtle display 20604 -> stand-in 15930
+- 61897 Karlos Fieldings: Turtle display 20602 -> stand-in 16285
+- 61898 Vivi McGoldings: Turtle display 20601 -> stand-in 25649
+- 61991 Archibald Earlwake: Turtle display 20642 -> stand-in 2968
+- 80216 Ranger Protector: Turtle display 18221 -> stand-in 16088
+- 80216 Ranger Protector: Turtle display 18223 -> stand-in 16090
+- 80236 High Elf Child: Turtle display 18003 -> stand-in 19315
+- 80401 Manloran Dawnstrike: Turtle display 17329 -> stand-in 24769
+- 80404 Amelanoh Dawnstar: Turtle display 17844 -> stand-in 17844
+- 80405 Illyanah Dawnstar: Turtle display 17641 -> stand-in 17641
+- 80963 Lisa Jenkins: Turtle display 18081 -> stand-in 95
+
+## Cpp script (5)
+
+- 61013 Sailor Hylreth: Turtle C++ script 'npc_q_controlling_sailors' (see manual/060_stormwind_city.sql)
+- 61015 Sailor Brewen: Turtle C++ script 'npc_q_controlling_sailors' (see manual/060_stormwind_city.sql)
+- 80451 Koli Steamheart: Turtle C++ script 'npc_koli_steamheart' (see manual/060_stormwind_city.sql)
+- 80460 Applebough: Turtle C++ script 'npc_applebough' (see manual/060_stormwind_city.sql)
+- 80900 Iluria Nightwhisper: Turtle C++ script 'npc_iluria' (see manual/060_stormwind_city.sql)
+
+## Eventai (3)
+
+- 61016 Sailor Pardol: script command 33 (Sailor Pardol - Evade) not converted
+- 61016 Sailor Pardol: script command 8 (Sailor Pardol - Grant Kill Credit) not converted
+- 61016 Sailor Pardol: script command 4 (Sailor Pardol - Add Gossip Flag) not converted
+
+## Trainer (5)
+
+- 61624 AJ Springberry: class trainer (class 3) - uses 3.3.5's trainer list 7
+- 61628 Willhelm Rockdust: class trainer (class 3) - uses 3.3.5's trainer list 7
+- 80401 Manloran Dawnstrike: class trainer (class 5) - uses 3.3.5's trainer list 11
+- 80402 Ley-Technician Aemara Sunsorrow: class trainer (class 8) - uses 3.3.5's trainer list 16
+- 80458 Ranger Canarah Kim'Alah: class trainer (class 3) - uses 3.3.5's trainer list 7
+
+## Gossip (2)
+
+- menu 41248 option 0: runs Turtle gossip script 41248 (commands [0, 1, 4, 22]; not ported)
+- menu 80163 option 0: runs Turtle gossip script 8016301 (commands [30]; not ported)
+
+## Quest scripts (1)
+
+- 50315 Gadgetzan Times: BREAKING NEWS!: Turtle start/complete script 0/50530 (not ported)
+
+## Go display added (50)
+
+- 2002373 World DUNGEON Cave PassiveDoodads Crystals CaveMineCrystalFo: new display row
+- 2002569 World GENERIC ACTIVEDOODADS INSTANCEPORTAL InstancePortal_Wh: new display row
+- 2002791 World GENERIC DWARF PASSIVE DOODADS GUNRACKS GunRack01C.mdx: new display row
+- 2002795 World GENERIC DWARF PASSIVE DOODADS GUNRACKS GunRack02C.mdx: new display row
+- 2002870 World GENERIC DWARF PASSIVE DOODADS TABLES DwarvenTableAvera: new display row
+- 2003085 World GENERIC HUMAN PASSIVE DOODADS Armor ArmorLeatherShirtD: new display row
+- 2003096 World GENERIC HUMAN PASSIVE DOODADS Armor ArmorMailHangingGo: new display row
+- 2003234 World GENERIC HUMAN PASSIVE DOODADS CargoNets DeadMineCargoN: new display row
+- 2003235 World GENERIC HUMAN PASSIVE DOODADS CargoNets DeadMineCargoN: new display row
+- 2003237 World GENERIC HUMAN PASSIVE DOODADS CargoNets DeadMineCargoN: new display row
+- 2003359 World GENERIC HUMAN PASSIVE DOODADS HangingLanterns GeneralH: new display row
+- 2003413 World GENERIC HUMAN PASSIVE DOODADS PLANTERBOXES StormwindWi: new display row
+- 2003414 World GENERIC HUMAN PASSIVE DOODADS PLANTERBOXES StormwindWi: new display row
+- 2003431 World GENERIC HUMAN PASSIVE DOODADS RUGS KarazahnRugPurple.m: new display row
+- 2003499 World GENERIC HUMAN PASSIVE DOODADS Statues BustHF02.mdx: new display row
+- 2003540 World GENERIC HUMAN PASSIVE DOODADS VendorAwnings StormwindV: new display row
+- 2004100 World GENERIC PASSIVEDOODADS Barrel BarrelLowPoly.mdx: new display row
+- 2004233 World GENERIC PASSIVEDOODADS LIGHTS CandelabraTallWall02.mdx: new display row
+- 2005110 World KALIMDOR AZSHARA PASSIVEDOODADS Seashells AzsharaShell: new display row
+- 2008576 World EXPANSION01 DOODADS GENERIC BLOODELF BEDS BE_Bed_01.md: new display row
+- 2008587 World EXPANSION01 DOODADS GENERIC BLOODELF BOOKSHELF BE_Book: new display row
+- 2008616 World EXPANSION01 DOODADS GENERIC BLOODELF Bannister be_bann: new display row
+- 2008631 World EXPANSION01 DOODADS GENERIC BLOODELF Candles BE_Candle: new display row
+- 2008632 World EXPANSION01 DOODADS GENERIC BLOODELF Candles BE_Candle: new display row
+- 2008641 World EXPANSION01 DOODADS GENERIC BLOODELF Crate BE_Crate01.: new display row
+- 2008648 World EXPANSION01 DOODADS GENERIC BLOODELF DRAPERY BE_Draper: new display row
+- 2008650 World EXPANSION01 DOODADS GENERIC BLOODELF DRAPERY BE_Draper: new display row
+- 2008657 World EXPANSION01 DOODADS GENERIC BLOODELF Food BE_Fish01.md: new display row
+- 2008684 World EXPANSION01 DOODADS GENERIC BLOODELF Lamp BE_Lamp01.md: new display row
+- 2008685 World EXPANSION01 DOODADS GENERIC BLOODELF Lantern BE_Lanter: new display row
+- 2008689 World EXPANSION01 DOODADS GENERIC BLOODELF MerchantStand BE_: new display row
+- 2008697 World EXPANSION01 DOODADS GENERIC BLOODELF Pillows BE_Pillow: new display row
+- 2008698 World EXPANSION01 DOODADS GENERIC BLOODELF Pillows BE_Pillow: new display row
+- 2008699 World EXPANSION01 DOODADS GENERIC BLOODELF Pillows BE_Pillow: new display row
+- 2008700 World EXPANSION01 DOODADS GENERIC BLOODELF Pillows BE_Pillow: new display row
+- 2008782 World EXPANSION01 DOODADS GENERIC BLOODELF WeaponRacks BE_We: new display row
+- 2008783 World EXPANSION01 DOODADS GENERIC BLOODELF WeaponRacks BE_We: new display row
+- 2008794 World EXPANSION01 DOODADS GENERIC BLOODELF planters BE_plant: new display row
+- 2008795 World EXPANSION01 DOODADS GENERIC BLOODELF planters BE_plant: new display row
+- 2008796 World EXPANSION01 DOODADS GENERIC BLOODELF planters BE_plant: new display row
+- 2008798 World EXPANSION01 DOODADS GENERIC BLOODELF planters BE_plant: new display row
+- 2008800 World EXPANSION01 DOODADS GENERIC BLOODELF planters BE_plant: new display row
+- 2008801 World EXPANSION01 DOODADS GENERIC BLOODELF planters BE_plant: new display row
+- 2008802 World EXPANSION01 DOODADS GENERIC BLOODELF planters BE_plant: new display row
+- 2009329 World EXPANSION01 DOODADS SILVERMOON FLOWERS SilvermoonFlowe: new display row
+- 2010650 BarberShop_Mirror_01: new display row
+- 2010661 Dalaran_Crate_01: new display row
+- 2020054 Buckle Up: new display row
+- 3000301 LD_FoodCart01: new display row
+- 3000302 LD_FoodCart02: new display row
+
+## Go no model (6)
+
+- 2010693 gobsboralusbannerboralusbanner01.mdx: Turtle-only model with no stand-in (add one to go_model_substitutions)
+- 2010694 gobsboralusbannerboralusbanner02.mdx: Turtle-only model with no stand-in (add one to go_model_substitutions)
+- 3000208 Thalassian Mailbox: Turtle-only model with no stand-in (add one to go_model_substitutions)
+- 3000296 PBaby_He: Turtle-only model with no stand-in (add one to go_model_substitutions)
+- 3000304 Sherpa_Bedroll_2: Turtle-only model with no stand-in (add one to go_model_substitutions)
+- 3000332 SoccerBall: Turtle-only model with no stand-in (add one to go_model_substitutions)
+
+## Flight paths (1)
+
+- scripted path 2020 (Turtle 298): new node 432 Stormwind Harbor (Steelwing) -> 441, 9 points
+
+## Quest giver flag (1)
+
+- quest-giver flag added to 3.3.5 NPCs [1307] (Charys Yserian)
+
+## Objects waiting for the client patch (6)
+
+- 2010693 gobsboralusbannerboralusbanner01.mdx - `gobs\boralusbanner\boralusbanner01.mdx`
+- 2010694 gobsboralusbannerboralusbanner02.mdx - `gobs\boralusbanner\boralusbanner02.mdx`
+- 3000208 Thalassian Mailbox - `World\Generic\PassiveDoodads\PostBoxes\PostBoxHigh1Elf.mdx`
+- 3000296 PBaby_He - `World\Generic\PassiveDoodads\Babies\Baby_He.mdx`
+- 3000304 Sherpa_Bedroll_2 - `world\EXPANSION04\DOODADS\Sherpa\Sherpa_Bedroll_02.mdx`
+- 3000332 SoccerBall - `World\Generic\Doodads\SoccerBall.mdx`

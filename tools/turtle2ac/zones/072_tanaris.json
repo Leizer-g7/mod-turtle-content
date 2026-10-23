@@ -1,0 +1,135 @@
+{
+  "name": "Tanaris",
+  "slot": 27,
+  "map": 1,
+  "zone_id": 440,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle changed in places: Sandmoon Village (Sandfury trolls who left Zul'Farrak) and the raised south-east tip of the Shimmering Flats, Noonshade Ruins, Steamwheedle Port (a new house), the Slickwick Oil Rig (goblin town on new coast in the south-west, Land's End reshaped). The 3.3.5 zone, its NPCs and quests stay.",
+  "merge_region": {
+    "x": [
+      35,
+      41
+    ],
+    "y": [
+      43,
+      50
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 6,
+    "reshaped_skip_zones": [
+      400,
+      490,
+      1377
+    ],
+    "reshaped_take_areas": [
+      439
+    ],
+    "heal_turtle_seams": true,
+    "take_new_wmos": true,
+    "match_stock_edges": true
+  },
+  "_merge_region": "own=changed: only the Tanaris chunks Turtle reshaped or gave a new subzone. reshaped_take_areas: the south-east tip of the Shimmering Flats (439), raised by up to 85 yd as the north end of Turtle's Sandmoon Village (left out of Thousand Needles for this zone). reshaped_skip_zones: Thousand Needles (already merged), Un'Goro Crater, Silithus.",
+  "area_bits": {
+    "5099": 3797,
+    "5635": 3798
+  },
+  "_area_bits": "Sandmoon Village, Slickwick Oil Rig.",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "exclude_creatures": [
+    13761,
+    50113,
+    80156,
+    65000,
+    65001,
+    65002,
+    65003,
+    65004,
+    65005,
+    65006,
+    65007,
+    65008,
+    65009,
+    65010,
+    65011,
+    65013,
+    65014,
+    65015,
+    65017,
+    65018,
+    65130,
+    80943,
+    60622,
+    51561,
+    51580,
+    51581,
+    51588,
+    51569,
+    80969,
+    61913,
+    61914,
+    80999,
+    60860,
+    60861,
+    93115
+  ],
+  "_exclude_creatures": "Turtle's own Caverns of Time hub (Chromie, Kheyna Spinpistol, the bronze dragonflight NPCs, Dronormu, Tyvadrius, the inn, the Sunnyglade Valley battlemaster Alurzion): it stands where 3.3.5 has its own Caverns of Time hub (Max's rule: 3.3.5 stays). Turtle systems: the rented mounts (rented_mount) and the Riding Gryphon (npc_flying_mount, free-flight rental). The Uldum Pedestal Target Bunny (Turtle's Uldum gate event, boss Ostarius: C++ only). Fanzy Sparkspring and Gonzo Snaphands (Turtle's Jewelcrafting trainer and supplier). Elodia (ends only 'Shellcoins', Turtle's Shellcoin system; the quest has no giver). The Conquistadores camp on the south-west beach (Xoro III, Recluta, Baltocris) and its objects (exclude_gameobject_boxes): Turtle later raised that beach for the Slickwick Oil Rig and left the camp 2-9 yd under its own new ground.",
+  "exclude_gameobjects": [
+    112923,
+    1772020,
+    1000039,
+    1000055,
+    1000373,
+    2020095
+  ],
+  "_exclude_gameobjects": "The Caverns of Time placeholder portal and meeting stone, the Caverns of Time race checkpoint (go_race_checkpoint), Speedy's Jukebox (go_radio), the Gardening Zone Check (Turtle's gardening system). Gemstone Deposit (Turtle Jewelcrafting gem node; shares spawn pools with 3.3.5 Thorium/Truesilver veins), as in Badlands, Feralas and Felwood.",
+  "exclude_quests": [
+    40107,
+    40115,
+    40342,
+    80409,
+    41098,
+    41307,
+    41308,
+    41309,
+    41316,
+    41317,
+    41318,
+    41319,
+    80407,
+    80408,
+    80381,
+    41099,
+    41767
+  ],
+  "_exclude_quests": "Turtle's Uldum gate (Gate Keeper / Guardian of the Gate: boss Ostarius, C++ only), The Bronze Betrayal (Tyvadrius, Caverns of Time hub), Return to Kheyna (ends at Kheyna Spinpistol in that hub), a deprecated letter quest. Fanzy Sparkspring's Jewelcrafting quests (41307-41319). Reas's 'A Letter From a Friend' / 'A Slaughter for Brains' (Kheyna's wormhole and the Caverns of Time hub, C++). 'Shellcoins' (no giver; Turtle's Shellcoin system). 'A Letter From Gadgetzan' (its giver is not in the build). 'Rise of the Venture Co.' (ends at Nert Blastentom in Turtle's Sparkwater Port, Durotar, not ported).",
+  "notes": [],
+  "extra_quests": [
+    41986
+  ],
+  "_extra_quests": "Oglethorbe's Scientific Hunger (Oglethorbe Obnoticus, Booty Bay; filed under Booty Bay): it gives the Finished Cooker Prototype that Dirge Quikcleave's 'Don't tell the Others' asks for.",
+  "extra_creature_templates": [
+    60377,
+    81000,
+    81001,
+    81002
+  ],
+  "_extra_creature_templates": "Quest credit dummies the manual script gives: Vol'jin's talk (Sandfury Redemption III), the two VIP invitations (Gazlowe, Baron Revilgaz), the shooed shark.",
+  "force_display": {
+    "61647": 1214,
+    "61648": 1214
+  },
+  "_force_display": "Johnny Deepdrowned and Alvida (East Oceanic Trading Co): Turtle's ghost pirate crewman model -> 3.3.5's ghostly pirate crewman (display 1214).",
+  "exclude_gameobject_boxes": [
+    [
+      -9700,
+      -9630,
+      -2075,
+      -1935
+    ]
+  ],
+  "_exclude_gameobject_boxes": "The buried Conquistadores camp (see _exclude_creatures): its boat, fish racks, kegs, cannon, torches, bedrolls and floating debris."
+}

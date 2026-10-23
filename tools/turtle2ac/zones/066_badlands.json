@@ -1,0 +1,82 @@
+{
+  "name": "Badlands",
+  "slot": 21,
+  "map": 0,
+  "zone_id": 3,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle reworked: new subzones (Ruins and Temple of Corthan, Angor Digsite, Ruins of Zeth, the Crystalline Oasis and Pinnacle, Redbrand's Digsite, Scalebane Ridge) with their camps, mobs and quests. The 3.3.5 zone, its NPCs and quests stay; Turtle's additions are merged in.",
+  "merge_region": {
+    "x": [
+      34,
+      41
+    ],
+    "y": [
+      42,
+      47
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "reshaped_skip_zones": [
+      5602,
+      46,
+      5098,
+      1,
+      51,
+      38,
+      11
+    ],
+    "heal_turtle_seams": true,
+    "drop_removed_wmos": false,
+    "take_new_wmos": true,
+    "match_stock_edges": true,
+    "reshaped_take_areas": [
+      923
+    ],
+    "own_exclude_chunks": [
+      "36_43:197"
+    ]
+  },
+  "_merge_region": "own=changed: only Badlands chunks Turtle reshaped or gave a new subzone. reshaped_skip_zones: the Grim Reaches (ported, 049 - this zone builds on its shipped tiles), the Burning Steppes (Karfang Hold, Hateforge Excavation), Hateforge Quarry, Dun Morogh, Searing Gorge, Loch Modan, the Wetlands - Turtle's work there belongs to those zones.",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5104": 3783,
+    "5105": 3784,
+    "5106": 3785,
+    "5107": 3786,
+    "5108": 3787,
+    "5109": 3788,
+    "5110": 3789,
+    "5111": 3790
+  },
+  "_area_bits": "Ruins of Corthan 5104, Temple of Corthan 5105, Angor Digsite 5106, Ruins of Zeth 5107, Crystalline Oasis 5108, Crystalline Pinnacle 5109, Redbrand's Digsite 5110, Scalebane Ridge 5111.",
+  "exclude_creatures": [
+    51580,
+    73102,
+    60624
+  ],
+  "_exclude_creatures": "Turtle systems: the rented riding wolf (rented_mount), Thegren (Turtle's Jewelcrafting trainer); Merk Boltratch, the zeppelin master at Kargath (Turtle's Orgrimmar - Kargath zeppelin is a new transport route, not ported).",
+  "exclude_gameobjects": [],
+  "exclude_quests": [
+    41279,
+    41280,
+    41281,
+    41282,
+    41287,
+    41288,
+    41289
+  ],
+  "notes": [],
+  "_exclude_quests": "Thegren's Jewelcrafting chain (41279-41282; Thegren is excluded) and Jarkal Mossmeld's chain (41287-41289), which follows Turtle's Jewelcrafting quest 41276 (Turtle's own profession).",
+  "extra_creature_templates": [
+    60009,
+    60010,
+    61066,
+    61067,
+    61068
+  ],
+  "_extra_creature_templates": "Quest credits for The Land of Kings (60009) and The Curse of Zetharia (60010); the echoes the Gong of Corthan calls up (Echo of Corthan 61066, Forgotten Chieftain 61067, Forgotten Warlord 61068)."
+}

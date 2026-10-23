@@ -1,0 +1,77 @@
+{
+  "name": "Burning Steppes",
+  "slot": 38,
+  "map": 0,
+  "zone_id": 46,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle changed in the south-east: Karfang Hold (an orc camp: Karfang, Molk, Darkseer Geshtol, Mistress Katalla), Hateforge Excavation (the Dark Iron dig at the Hateforge Quarry entrance) and the quarry pit itself; elsewhere only NPCs (Morgan's Vigil, Blackrock Pass miners, Draco'dar's Blackwing Guard, Flame Crest). The 3.3.5 zone, its NPCs and quests stay.",
+  "merge_region": {
+    "x": [
+      32,
+      38
+    ],
+    "y": [
+      45,
+      48
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 12,
+    "reshaped_skip_zones": [
+      3,
+      51,
+      5581,
+      44,
+      8,
+      4,
+      1,
+      25
+    ],
+    "reshaped_take_areas": [
+      5098
+    ],
+    "heal_turtle_seams": true,
+    "take_new_wmos": true,
+    "match_stock_edges": true,
+    "seam_report_yd": 2,
+    "include_chunks": [
+      "37_45:214",
+      "37_45:215",
+      "37_45:236",
+      "37_45:237"
+    ],
+    "_include_chunks": "Azeroth_37_45 chunks 214, 215, 236, 237: Badlands (066) took them from Turtle and stitched their south edge onto the 3.3.5 ground; Karfang Hold now takes the Turtle chunks south of them, so they are taken again (Turtle edge both sides, no 4.8-yd dip along the line)."
+  },
+  "_merge_region": "own=changed: only the Burning Steppes chunks Turtle reshaped or gave a new subzone. reshaped_skip_zones: Badlands, Searing Gorge, Northwind (ported earlier: their shipped tiles are the base), Redridge, Swamp of Sorrows, Blasted Lands, Dun Morogh, Blackrock Mountain. reshaped_take_areas: the Hateforge Quarry pit on the main map (Turtle area 5098, the dungeon's zone; the chunks keep their 3.3.5 area).",
+  "area_bits": {
+    "5093": 3822,
+    "5101": 3823
+  },
+  "_area_bits": "Karfang Hold, Hateforge Excavation.",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "exclude_creatures": [
+    50514,
+    50515,
+    50516,
+    62107,
+    62108,
+    62109
+  ],
+  "_exclude_creatures": "Training dummies (Draco'dar). Kazud Fireforged, Geldra Bronzewhiskers and Melus Ironeye (Blackrock Mountain): Turtle's tier-set upgrade system (about 100 quests turning raid tier pieces into Turtle-only items).",
+  "exclude_gameobjects": [
+    1000373,
+    1000055,
+    2020300,
+    2020095
+  ],
+  "_exclude_gameobjects": "Gardening Zone Check, Speedy's Jukebox, Survival's Dead Wood Trees, Gemstone Deposits.",
+  "notes": [],
+  "extra_creature_templates": [
+    60375,
+    60376
+  ],
+  "_extra_creature_templates": "Turtle's dummy credit NPCs for 'Hearing Orvak's Story' (40460) and 'Investigating Hateforge' (40486), given by manual/083."
+}

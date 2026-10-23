@@ -1,0 +1,68 @@
+{
+  "name": "Undercity",
+  "slot": 37,
+  "map": 0,
+  "zone_id": 1497,
+  "terrain": "stock",
+  "_terrain": "Turtle's additions to the 3.3.5 city (no ground changes). Undercity is a building under Tirisfal's Ruins of Lordaeron: the map chunks above it are Tirisfal's, so its spawns are taken with spawn_boxes (the city's box, z below 10) and Tirisfal leaves the same box out (exclude_boxes).",
+  "zone_from_335_tiles": true,
+  "spawn_boxes": [
+    [
+      1250,
+      1950,
+      -150,
+      600,
+      -200,
+      10
+    ]
+  ],
+  "exclude_creatures": [
+    61921,
+    61922,
+    61923,
+    61924,
+    62960,
+    62961,
+    50514,
+    50515,
+    50516
+  ],
+  "_exclude_creatures": "Turtle systems: Jewelcrafting trainers and supplies (Yath Ruzzblast, Mayvelle Tonberg, Gulmire Fartower, Edgar Tullson), Survival (Mort Gallspewer, Cynthessa Grimblood), training dummies.",
+  "exclude_gameobjects": [
+    1000373,
+    1000055
+  ],
+  "_exclude_gameobjects": "Gardening Zone Check, Speedy's Jukebox.",
+  "exclude_quests": [
+    41276,
+    41278,
+    80720,
+    80721,
+    80722,
+    80723,
+    80724,
+    80725,
+    80726,
+    80727,
+    80728,
+    41271,
+    41273
+  ],
+  "_exclude_quests": "Gulmire Fartower's Jewelcrafting quests. The Horde attunement chain for Turtle's Scarlet Monastery raid (80720-80728, Gunther Arcanus / Varimathras / Sylvanas): the raid is not ported and its steps need several Turtle scripts (Grim News, To Catch a Rat with Deathguard Maverick's ambush and Vladeus Springriver, Gunther's Lockbox). Its last step 'A Different Shade of Red' (80729) is in 080 (starts at Gunther Arcanus). Maison Serendipity's 'Restocking the Stockings' (41271) and 'Fresh Clothes For Winterveil!' (41273): they start or end at Ralph Jacobs on Turtle's map 813, not ported ('Fair Trade...' 41272, given and ended by Coco Gucci, stays).",
+  "exclude_gameobject_boxes": [
+    [
+      1523,
+      1527,
+      165,
+      169
+    ],
+    [
+      1505,
+      1509,
+      278,
+      282
+    ]
+  ],
+  "_exclude_gameobject_boxes": "A Turtle bottle 1.4 yd from 3.3.5's Food Crate and cloth bolts 1.4 yd from the book 'Exile of the High Elves' (Max's rule).",
+  "notes": []
+}

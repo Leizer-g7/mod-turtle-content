@@ -1,0 +1,73 @@
+{
+  "name": "Hateforge Quarry",
+  "slot": 39,
+  "map": 808,
+  "zone_id": 5103,
+  "terrain": "turtle",
+  "map_dir": "Hateforge",
+  "_map": "Turtle instance map 808 (5-player dungeon, level 48+; WDT folder Hateforge). Entrance trigger 5009 in Burning Steppes at -8173,-3115 (Hateforge Excavation), exit 5013 inside. Map 808 is unused in 3.3.5.",
+  "all_spawns": true,
+  "terrain_tiles": [
+    "37_46",
+    "38_46",
+    "39_46",
+    "37_47",
+    "38_47",
+    "39_47",
+    "37_48",
+    "38_48",
+    "39_48"
+  ],
+  "ship_wdt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5103": 3824,
+    "5098": 3825
+  },
+  "area_templates": {
+    "5103": 209,
+    "5098": 209
+  },
+  "_area_templates": "Shadowfang Keep's area flags.",
+  "spawn_existing_templates": true,
+  "instance": {
+    "map_name": "Hateforge Quarry",
+    "instance_type": 1,
+    "max_players": 5,
+    "min_level": 48,
+    "template_map": 33,
+    "_min_level": "Turtle's entrance trigger says level 48.",
+    "corpse": [
+      0,
+      -8173.0,
+      -3114.57
+    ],
+    "loading_screen": "Interface\\Glues\\LoadingScreens\\LoadScreenHateforge.blp",
+    "areatriggers": [
+      [
+        5009,
+        "enter"
+      ],
+      [
+        5013,
+        "exit"
+      ]
+    ],
+    "graveyard": {
+      "map": 0,
+      "x": -7987.49,
+      "y": -2370.21,
+      "z": 123.923,
+      "o": 0.0
+    },
+    "_graveyard": "Burning Steppes, East GY (WorldSafeLocs 1470), the 3.3.5 graveyard nearest to the entrance."
+  },
+  "world_map": {
+    "tw_area": 5103
+  },
+  "notes": [],
+  "force_display": {
+    "60829": 5497
+  },
+  "_force_display": "Corrosis: Turtle display 5497 (green poison elemental) is the same display 3.3.5 uses for Viscous Fallout (7079); the automatic match missed it."
+}

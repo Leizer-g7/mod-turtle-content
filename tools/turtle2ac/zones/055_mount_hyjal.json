@@ -1,0 +1,154 @@
+{
+  "name": "Mount Hyjal",
+  "slot": 10,
+  "map": 1,
+  "zone_id": 616,
+  "terrain": "turtle",
+  "_terrain": "Turtle's Hyjal, north of Felwood and Ashenvale, west of Winterspring. 3.3.5 has the old unused Hyjal zone there (area 616, terrain but no spawns); Turtle reworked it. Kalimdor tiles 34-39 x 21-24 carry Hyjal chunks.",
+  "merge_region": {
+    "x": [
+      33,
+      40
+    ],
+    "y": [
+      20,
+      25
+    ],
+    "height_tolerance": 0.5,
+    "reshaped": "connected",
+    "heal_turtle_seams": true
+  },
+  "_merge_region": "Tiles Kalimdor_33_20 .. Kalimdor_40_25. reshaped=connected: Turtle's reshaped ground is only taken where it touches Hyjal; Felwood, Winterspring and Ashenvale stay 3.3.5.",
+  "zone_from_adt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5212": 3750,
+    "5213": 3751,
+    "5214": 3752,
+    "5215": 3753,
+    "5216": 3754,
+    "5217": 3755,
+    "5218": 3756,
+    "5219": 3757,
+    "5220": 3758,
+    "5221": 3759,
+    "5222": 3760,
+    "5223": 3761
+  },
+  "_area_bits": "Subzones 5212-5223; the zone (616 Hyjal) is a 3.3.5 area already.",
+  "exclude_creatures": [],
+  "exclude_gameobjects": [
+    2011048
+  ],
+  "world_map": {
+    "tw_area": 616
+  },
+  "loading_screen": null,
+  "taxi_nodes": [
+    99
+  ],
+  "_taxi_nodes": "Nordanaar.",
+  "graveyards": [
+    147,
+    148
+  ],
+  "taverns": [
+    1705
+  ],
+  "_taverns": "Nordanaar Inn.",
+  "lights": [],
+  "wmo_area_ids": [
+    6004,
+    6005
+  ],
+  "_wmo_area_ids": "Darkroot Cave and Barkskin Hold.",
+  "notes": [],
+  "spawn_existing_templates": true,
+  "exclude_quests": [
+    40397,
+    40398,
+    40399,
+    40400,
+    40401,
+    40787,
+    40872,
+    40873,
+    40874,
+    40875,
+    40883,
+    40884,
+    40885,
+    40886,
+    40888,
+    40889,
+    40890,
+    40895,
+    40897,
+    40898,
+    40899,
+    40900,
+    40902,
+    40903,
+    40904,
+    40905,
+    40906,
+    40910,
+    40911,
+    40912,
+    40963,
+    41005,
+    41006,
+    41038,
+    41066,
+    41067,
+    41087,
+    41111,
+    41377,
+    41379,
+    41380,
+    41382,
+    41383,
+    41384,
+    41385,
+    41386,
+    41394,
+    41745,
+    41887
+  ],
+  "extra_creature_templates": [
+    60044,
+    60045,
+    60048,
+    60054,
+    61544,
+    61545,
+    61546,
+    61547
+  ],
+  "force_display": {
+    "61338": 2879,
+    "61339": 2879,
+    "61340": 2879,
+    "61341": 2879,
+    "61348": 8589,
+    "61487": 2000,
+    "61506": 15683,
+    "61507": 1012,
+    "61509": 5851,
+    "61510": 6830,
+    "61511": 6746,
+    "61581": 11774
+  },
+  "extra_spawns": [
+    2576960,
+    2577522,
+    2577971,
+    2578190,
+    2578191
+  ],
+  "_force_display": "Turtle's female satyr and its new furbolg models do not exist in 3.3.5: the Vilemusk satyrs use the male satyr only (2879); furbolgs take the 3.3.5 furbolg of their kind - Elder Growlheart the corrupted Chieftain Bloodmaw (8589), the Barkskin furbolgs Timbermaw ones (2000 shaman, 15683 ancestor, 1012 Gorn One Eye for Nargg, 5851 Grazle for Speaker Frulgg), the envoys their tribe's shaman (Winterfall 6830, Deadwood 6746). Kiri Starstalker (a Turtle warden model) uses the Moonglade Warden (11774).",
+  "_exclude_quests": "The Scythe of the Goddess chain (41066 ... 41745) starts in Duskwood (Jitters -> Velinde Starsong, 41064/41065, Turtle Duskwood content not ported) and runs through Duskwood, Darnassus, Thunder Bluff and Gilneas - a piece of its own. Niremius Darkwind's Felwood quests (By Any Means Necessary I-V, To Hunt The Hunter) belong to Felwood. Bright Dream Shard exchanges whose reward only works through a Turtle-only spell (recipes, patterns, formulas, books for Dreamsteel/Dreamhide/Dreamthread, sigils, Dreamtonic, Nordanaar Herbal Tea, the Little Fawn companion, the Green Dragonkin illusion): 40872, 40873, 40874, 40875, 40883, 40884, 40885, 40886, 40895, 40897, 40898, 40899, 40900, 40902, 40903, 40904, 40910, 40911, 40912, 41005, 41006, 41887, 40888, 40889, 40890, 41111. Emerald Sanctum (Turtle raid, map 807, not ported) quests: Smoldering/Purified Dream Essence, Head of Solnius, The Claw of Erennius (40905, 40906, 40963, 41038).",
+  "_extra_spawns": "Turtle NPCs outside the zone that Hyjal quests need: Everwyl Moonseeker (Winterspring; The Horn of Binding), Canos Clearwood (Eastern Kingdoms; Studying Manifestations ... Report to Dreamwind), Shadowhunter Trak'nal and Kiri Starstalker (Winterspring edge of Hyjal; Saving the Shadowtooth, The Warden ... Inform the Reds). Enthelar Valebranch (drops the Runestone Scepter), just outside the zone. Niremius Darkwind (Finding a Demon Hunter, The Elusive Zafan, The Warden) and Zafan (drops the Cipher Rune) are spawned by Felwood (068), where they stand.",
+  "_exclude_gameobjects": "Fourth Feather of Medivh: part of Turtle's Key to Karazhan chain (not ported).",
+  "_extra_creature_templates": "Quest credits (Into the Dream I and V, The Runestone Ritual, Shadowed Spectre); the Into the Dream ritual's Nightmare Apparitions, Ysera, Ursoc and Goldrinn (summoned by Ralathius)."
+}

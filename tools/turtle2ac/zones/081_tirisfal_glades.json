@@ -1,0 +1,124 @@
+{
+  "name": "Tirisfal Glades",
+  "slot": 36,
+  "map": 0,
+  "zone_id": 85,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle extended in the west: Glenshire, Steepcliff Port (on land raised from the sea), the Whispering Forest, the Rogue Heights, the Remnants Camp (the Army of Lordaeron), the Jagged Hills (Pesterhide gnolls), Gracestone Mine, Crumblepoint and Shatteridge Towers, the Corinth Farmstead, Ishnu'Danil and Shalla'Aran; small edits in Venomweb Vale. The 3.3.5 zone, its NPCs and quests stay.",
+  "merge_region": {
+    "x": [
+      25,
+      33
+    ],
+    "y": [
+      26,
+      29
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 8,
+    "reshaped_skip_zones": [
+      130,
+      5225,
+      2037,
+      28
+    ],
+    "heal_turtle_seams": true,
+    "take_new_wmos": true,
+    "match_stock_edges": true,
+    "reshaped_take_areas": [
+      130,
+      226
+    ]
+  },
+  "_merge_region": "own=changed: only the Tirisfal chunks Turtle reshaped or gave a new subzone (west Tirisfal on Azeroth_26-28 x 27-29, Venomweb Vale on 33_26/33_27). reshaped_skip_zones: Silverpine Forest (130, not ported), Turtle's Thalassian Highlands (5225), the Quel'Thalas mountains (2037), Western Plaguelands (28).",
+  "area_bits": {
+    "5028": 3807,
+    "5029": 3808,
+    "5030": 3809,
+    "5031": 3810,
+    "5032": 3811,
+    "5033": 3812,
+    "5034": 3813,
+    "5035": 3814,
+    "5036": 3815,
+    "5037": 3816,
+    "5038": 3817,
+    "5039": 3818,
+    "5040": 3819,
+    "5041": 3820,
+    "5042": 3821
+  },
+  "_area_bits": "Steepcliff Port, The Whispering Forest, The Rogue Heights, The Lafford House, The Garrick Stead, Crumblepoint Tower, Shatteridge Tower, The Remnants Camp, The Blacktower Inn, The Corinth Farmstead, The Jagged Hills, Gracestone Mine, Glenshire, Ishnu'Danil, Shalla'Aran.",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "exclude_boxes": [
+    [
+      1250,
+      1950,
+      -150,
+      600,
+      -200,
+      10
+    ]
+  ],
+  "_exclude_boxes": "Undercity (under the Ruins of Lordaeron, z below 10): its Turtle NPCs are in 082_undercity.",
+  "exclude_creatures": [
+    50514,
+    50515,
+    50516,
+    51560,
+    51587,
+    51588,
+    51589,
+    62966,
+    80800,
+    51567,
+    81035
+  ],
+  "_exclude_creatures": "Turtle systems: training dummies, rented riding mounts, Survival trainer Karolina Cloven. Revantusk Watcher: his only quest (A Tusken Affair, 80300) ends in Turtle's Orgrimmar, not ported (as in Thunder Bluff). Deathguard Maverick (Faol's Rest): his only use is 'To Catch a Rat...' (80722, see 082_undercity). Jake Booker <Bowyer> (Brill): he would stand 1-3 yd from 3.3.5's Mrs. Winters (Max's rule).",
+  "exclude_gameobjects": [
+    1000373,
+    1000055,
+    2020300,
+    2020095,
+    1000370
+  ],
+  "_exclude_gameobjects": "Gardening Zone Check, Speedy's Jukebox, Survival's Dead Wood Trees, Gemstone Deposits (Jewelcrafting). Ripe Garden Pumpkins (Turtle's gardening; they also sit on 3.3.5's Tirisfal Pumpkins).",
+  "exclude_quests": [
+    80300,
+    41366,
+    80289,
+    80290,
+    80291,
+    80292,
+    40282
+  ],
+  "extra_spawns": [
+    2563796
+  ],
+  "_extra_spawns": "Duchess Grelda (Darlthos chain: 'Rightful Heir' ends at her, she gives 'Attack from the Inside' and 'Fall Of The Usurper'); she stands at 1380, 1686 on ground Turtle files under Silverpine.",
+  "exclude_gameobject_boxes": [
+    [
+      1800,
+      1815,
+      722,
+      736
+    ],
+    [
+      2286,
+      2296,
+      295,
+      305
+    ]
+  ],
+  "_exclude_gameobject_boxes": "Turtle crates and a barrel 1-2 yd from 3.3.5's Battered Chest (1806, 728) and an excavation tent on 3.3.5's pumpkin decoration in Brill (Max's rule).",
+  "_exclude_quests": "'A Tusken Affair' (80300, Revantusk Watcher). 'Too Late to Prelate' (41366): Prelate Ironmane is in Turtle's Shadowfang Keep (map 33), not ported. Scryer Lordal Thas'alah's chain (80289-80292): it starts and ends at 80231 in Turtle's Thalassian Highlands (not ported) and its two quest objects use ids 3.3.5 has for other objects (181583, 181584). 'Darlthos Legacy' (40282, Pierce Shackleton): it follows 'Into The Jaws' (40281, Melenas' Belongings in Turtle's Shadowfang Keep library, not ported).",
+  "extra_creature_templates": [
+    60323
+  ],
+  "_extra_creature_templates": "'Attack from the Inside' (40099): the poisoned-sack credit dummy the manual script gives.",
+  "notes": []
+}

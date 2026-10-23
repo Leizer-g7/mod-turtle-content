@@ -1,0 +1,104 @@
+{
+  "name": "Stonetalon Mountains",
+  "slot": 20,
+  "map": 1,
+  "zone_id": 406,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle reworked: new subzones Bael Hardul (Explorer's League dwarves), Bramblethorn Pass (quilboar), Powder Town (goblins), the Blacksand Oil Fields and Venture Company Camp, Broken Cliff Mine, the Earthen Ring's camp, and Amani'Alor (a Revantusk troll village on Turtle's new north-west land). The 3.3.5 zone, its NPCs and quests stay; Turtle's additions are merged in.",
+  "merge_region": {
+    "x": [
+      24,
+      35
+    ],
+    "y": [
+      25,
+      35
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 8,
+    "reshaped_skip_zones": [
+      215,
+      331,
+      1638,
+      148
+    ],
+    "heal_turtle_seams": true,
+    "drop_removed_wmos": false,
+    "take_new_wmos": true,
+    "reshaped_take_areas": [
+      2324,
+      2325,
+      414
+    ],
+    "match_stock_edges": true
+  },
+  "_merge_region": "own=changed: only Stonetalon chunks Turtle reshaped or gave a new subzone. reshaped_skip_zones: Mulgore, Desolace, Ashenvale, the Barrens, Thunder Bluff, Darkshore - Turtle reshaped their edges for its own content there (Suntail Pass, Honor's Stand ...), not ported with this zone.",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "area_bits": {
+    "2041": 3775,
+    "4011": 3776,
+    "5117": 3777,
+    "5118": 3778,
+    "5119": 3779,
+    "5120": 3780,
+    "5548": 3781,
+    "5598": 3782
+  },
+  "_area_bits": "Amani'Alor 2041, Venture Company Camp 4011, Blacksand Oil Fields 5117, Powder Town 5118, Bramblethorn Pass 5119, Bael Hardul 5120, Broken Cliff Mine 5548, Earthen Ring 5598.",
+  "taxi_nodes": [
+    105
+  ],
+  "_taxi_nodes": "Bael Hardul (Orrik Thunderbeard).",
+  "taverns": [
+    204,
+    4306
+  ],
+  "_taverns": "Bael Hardul Inn, Powder Town Inn.",
+  "graveyards": [
+    137
+  ],
+  "_graveyards": "Amani'Alor.",
+  "exclude_creatures": [
+    50514,
+    50515,
+    50516,
+    51580,
+    51581,
+    40007,
+    40009,
+    40011,
+    81013,
+    80912,
+    63072,
+    73101,
+    61170,
+    62004,
+    80965,
+    112180
+  ],
+  "_exclude_creatures": "Turtle systems: training dummies, rented riding wolves and bears (rented_mount), the Armored Brown War Bear display NPC, Ho'jo (companion pets), Nerean Stagtree (Survival trainer), The Artificer (Turtle's Jewelcrafting), Father Bear (Winter Veil storyteller), Lord Rygel and the Lake Toads (Turtle's frog minigame), the GM area-trigger NPC for quest 5321.",
+  "exclude_gameobjects": [],
+  "exclude_quests": [
+    40192,
+    40193,
+    40638,
+    41988,
+    80304
+  ],
+  "notes": [],
+  "extra_spawns": [
+    2567635,
+    2572924
+  ],
+  "_extra_spawns": "Faldan Moonshatter (Ashenvale, by Astranaar): his story completes Maloran Oakbranch's 'Conflicting Questions' (40698). Scartusk (Ashenvale, south of Astranaar): the orc of Grumnir Battlebeard's story, whose axe 'The Battlebeard Legacy' (40692) asks for.",
+  "_exclude_quests": "40192/40193: Faldan Moonshatter's own Ashenvale quests (Ashenvale is not ported). 40638 Blasting Stonetalon! (starts at Grand Taskmaster Nert Blastentom in Turtle's Sparkwater Port, Durotar, not ported; Nazz's chain starts without it). 41988 Dreadful Worries (Spirit Guide Tohnizte -> Makya Hillmoon in Turtle's Feralas). 80304 The Means To Heal (its Ashenvale Toad Liver drops from the Lake Toads of Turtle's Ashenvale frog game).",
+  "extra_creature_templates": [
+    60399,
+    60008
+  ],
+  "_extra_creature_templates": "Kill-credit dummies of 'A Journey for Vengeance' and 'Conflicting Questions' (given by manual/065)."
+}

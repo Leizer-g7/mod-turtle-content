@@ -1,0 +1,152 @@
+# Badlands
+
+File: `data/sql/db-world/mod_turtle_022_badlands.sql`  
+Terrain mode: **turtle**
+
+## Counts
+
+- areatable_dbc: 8
+- creature: 130
+- creature_addon: 13
+- creature_equip_template: 24
+- creature_loot_template: 2734
+- creature_questender: 22
+- creature_queststarter: 21
+- creature_template: 34
+- creature_template_addon: 10
+- creature_template_model: 34
+- creature_template_movement: 34
+- creature_template_resistance: 4
+- creature_text: 2
+- gameobject: 28
+- gameobject_loot_template: 4
+- gameobject_template: 8
+- gameobject_template_addon: 7
+- gossip_menu: 4
+- npc_text: 4
+- pickpocketing_loot_template: 11
+- quest_offer_reward: 25
+- quest_request_items: 25
+- quest_template: 25
+- quest_template_addon: 25
+- skinning_loot_template: 9
+- smart_scripts: 14
+- waypoint_data: 86
+
+## Client tiles (30)
+
+- Azeroth_37_44: chunk 6 taken for Turtle's greatwall_tower_01.wmo
+- Azeroth_38_45: chunk 156 taken for Turtle's smalltunnel.wmo
+- Azeroth_39_43: chunk 239 taken for Turtle's mod_hovel.wmo
+- Azeroth_39_44: chunk 119 taken for Turtle's md_mushroomden.wmo
+- Azeroth_39_45: chunk 86 taken for Turtle's md_goldmine_1room.wmo
+- Azeroth_39_45: chunk 116 taken for Turtle's duskwoodchasmbridge.wmo
+- Azeroth_39_45: chunk 132 taken for Turtle's duskwoodchasmbridge.wmo
+- Azeroth_39_45: chunk 163 taken for Turtle's mod_hovel.wmo
+- Azeroth_40_42: merged on top of an earlier zone's tile
+- Azeroth_40_43: merged on top of an earlier zone's tile
+- Azeroth_40_44: merged on top of an earlier zone's tile
+- Azeroth_41_42: merged on top of an earlier zone's tile
+- Azeroth_41_43: merged on top of an earlier zone's tile
+- Azeroth_41_44: merged on top of an earlier zone's tile
+- 16 reshaped chunks next to the zone taken (keep their 3.3.5 area); 470 reshaped chunks away from the zone left as 3.3.5
+- 155 edge points where Turtle's own tiles do not meet: both sides set to the average
+- seams between Turtle and 3.3.5 chunks: 86 edge points aligned (largest step 4.78 yd)
+- 0 edge points at the rim matched to the 3.3.5 tiles next to it
+- Azeroth_36_44: merged - 3 of 256 chunks from Turtle
+- Azeroth_37_43: merged - 85 of 256 chunks from Turtle (16 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_37_44: merged - 54 of 256 chunks from Turtle
+- Azeroth_37_45: merged - 4 of 256 chunks from Turtle
+- Azeroth_38_43: merged - 46 of 256 chunks from Turtle
+- Azeroth_38_44: merged - 3 of 256 chunks from Turtle
+- Azeroth_38_45: merged - 54 of 256 chunks from Turtle
+- Azeroth_39_43: merged - 10 of 256 chunks from Turtle
+- Azeroth_39_44: merged - 60 of 256 chunks from Turtle
+- Azeroth_39_45: merged - 82 of 256 chunks from Turtle
+- Azeroth_40_43: merged - 3 of 256 chunks from Turtle
+- Azeroth_40_44: merged - 28 of 256 chunks from Turtle
+
+## Client assets (1)
+
+- 5 Turtle files (buildings, textures) shipped in the client patch
+
+## Model stand in (4)
+
+- WORLD\AZEROTH\DUSKWOOD\BUILDINGS\GYPSYWAGON\GYPSYWAGON2.M2 -> World\Azeroth\Duskwood\Buildings\GypsyWagon\GypsyWagon.m2
+- WORLD\KALIMDOR\BALOR\PASSIVEDOODADS\WATERFALLS\WaterfallRed.MDX -> World\Kalimdor\Mauradon\PassiveDoodads\Waterfalls\MaraudonCorruptedFalls03.m2
+- World\Azeroth\balor\shield_crest_a_02balor.MDX -> World\Azeroth\Elwynn\PassiveDoodads\BattleGladeShield1\BattleGladeShield1.m2
+- world\azeroth\Balor\BalorThrone.MDX -> World\Azeroth\Karazahn\PassiveDoodads\Throne\KarazahnThrone01.m2
+
+## New areas (8)
+
+- 5104 Ruins of Corthan (subzone of 3, map 0, exploration bit 3783, level 38)
+- 5105 Temple of Corthan (subzone of 3, map 0, exploration bit 3784, level 40)
+- 5106 Angor Digsite (subzone of 3, map 0, exploration bit 3785, level 36)
+- 5107 Ruins of Zeth (subzone of 3, map 0, exploration bit 3786, level 36)
+- 5108 Crystalline Oasis (subzone of 3, map 0, exploration bit 3787, level 38)
+- 5109 Crystalline Pinnacle (subzone of 3, map 0, exploration bit 3788, level 40)
+- 5110 Redbrand's Digsite (subzone of 3, map 0, exploration bit 3789, level 42)
+- 5111 Scalebane Ridge (subzone of 3, map 0, exploration bit 3790, level 41)
+
+## Seasonal spawns (2)
+
+- 2 creature spawns that Turtle shows only during seasonal events left out
+- 68 object spawns that Turtle shows only during seasonal events left out
+
+## Zone quests elsewhere (9)
+
+- quest 40649: given and turned in outside the zone ([9077] / [9077])
+- quest 40650: given and turned in outside the zone ([9077] / [9077])
+- quest 40651: given and turned in outside the zone ([2920] / [2920])
+- quest 40652: given and turned in outside the zone ([61051] / [61051])
+- quest 40653: given and turned in outside the zone ([61051] / [61051])
+- quest 40655: given and turned in outside the zone ([9080] / [9080])
+- quest 40656: given and turned in outside the zone ([9080] / [9080])
+- quest 40657: given and turned in outside the zone ([1274] / [1274])
+- quest 40658: given and turned in outside the zone ([1274] / [1274])
+
+## Display stand in (20)
+
+- 60903 Shadowforge Skinner: Turtle display 18953 -> stand-in 6056
+- 60904 Shadowforge Trapper: Turtle display 18954 -> stand-in 1806
+- 60905 Shadowforge Wyrm Hunter: Turtle display 18955 -> stand-in 1674
+- 60906 Kegdesh Foulmantle: Turtle display 18952 -> stand-in 9773
+- 60907 Shadowforge Excavator: Turtle display 18843 -> stand-in 1893
+- 60908 Borrin Gloombeard: Turtle display 18945 -> stand-in 1668
+- 60912 Ancient Warrior: Turtle display 18939 -> stand-in 4867
+- 60913 Ancient Warrior: Turtle display 18940 -> stand-in 11372
+- 60914 Ancient Warrior: Turtle display 18941 -> stand-in 24583
+- 60915 Ancient Warrior: Turtle display 18942 -> stand-in 24488
+- 60916 Forgotten Keeper: Turtle display 18944 -> stand-in 1690
+- 60917 Marauder King Corthan: Turtle display 18943 -> stand-in 6938
+- 60920 Earthen Curator: Turtle display 18946 -> stand-in 1376
+- 60921 Earthen Rockshaper: Turtle display 18947 -> stand-in 1376
+- 60922 Orthal the Steward: Turtle display 18948 -> stand-in 15553
+- 60923 Surveyor Bronzehorn: Turtle display 18950 -> stand-in 3074
+- 61066 Echo of Corthan: Turtle display 18943 -> stand-in 6938
+- 61067 Forgotten Chieftain: Turtle display 18941 -> stand-in 24583
+- 61068 Forgotten Warlord: Turtle display 18940 -> stand-in 11372
+- 61567 Refrik: Turtle display 18940 -> stand-in 11372
+
+## Spell sub (1)
+
+- Drathos Runebreaker: spell 15584 Cleave -> stand-in 15284 Cleave
+
+## Cpp script (2)
+
+- 60916 Forgotten Keeper: Turtle C++ script 'npc_forgotten_keeper' (see manual/066_badlands.sql)
+- 61567 Refrik: Turtle C++ script '0' (see manual/066_badlands.sql)
+
+## Item quests (2)
+
+- quest 40659 A Razor's Edge: started by Razor-Sharp Knife, turned in to Sir S. J. Erlgadin
+- quest 40654 Glittering like Gold: started by Dusty Coin, turned in to Senator Ryedol
+
+## Go display added (2)
+
+- 2005996 World KALIMDOR WAILINGCAVERNS PASSIVEDOODADS FANGDRUIDS WC_T: new display row
+- 2020292 Shade Wood Tree: new display row
+
+## Turtle only lock (1)
+
+- 2020292 Shade Wood Tree: lock 1661 is a Turtle-only lock type (e.g. Survival gathering) - left out

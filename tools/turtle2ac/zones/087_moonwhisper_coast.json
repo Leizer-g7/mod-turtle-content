@@ -1,0 +1,193 @@
+{
+  "name": "Moonwhisper Coast",
+  "slot": 42,
+  "map": 1,
+  "zone_id": 5642,
+  "terrain": "turtle",
+  "_terrain": "A Turtle-only zone on Kalimdor's east coast, north of Azshara and east of Winterspring: where 3.3.5 has unreachable unnamed mountains (area 0, up to 1,000 yd) and the open sea, Turtle has the Moonwhisper Coast (32 subzones) and its sea (Turtle's North Sea area 5027).",
+  "merge_region": {
+    "x": [
+      38,
+      46
+    ],
+    "y": [
+      11,
+      23
+    ],
+    "height_tolerance": 0.5,
+    "reshaped": "connected",
+    "reshaped_skip_zones": [
+      616,
+      618,
+      16,
+      148,
+      331,
+      493,
+      361
+    ],
+    "ocean_base": "World\\Maps\\Kalimdor\\Kalimdor_44_12.adt",
+    "heal_turtle_seams": true,
+    "take_new_wmos": true,
+    "take_unnamed_land": true,
+    "match_stock_edges": true,
+    "seam_report_yd": 10,
+    "reshaped_take_areas": [
+      2326,
+      2321,
+      1230
+    ]
+  },
+  "_merge_region": "Whole Turtle ground of the zone plus the Turtle ground and sea bed connected to it (the 3.3.5 mountains and ocean it replaces). Not taken: Hyjal (616), Winterspring (618), Azshara (16), Darkshore (148), Ashenvale (331), Moonglade (493), Felwood (361) - their seams are stitched. ocean_base: a flat 3.3.5 ocean tile for the region tiles 3.3.5 does not have (Kalimdor_42-45_11, 45-46_17-19). reshaped_take_areas: the sea beds of the Veiled Sea (2326, Darkshore's), Azshara's Great Sea (2321) and Jagged Reef (1230) next to the coast, which Turtle raised by up to 380 yd to meet its new shore (left 3.3.5: 360-380 yd steps; taken: largest seam 0.5 yd). Left as they are: Turtle's flat sea-level filler tiles at the map edge (Kalimdor_46_x, area 0) meet the 3.3.5 ocean floor (-515) in an underwater wall at the far east rim.",
+  "area_bits": {
+    "5642": 3827,
+    "5643": 3828,
+    "5644": 3829,
+    "5645": 3830,
+    "5646": 3831,
+    "5647": 3832,
+    "5648": 3833,
+    "5649": 3834,
+    "5650": 3835,
+    "5651": 3836,
+    "5652": 3837,
+    "5653": 3838,
+    "5654": 3839,
+    "5655": 3840,
+    "5656": 3841,
+    "5657": 3842,
+    "5658": 3843,
+    "5659": 3844,
+    "5660": 3845,
+    "5661": 3846,
+    "5662": 3847,
+    "5663": 3848,
+    "5664": 3849,
+    "5665": 3850,
+    "5666": 3851,
+    "5667": 3852,
+    "5668": 3853,
+    "5669": 3854,
+    "5670": 3855,
+    "5671": 3856,
+    "5672": 3857,
+    "5732": 3858,
+    "5733": 3859,
+    "5027": 3860
+  },
+  "_area_bits": "Moonwhisper Coast (5642), its 32 subzones and Turtle's North Sea (5027).",
+  "area_templates": {
+    "5642": 618,
+    "5027": 332
+  },
+  "_area_templates": "Flags/sound of new top-level areas: Winterspring for the zone, The Great Sea for Turtle's North Sea.",
+  "zone_from_adt": true,
+  "ship_assets": true,
+  "world_map": {
+    "tw_area": 5642
+  },
+  "taxi_nodes": [
+    120,
+    122,
+    123
+  ],
+  "graveyards": [
+    171,
+    172
+  ],
+  "spawn_existing_templates": true,
+  "exclude_creatures": [
+    50514,
+    50515,
+    50516,
+    51560,
+    51561
+  ],
+  "_exclude_creatures": "Turtle systems: training dummies, rented riding mounts.",
+  "exclude_gameobjects": [
+    1000373,
+    1000055,
+    2020300,
+    2020095,
+    2020273
+  ],
+  "_exclude_gameobjects": "Gardening Zone Check, Speedy's Jukebox, Survival's trees and gem deposits.",
+  "notes": [
+    "Elder Moonhoof's Turtle id (29479) is a 3.3.5 creature: he is built as 5029479 (config creature_id_remap).",
+    "manual/087_moonwhisper_coast.py: Answers from Father, An Ill Omen, Farm Raiders and Elder Moonhoof's dialogue credit (Turtle gossip/quest scripts); The Moonhoof Celebration, The Missing Caravans and Bound in Stone rebuilt without Turtle's C++ (not in the Turtle source we have) - unverified.",
+    "Turtle start/complete scripts 4191301, 4192201, 42067 and 42085 do not exist in Turtle's database: nothing to port.",
+    "No quest giver: A Familiar Disturbance (41921, Turtle has none either) and Sunsworn Expedition (42061, Astalor Sunsworn of the Regency Council, a zone not built yet).",
+    "Trainer rows without the trainer flag (Mhulf Nighthorn, Sprite of Aessina, Ortak Runetotem, Ornak Starstrider): not trainers in Turtle either.",
+    "Star Wood Tree (2020299): Turtle's Survival gathering lock is left out."
+  ],
+  "exclude_boxes": [
+    [
+      5040,
+      5095,
+      -5205,
+      -5165,
+      130,
+      170
+    ]
+  ],
+  "_exclude_boxes": "A Timbermaw Shaman and Ursa standing inside Turtle's Timbermaw Hold exterior building (the approach to its Timbermaw raid, map 819, in Winterspring's part of the mountains - not in this build): without the building they would stand 620 yd inside the mountain.",
+  "force_display": {
+    "62787": 6820,
+    "62788": 6820,
+    "63081": 6820,
+    "63092": 6820,
+    "62789": 1010,
+    "62792": 1010,
+    "62794": 1010,
+    "62810": 2687,
+    "62811": 6743,
+    "62812": 11338,
+    "63142": 2880,
+    "63073": 236,
+    "63128": 11394,
+    "63155": 16587,
+    "51691": 11686,
+    "51692": 11686,
+    "51693": 11686,
+    "60357": 11686,
+    "60358": 11686,
+    "60359": 11686
+  },
+  "_force_display": "Turtle's new furbolg models (furbolg_caster01/02, warrior02, boss02) have no 3.3.5 file: the gray Blackroot furbolgs (Forager, Tracker, Runner, Growlpaw) -> gray furbolg 6820, the black ones (Shaman, Pathfinder, Grawlsh the Mad) -> black furbolg 1010. The Foulheart satyr women and the Whispering Satyr: Turtle's female satyr model -> 3.3.5's male satyr of the same colour (their first display). Thulio (Turtle's Antonidas horse) -> white horse 236; Sunsworn Sentinel (Turtle's high elf guard) -> high elf warrior 11394; Lost Wisp (Turtle's red wisp model) -> 3.3.5's red wisp, same display id 16587. The invisible credit dummies of The Missing Caravans and Bound in Stone (Turtle display 328) -> the invisible display 11686.",
+  "exclude_quests": [
+    42098,
+    42099,
+    41953
+  ],
+  "_exclude_quests": "The Thorn Gorge Frontier / Defense (42098, 42099): repeatable quests of Turtle's Thorn Gorge battleground battlemasters (in the capitals), not part of this zone. Draenethyst Recovery (41953): its Geode Shards drop only from Selenaxx Foulheart in Turtle's Timbermaw raid (map 819), which is not built.",
+  "extra_creature_templates": [
+    571,
+    62989,
+    63089,
+    63202,
+    51691,
+    51692,
+    51693,
+    60357,
+    60358,
+    60359,
+    60082,
+    60083,
+    60089,
+    60090
+  ],
+  "_extra_creature_templates": "Creatures the zone's scripts summon or place (manual/087_moonwhisper_coast.py): Ar'lia (Answers from Father), the Crystal Entity (An Ill Omen), Ghin'taru (Farm Raiders), the Embodiment of Ancestors (The Moonhoof Celebration), and Turtle's invisible credit dummies of The Missing Caravans and Bound in Stone. Quest-credit dummies 60082, 60083, 60089, 60090 (gossip credits).",
+  "extra_gameobject_spawns": [
+    5030836,
+    5030837,
+    5030838,
+    5030839,
+    5030840,
+    5030841,
+    5030842,
+    5030843,
+    5030844,
+    5030845,
+    5030846
+  ],
+  "_extra_gameobject_spawns": "The Glowing Snow Mounds of Powerless Runestone (42010): on the stock Winterspring mountains west of the coast, outside the zone's area."
+}

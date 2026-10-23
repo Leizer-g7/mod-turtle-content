@@ -1,0 +1,71 @@
+{
+  "name": "Frostmane Hollow",
+  "slot": 30,
+  "map": 822,
+  "zone_id": 5734,
+  "terrain": "turtle",
+  "map_dir": "FrostmaneCaverns",
+  "_map": "Turtle instance map 822 (5-player dungeon, level 13+; WDT folder FrostmaneCaverns). Entrance trigger 5662 in Dun Morogh at -5020,-1449 (in the frostmanecave.wmo cave east of the Gates of Ironforge), exit 5663 inside. Map 822 is unused in 3.3.5.",
+  "all_spawns": true,
+  "terrain_tiles": [
+    "37_45",
+    "38_45",
+    "39_45",
+    "37_46",
+    "38_46",
+    "39_46",
+    "37_47",
+    "38_47",
+    "39_47"
+  ],
+  "ship_wdt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5734": 3802
+  },
+  "area_templates": {
+    "5734": 209
+  },
+  "_area_templates": "Shadowfang Keep's area flags.",
+  "spawn_existing_templates": true,
+  "instance": {
+    "map_name": "Frostmane Hollow",
+    "instance_type": 1,
+    "max_players": 5,
+    "min_level": 13,
+    "template_map": 33,
+    "_min_level": "Turtle's entrance trigger says level 13.",
+    "corpse": [
+      0,
+      -5020.44,
+      -1449.43
+    ],
+    "loading_screen": "Interface\\Glues\\LoadingScreens\\LoadScreenFrostmane.blp",
+    "areatriggers": [
+      [
+        5662,
+        "enter"
+      ],
+      [
+        5663,
+        "exit"
+      ]
+    ],
+    "graveyard": {
+      "map": 0,
+      "x": -5165.52,
+      "y": -874.664,
+      "z": 507.177,
+      "o": 0.0
+    },
+    "_graveyard": "Gates of Ironforge (graveyard 852), the 3.3.5 Dun Morogh graveyard nearest to the entrance (Turtle links none)."
+  },
+  "world_map": {
+    "tw_area": 5734
+  },
+  "wmo_area_ids": [
+    216796,
+    216816
+  ],
+  "notes": []
+}

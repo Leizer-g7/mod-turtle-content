@@ -1,0 +1,142 @@
+# Swamp of Sorrows
+
+File: `data/sql/db-world/mod_turtle_020_swamp_of_sorrows.sql`  
+Terrain mode: **turtle**
+
+## Counts
+
+- areatable_dbc: 1
+- conditions: 1
+- creature: 21
+- creature_addon: 2
+- creature_equip_template: 11
+- creature_loot_template: 1
+- creature_questender: 25
+- creature_queststarter: 25
+- creature_template: 20
+- creature_template_model: 28
+- creature_template_movement: 20
+- gameobject: 378
+- gameobject_loot_template: 6
+- gameobject_template: 55
+- gameobject_template_addon: 6
+- gossip_menu: 10
+- npc_text: 10
+- npc_vendor: 48
+- quest_offer_reward: 25
+- quest_request_items: 25
+- quest_template: 25
+- quest_template_addon: 25
+- skinning_loot_template: 3
+- smart_scripts: 2
+- waypoint_data: 44
+
+## Client tiles (7)
+
+- Azeroth_36_51: chunk 102 taken for Turtle's redridgefootbridge.wmo
+- Azeroth_36_51: chunk 116 taken for Turtle's castle01.wmo
+- 14 reshaped chunks next to the zone taken (keep their 3.3.5 area); 96 reshaped chunks away from the zone left as 3.3.5
+- 0 edge points where Turtle's own tiles do not meet: both sides set to the average
+- seams between Turtle and 3.3.5 chunks: 70 edge points aligned (largest step 4.40 yd)
+- Azeroth_36_51: merged - 53 of 256 chunks from Turtle (14 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_38_50: merged - 4 of 256 chunks from Turtle
+
+## Client assets (1)
+
+- 2 Turtle files (buildings, textures) shipped in the client patch
+
+## Model stand in (4)
+
+- WORLD\AZEROTH\DUSKWOOD\BUILDINGS\GYPSYWAGON\GYPSYWAGON2.M2 -> World\Azeroth\Duskwood\Buildings\GypsyWagon\GypsyWagon.m2
+- WORLD\KALIMDOR\BALOR\PASSIVEDOODADS\WATERFALLS\WaterfallRed.MDX -> World\Kalimdor\Mauradon\PassiveDoodads\Waterfalls\MaraudonCorruptedFalls03.m2
+- World\Azeroth\balor\shield_crest_a_02balor.MDX -> World\Azeroth\Elwynn\PassiveDoodads\BattleGladeShield1\BattleGladeShield1.m2
+- world\azeroth\Balor\BalorThrone.MDX -> World\Azeroth\Karazahn\PassiveDoodads\Throne\KarazahnThrone01.m2
+
+## New areas (1)
+
+- 5075 Sorrowguard Keep (subzone of 8, map 0, exploration bit 3774, level 34)
+
+## Seasonal spawns (2)
+
+- 2 creature spawns that Turtle shows only during seasonal events left out
+- 28 object spawns that Turtle shows only during seasonal events left out
+
+## Zone quests elsewhere (8)
+
+- quest 40207: given and turned in outside the zone ([982] / [982])
+- quest 40208: given and turned in outside the zone ([983] / [983])
+- quest 40209: given and turned in outside the zone ([1775] / [1775])
+- quest 40206: given and turned in outside the zone ([982] / [982])
+- quest 40031: given and turned in outside the zone ([11874] / [11874])
+- quest 40029: given and turned in outside the zone ([1776] / [1776])
+- quest 40030: given and turned in outside the zone ([1776] / [1776])
+- quest 41117: given and turned in outside the zone ([983] / [983])
+
+## Display stand in (7)
+
+- 91781 Sanv K'la: Turtle display 18668 -> stand-in 152
+- 92012 Watch Sergeant Arthur: Turtle display 18662 -> stand-in 2910
+- 92013 Watchman Banal: Turtle display 18663 -> stand-in 11406
+- 92014 Watchman Damion: Turtle display 18664 -> stand-in 3341
+- 92015 Watchman Hanson: Turtle display 18665 -> stand-in 10345
+- 92016 Watchman Tyrial: Turtle display 18667 -> stand-in 1690
+- 92017 Watch Paladin Janathos: Turtle display 18666 -> stand-in 1509
+
+## Gossip (1)
+
+- menu 60114 option 0: Turtle condition 41326 and script 60114 not ported - option left out
+
+## Go display added (26)
+
+- 2001533 World AZEROTH BOOTYBAY PASSIVEDOODAD DeadFish FishDeadOrange: new display row
+- 2001534 World AZEROTH BOOTYBAY PASSIVEDOODAD DeadFish FishDeadPurple: new display row
+- 2001539 World AZEROTH BOOTYBAY PASSIVEDOODAD FishingPoles FishingPol: new display row
+- 2002077 World AZEROTH STRANGLETHORN PASSIVEDOODADS RUINS Strangletho: new display row
+- 2002078 World AZEROTH STRANGLETHORN PASSIVEDOODADS RUINS Strangletho: new display row
+- 2002090 World AZEROTH STRANGLETHORN PASSIVEDOODADS RUINS Strangletho: new display row
+- 2002129 World AZEROTH SWAMPOSORROW PASSIVEDOODADS SWAMPBOATS SwampBo: new display row
+- 2002131 World AZEROTH SWAMPOSORROW PASSIVEDOODADS SwampSkulls SwampS: new display row
+- 2002134 World AZEROTH SWAMPOSORROW PASSIVEDOODADS SwampWagon SwampWa: new display row
+- 2002142 World AZEROTH SWAMPOSORROW PASSIVEDOODADS treelogs SwampTree: new display row
+- 2003801 World GENERIC ORC PASSIVE DOODADS BANNERS ClanBanner04.mdx: new display row
+- 2003857 World GENERIC ORC PASSIVE DOODADS HANGINGBONES OrcHangingBon: new display row
+- 2003861 World GENERIC ORC PASSIVE DOODADS Hammocks Hammock01.mdx: new display row
+- 2003973 World GENERIC ORC PASSIVE DOODADS Tailoring Boots OrcBoots01: new display row
+- 2004571 World GENERIC QuilBoar Passive Doodads Troughs RazorFenTroug: new display row
+- 2005408 World KALIMDOR Dustwallow PassiveDoodads Outposts Dustwallow: new display row
+- 2005409 World KALIMDOR Dustwallow PassiveDoodads Outposts Dustwallow: new display row
+- 2005410 World KALIMDOR Dustwallow PassiveDoodads Outposts Dustwallow: new display row
+- 2005411 World KALIMDOR Dustwallow PassiveDoodads Outposts Dustwallow: new display row
+- 2005412 World KALIMDOR Dustwallow PassiveDoodads Outposts Dustwallow: new display row
+- 2005413 World KALIMDOR Dustwallow PassiveDoodads Outposts Dustwallow: new display row
+- 2005991 World KALIMDOR WAILINGCAVERNS PASSIVEDOODADS FANGDRUIDS WC_D: new display row
+- 2007840 World wmo Dungeon MD_Shipwreck Shipwreck_A.wmo: new display row
+- 2010418 World GENERIC PASSIVEDOODADS DEATHSKELETONS OrcMaleDeathSkel: new display row
+- 2010820 Sorrowmoss Mushroom: new display row
+- 2020295 Shade Wood Tree: new display row
+
+## Go type changed (1)
+
+- 2007840 World wmo Dungeon MD_Shipwreck Shipwreck_A.wmo: type 14 (static WMO) -> 5 (generic)
+
+## Turtle only lock (1)
+
+- 2020295 Shade Wood Tree: lock 1661 is a Turtle-only lock type (e.g. Survival gathering) - left out
+
+## Go no model (2)
+
+- 3000303 Sherpa_Bedroll_0: Turtle-only model with no stand-in (add one to go_model_substitutions)
+- 3000304 Sherpa_Bedroll_2: Turtle-only model with no stand-in (add one to go_model_substitutions)
+
+## Existing templates (1)
+
+- 2 object spawns of 2 templates 3.3.5 already has (herbs, ore, chests ...)
+
+## Quest giver flag (1)
+
+- quest-giver flag added to 3.3.5 NPCs [982, 983, 1775, 3136, 11874] (Thultash, Thultazor, Zun'dartha, Clarise Gnarltree, Masat T'andr)
+
+## Objects waiting for the client patch (2)
+
+- 3000303 Sherpa_Bedroll_0 - `world\EXPANSION04\DOODADS\Sherpa\Sherpa_Bedroll_01.mdx`
+- 3000304 Sherpa_Bedroll_2 - `world\EXPANSION04\DOODADS\Sherpa\Sherpa_Bedroll_02.mdx`

@@ -1,0 +1,145 @@
+{
+ "zone": "063_windhorn_canyon",
+ "name": "Windhorn Canyon",
+ "file": "mod_turtle_019_windhorn_canyon.sql",
+ "terrain": "turtle",
+ "custom_subzones": [],
+ "counts": {
+  "areatable_dbc": 1,
+  "creature_template": 28,
+  "creature_template_model": 36,
+  "creature_template_resistance": 41,
+  "creature_template_movement": 28,
+  "smart_scripts": 53,
+  "creature_text": 12,
+  "creature_equip_template": 16,
+  "creature": 278,
+  "waypoint_data": 1242,
+  "creature_addon": 93,
+  "npc_text": 1,
+  "gossip_menu": 1,
+  "gossip_menu_option": 1,
+  "creature_loot_template": 851,
+  "skinning_loot_template": 4,
+  "quest_template": 2,
+  "quest_template_addon": 2,
+  "quest_offer_reward": 2,
+  "quest_request_items": 2,
+  "creature_queststarter": 2,
+  "creature_questender": 2,
+  "gameobject_template": 1,
+  "gameobject_template_addon": 1,
+  "gameobject_loot_template": 1,
+  "gameobject": 50,
+  "pool_gameobject": 5,
+  "pool_template": 1
+ },
+ "go_pending": [],
+ "notes": {
+  "client_tiles": [
+   "MooCanyon_37_45: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved",
+   "MooCanyon_37_46: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 0 object ids moved",
+   "MooCanyon_37_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved",
+   "MooCanyon_38_45: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "MooCanyon_38_46: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "MooCanyon_38_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "MooCanyon_39_45: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "MooCanyon_39_46: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "MooCanyon_39_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved"
+  ],
+  "client_assets": [
+   "39 Turtle files (buildings, textures) shipped in the client patch"
+  ],
+  "model_stand_in": [
+   "WORLD\\AZEROTH\\DUSKWOOD\\BUILDINGS\\GYPSYWAGON\\GYPSYWAGON2.M2 -> World\\Azeroth\\Duskwood\\Buildings\\GypsyWagon\\GypsyWagon.m2",
+   "WORLD\\KALIMDOR\\BALOR\\PASSIVEDOODADS\\WATERFALLS\\WaterfallRed.MDX -> World\\Kalimdor\\Mauradon\\PassiveDoodads\\Waterfalls\\MaraudonCorruptedFalls03.m2",
+   "World\\Azeroth\\balor\\shield_crest_a_02balor.MDX -> World\\Azeroth\\Elwynn\\PassiveDoodads\\BattleGladeShield1\\BattleGladeShield1.m2",
+   "world\\azeroth\\Balor\\BalorThrone.MDX -> World\\Azeroth\\Karazahn\\PassiveDoodads\\Throne\\KarazahnThrone01.m2"
+  ],
+  "music_stand_in": [
+   "area 5641 Windhorn Canyon: zone music 563 -> 9"
+  ],
+  "new_areas": [
+   "5641 Windhorn Canyon (zone, map 820, exploration bit 3773, level 25)"
+  ],
+  "zone_quests_elsewhere": [
+   "quest 41976: given and turned in outside the zone ([62416] / [62416])",
+   "quest 41982: given and turned in outside the zone ([3057] / [3057])"
+  ],
+  "display_stand_in": [
+   "62759 Blackwind Trapper: Turtle display 10238 -> stand-in 10238",
+   "62759 Blackwind Trapper: Turtle display 10240 -> stand-in 10240",
+   "62760 Blackwind Villager: Turtle display 11880 -> stand-in 11880",
+   "62760 Blackwind Villager: Turtle display 11881 -> stand-in 11881",
+   "62764 Blackwind Hunter: Turtle display 11882 -> stand-in 11882",
+   "62764 Blackwind Hunter: Turtle display 11883 -> stand-in 11883",
+   "62765 Blackwind Geologist: Turtle display 6833 -> stand-in 6833",
+   "62765 Blackwind Geologist: Turtle display 6834 -> stand-in 6834",
+   "62766 Blackwind Overseer: Turtle display 10234 -> stand-in 10234",
+   "62766 Blackwind Overseer: Turtle display 10236 -> stand-in 10236",
+   "62768 Blackwind Elder: Turtle display 11887 -> stand-in 11887",
+   "62768 Blackwind Elder: Turtle display 11889 -> stand-in 11889",
+   "62769 Blackwind Watcher: Turtle display 11876 -> stand-in 11876",
+   "62769 Blackwind Watcher: Turtle display 11877 -> stand-in 11877",
+   "62770 Blackwind Earthkeeper: Turtle display 6831 -> stand-in 6831",
+   "62770 Blackwind Earthkeeper: Turtle display 6832 -> stand-in 6832",
+   "62771 Blackwind Bloodguard: Turtle display 4512 -> stand-in 4512",
+   "62772 Blackwind Totemkeeper: Turtle display 10243 -> stand-in 10243",
+   "62773 Deathtotem Shaman: Turtle display 21601 -> stand-in 3782",
+   "62774 Deathtotem Bonespeaker: Turtle display 21599 -> stand-in 2097",
+   "62777 Deathtotem Avenger: Turtle display 21600 -> stand-in 3782",
+   "62782 Chieftain Shalk Blackwind: Turtle display 21389 -> stand-in 3889",
+   "62784 Walgan Bloodcaller: Turtle display 18938 -> stand-in 8773",
+   "62785 Champion Rotag: Turtle display 21598 -> stand-in 3783"
+  ],
+  "spell_dropped": [
+   "Blackwind Geologist: spell 36918 Molten Blast does not exist in 3.3.5 - dropped (add a stand-in to spell_substitutions)",
+   "Blackwind Geologist: spell 45526 Earth Shield is 'Freed Warsong Mage' in 3.3.5 - dropped (add a stand-in to spell_substitutions)",
+   "Blackwind Earthkeeper: spell 36729 Summon Lesser Stone Elemental is 'Negaton Field' in 3.3.5 - dropped (add a stand-in to spell_substitutions)",
+   "Deathtotem Shaman: spell 36731 Summon Scorpid Totem is 'Flame Strike' in 3.3.5 - dropped (add a stand-in to spell_substitutions)",
+   "Prophet Stormhoof: spell 57748 Wail of Souls is 'Sear Beam' in 3.3.5 - dropped (add a stand-in to spell_substitutions)",
+   "Chieftain Shalk Blackwind: spell 41121 Flame of Shalk is 'Giving a Hand' in 3.3.5 - dropped (add a stand-in to spell_substitutions)",
+   "Deathtotem Behemoth: spell 31771 Pulverize is 'Shell of Deterrence' in 3.3.5 - dropped (add a stand-in to spell_substitutions)"
+  ],
+  "eventai": [
+   "62766 Blackwind Overseer: spell 36730 Blackwind Aura is 'Flame Strike' in 3.3.5 - dropped (add a stand-in to spell_substitutions)",
+   "62766 Blackwind Overseer: spell 36730 Blackwind Aura is 'Flame Strike' in 3.3.5 - dropped (add a stand-in to spell_substitutions)",
+   "62771 Blackwind Bloodguard: spell 36732 Bloodguard Ritual is 'Scatter Shot' in 3.3.5 - dropped (add a stand-in to spell_substitutions)",
+   "62779 Pathun Duskhide: script command 29 (Pathun Duskhide - Reset all attacker threat) not converted",
+   "62783 Ambassador Vortalus: spell 36578 Engulfing Vortex is 'Fool's Fortune' in 3.3.5 - dropped (add a stand-in to spell_substitutions)",
+   "62784 Walgan Bloodcaller: spell 28131 Enrage -> stand-in 8599 Enrage"
+  ],
+  "spell_sub": [
+   "Deathtotem Avenger: spell 15579 Cleave -> stand-in 15284 Cleave"
+  ],
+  "display_missing": [
+   "62779 Pathun Duskhide: display 21396 has no 3.3.5 equivalent - invisible placeholder",
+   "62985 Deathtotem Behemoth: display 21395 has no 3.3.5 equivalent - invisible placeholder"
+  ],
+  "cpp_script": [
+   "62780 Bonespeaker Narlgom: Turtle C++ script 'boss_bonespeaker_narlgom' (see manual/063_windhorn_canyon.sql)",
+   "62782 Chieftain Shalk Blackwind: Turtle C++ script 'boss_chieftain_shalk_blackwind' (see manual/063_windhorn_canyon.sql)",
+   "62785 Champion Rotag: Turtle C++ script 'npc_champion_rotag' (see manual/063_windhorn_canyon.sql)",
+   "62865 Storm Guardian: Turtle C++ script 'npc_windhorn_storm_guardian' (see manual/063_windhorn_canyon.sql)"
+  ],
+  "go_display_added": [
+   "2020320 Windhorn Relic: new display row"
+  ],
+  "existing_templates": [
+   "21 object spawns of 7 templates 3.3.5 already has (herbs, ore, chests ...)"
+  ],
+  "pools": [
+   "1 spawn pools (5 objects, 0 creatures)"
+  ],
+  "area_triggers": [
+   "Turtle trigger 5611 Windhorn Canyon \u2013 Entrance -> 5922",
+   "Turtle trigger 5612 Windhorn Canyon \u2013 Exit -> 5923"
+  ],
+  "wmo_areas": [
+   "33 WMOAreaTable rows (room names) for WMO ids [7075]"
+  ],
+  "world_map": [
+   "WorldMapArea 2012 'WindhornCanyon' + 0 subzone overlays, 12 map images"
+  ]
+ }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Teldrassil",
+  "slot": 33,
+  "map": 1,
+  "zone_id": 141,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle changed in one place: Ursan Heights (area 5627) on the island's western rim, ground raised by up to 58 yd for the Ursan furbolgs' camp (Drethanis Mournshade, Arkod the White). Elsewhere Turtle only adds NPCs (Malos Lunarspear and his treants, Tesala Whitefeather, Sentinel Danala). The 3.3.5 zone, its NPCs and quests stay.",
+  "merge_region": {
+    "x": [
+      26,
+      29
+    ],
+    "y": [
+      13,
+      16
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "reshaped_skip_zones": [
+      1657
+    ],
+    "heal_turtle_seams": true,
+    "take_new_wmos": true,
+    "match_stock_edges": true
+  },
+  "_merge_region": "own=changed: only the Teldrassil chunks Turtle reshaped or gave a new subzone (Ursan Heights on Kalimdor_27_14 and 28_14). reshaped_skip_zones: Darnassus (079).",
+  "area_bits": {
+    "5627": 3805
+  },
+  "_area_bits": "Ursan Heights.",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "exclude_creatures": [
+    62965,
+    51580,
+    51581
+  ],
+  "_exclude_creatures": "Turtle systems: Survival trainer Filadon Shieldarrow, rented riding mounts.",
+  "exclude_gameobjects": [
+    1000373,
+    1000055,
+    300203,
+    300058
+  ],
+  "_exclude_gameobjects": "Gardening Zone Check, Speedy's Jukebox, Apple Bob and TEMP Greater Moonlight (event objects).",
+  "force_display": {
+    "62712": 1999,
+    "62713": 2001,
+    "62715": 6211
+  },
+  "_force_display": "Turtle's new furbolg caster/warrior models (furbolg_caster01/02, furbolg_warrior01) have no 3.3.5 equivalent: Ursan Shaman -> brown furbolg 1999, Ursan Ambusher -> brown furbolg 2001, Arkod the White -> white furbolg 6211.",
+  "notes": []
+}

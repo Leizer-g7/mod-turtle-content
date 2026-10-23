@@ -1,0 +1,96 @@
+{
+  "name": "Crescent Grove",
+  "slot": 25,
+  "map": 802,
+  "zone_id": 5077,
+  "terrain": "turtle",
+  "map_dir": "Grove",
+  "_map": "Turtle instance map 802 (5-player dungeon, level 32+; WDT folder Grove). Entrance in Ashenvale (trigger 5004 at 1690,-1272 by Mystral Lake, in the md_mushroomcave07 cave), exits 5005 and 5012 inside. Map 802 is unused in 3.3.5.",
+  "all_spawns": true,
+  "terrain_tiles": [
+    "30_30",
+    "31_30",
+    "32_30",
+    "33_30",
+    "30_31",
+    "31_31",
+    "32_31",
+    "33_31",
+    "30_32",
+    "31_32",
+    "32_32",
+    "33_32",
+    "31_33",
+    "32_33",
+    "33_33",
+    "32_34",
+    "33_34"
+  ],
+  "ship_wdt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5077": 3794,
+    "5078": 3795
+  },
+  "area_templates": {
+    "5077": 209,
+    "5078": 209
+  },
+  "_area_templates": "Shadowfang Keep's area flags.",
+  "spawn_existing_templates": true,
+  "instance": {
+    "map_name": "Crescent Grove",
+    "instance_type": 1,
+    "max_players": 5,
+    "min_level": 32,
+    "template_map": 33,
+    "_min_level": "Turtle's entrance trigger says level 32.",
+    "corpse": [
+      1,
+      1689.78,
+      -1272.15
+    ],
+    "loading_screen": "Interface\\Glues\\LoadingScreens\\LoadScreenTwistedbranchGrove.blp",
+    "areatriggers": [
+      [
+        5004,
+        "enter"
+      ],
+      [
+        5005,
+        "exit"
+      ],
+      [
+        5012,
+        "exit"
+      ]
+    ],
+    "graveyard": {
+      "map": 1,
+      "x": 2633.41,
+      "y": -629.73,
+      "z": 107.58,
+      "o": 0.0
+    },
+    "_graveyard": "Astranaar (WorldSafeLocs 28), one of the two Ashenvale graveyards Turtle links to the Grove (the other, Turtle's 70 'Kargathia', is Silithus in 3.3.5)."
+  },
+  "world_map": {
+    "tw_area": 5077
+  },
+  "wmo_area_ids": [
+    17091,
+    17092
+  ],
+  "force_display": {
+    "92105": 3024,
+    "92106": 1010,
+    "92107": 6798,
+    "92123": 1013,
+    "92124": 1014,
+    "92125": 1014,
+    "92126": 1013
+  },
+  "_force_display": "Turtle-made models with no 3.3.5 file: the furbolg elders and Grovetender Engryss -> 3.3.5 furbolgs of a similar colour; the Blacktalon satyr women -> 3.3.5 satyrs (pink/red).",
+  "exclude_quests": [],
+  "notes": []
+}

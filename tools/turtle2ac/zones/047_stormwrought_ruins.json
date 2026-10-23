@@ -1,0 +1,92 @@
+{
+  "name": "Stormwrought Ruins",
+  "slot": 2,
+  "map": 818,
+  "zone_id": 5628,
+  "terrain": "turtle",
+  "map_dir": "Balor",
+  "_map": "Turtle instance map 818 (5-man dungeon under Stormwrought Castle). Map 818 is unused in 3.3.5.",
+  "all_spawns": true,
+  "terrain_tiles": [
+    "38_42",
+    "38_43",
+    "38_44",
+    "39_42",
+    "39_43",
+    "39_44",
+    "40_42",
+    "40_43",
+    "40_44"
+  ],
+  "ship_wdt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5628": 3640
+  },
+  "area_templates": {
+    "5628": 1581
+  },
+  "extra_creature_templates": [
+    62672,
+    62673,
+    62674,
+    62675,
+    62742
+  ],
+  "_extra_creature_templates": "Summoned by the bosses (Nether Imp, Mergothid, Eldermaw Crocolisk, Growth of Mycellakos, Enraged Sea Elemental).",
+  "instance": {
+    "map_name": "Stormwrought Ruins",
+    "instance_type": 1,
+    "max_players": 5,
+    "min_level": 30,
+    "template_map": 36,
+    "corpse": [
+      0,
+      -8821.21,
+      2900.45
+    ],
+    "loading_screen": "Interface\\Glues\\LoadingScreens\\LoadScreenBalor.blp",
+    "areatriggers": [
+      [
+        5347,
+        "enter"
+      ],
+      [
+        5348,
+        "exit"
+      ],
+      [
+        5605,
+        "enter"
+      ],
+      [
+        5606,
+        "exit"
+      ]
+    ],
+    "graveyard": {
+      "map": 0,
+      "x": -8821.21,
+      "y": 2900.45,
+      "z": 135.492,
+      "o": 5.2558
+    },
+    "_min_level": "Turtle requires 35; lowered to 30 on the server owner's request.",
+    "_graveyard": "Where players are sent when they release inside the instance: Turtle's front-exit teleport target (areatrigger_teleport 5348). Always {map,x,y,z,o}."
+  },
+  "world_map": {
+    "tw_area": 5628
+  },
+  "wmo_area_ids": [
+    7006
+  ],
+  "notes": [
+    "Stormwrought Castle Gates (2 doors opened with the Key to Stormwrought Castle or lockpicking) use a Turtle lock that the 3.3.5 client does not have; they are left out, so those passages are open."
+  ],
+  "spawn_existing_templates": true,
+  "force_display": {
+    "62550": 14591,
+    "62670": 681
+  },
+  "_force_display": "Turtle-made models: Deathlord Tidebane -> Death Knight Darkreaver (mounted death knight), Remains of the Innocent -> crimson ooze."
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Ashenvale",
+  "slot": 24,
+  "map": 1,
+  "zone_id": 331,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle changed lightly: Forest Song's night elf camp (Commander Starwind's outpost), the Crescent Grove's entrance cave by Mystral Lake, the Horde's Wolfskull camp and Warsong outriders, new NPCs and quests. The 3.3.5 zone, its NPCs and quests stay; Turtle's additions are merged in.",
+  "merge_region": {
+    "x": [
+      33,
+      39
+    ],
+    "y": [
+      25,
+      29
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "reshaped_skip_zones": [
+      406,
+      17,
+      361,
+      16,
+      14,
+      616,
+      148
+    ],
+    "heal_turtle_seams": true,
+    "drop_removed_wmos": true,
+    "take_new_wmos": true,
+    "match_stock_edges": true
+  },
+  "_merge_region": "drop_removed_wmos: at Forest Song Turtle replaced two elven ruins with its two-storey house and guard tower (same spots).",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "force_display": {
+    "61146": 3024,
+    "91285": 5851
+  },
+  "_force_display": "Turtle-made furbolg models with no 3.3.5 file: Kerrulg -> a yellow-brown furbolg shaman, Grol the Exile -> a gray furbolg.",
+  "extra_creature_templates": [
+    60028,
+    60029,
+    60030,
+    60031,
+    60032,
+    60033,
+    70028
+  ],
+  "_extra_creature_templates": "Quest credit dummies the scripts give (Words of Wisdom, The Family Name, Patience/Pressure is the Key, What We Know).",
+  "extra_gameobject_spawns": [
+    4009481,
+    5025421,
+    5025422,
+    5025423,
+    5025424
+  ],
+  "_extra_gameobject_spawns": "Turtle's exploration trigger for 'What We Know' (70029) at the Barrow Den, just over the Barrens line; the four Moonshrine Blooms in Blackfathom Deeps' Moonshrine Ruins (Seed of Bloom for 'The Moonshrine Ruins', 41812).",
+  "exclude_creatures": [
+    51580,
+    51581,
+    61170,
+    61217,
+    62004,
+    80965,
+    112180,
+    604250
+  ],
+  "_exclude_creatures": "The rented riding wolves (rented_mount), Father Bear (Turtle's Winter Veil storyteller), Zephyra (Turtle's flying-mount service), Lord Rygel and the Lake Toads (Turtle's frog-hopping minigame, npc_frogger), the two invisible quest triggers: 5321 (Kerlonian's escort - AzerothCore scripts that quest itself) and 40377 (a deprecated Alah'Thalas quest).",
+  "exclude_gameobjects": [],
+  "exclude_quests": [],
+  "notes": []
+}

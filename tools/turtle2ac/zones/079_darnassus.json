@@ -1,0 +1,32 @@
+{
+  "name": "Darnassus",
+  "slot": 34,
+  "map": 1,
+  "zone_id": 1657,
+  "terrain": "stock",
+  "_terrain": "Turtle's additions to the 3.3.5 city (no ground changes): High Sentinel Adaena Oakleaf, Ashylah Starcaller, Anisalah Starcaller (Darnassus Quartermaster).",
+  "zone_from_335_tiles": true,
+  "exclude_creatures": [
+    50514,
+    50515,
+    50516,
+    62008,
+    62950,
+    62955,
+    51580,
+    51581
+  ],
+  "_exclude_creatures": "Turtle systems: training dummies, the guild vault keeper (Faredin), Survival (Nallaeth, Marlarin), rented mounts.",
+  "exclude_gameobjects": [
+    1000373,
+    1000055,
+    223363,
+    181091,
+    300203,
+    300058,
+    2020411,
+    2007326
+  ],
+  "_exclude_gameobjects": "Gardening Zone Check, Speedy's Jukebox, Blood Ring banners, an event trap (Tyrande), Apple Bob, TEMP Greater Moonlight, the Wilderness Survival sign. A decorative treasure chest beside the excluded guild vault keeper, 1.7 yd from 3.3.5's Guild Vault (3.3.5 keeps its vault).",
+  "notes": []
+}

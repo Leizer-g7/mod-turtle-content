@@ -1,0 +1,134 @@
+{
+  "name": "Dustwallow Marsh",
+  "slot": 26,
+  "map": 1,
+  "zone_id": 15,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle changed lightly: Westhaven Hollow (new coast raised from the sea in the south-east), Blackhorn Village (quillboar camp, areas only), Theramore's new NPCs and quests, Kagoro and the Vimes/Falgran chains. The 3.3.5 zone, its NPCs and quests stay.",
+  "merge_region": {
+    "x": [
+      37,
+      41
+    ],
+    "y": [
+      36,
+      41
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "own_exclude_areas": [
+      5112,
+      5113
+    ],
+    "reshaped_skip_zones": [
+      17,
+      400,
+      14,
+      1637
+    ],
+    "heal_turtle_seams": true,
+    "take_new_wmos": true,
+    "match_stock_edges": true
+  },
+  "_merge_region": "own_exclude_areas: Turtle's Deserter's Hideout (5113) replaces 3.3.5's Direhorn Post (the Grimtotem camp of 'Raze Direhorn Post!' and 'Direhorn Raiders'), and Turtle's Blackhorn Village (5112) is a quillboar camp on the spot of 3.3.5's northern Grimtotem camp (Grimtotem Elder, Spirit-Shifters, Breakers): both kept 3.3.5 (Max: where Turtle's version would break or overlap 3.3.5 content, 3.3.5 stays).",
+  "area_bits": {
+    "5114": 3796
+  },
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "extra_spawns": [
+    2572947,
+    2572936
+  ],
+  "_extra_spawns": "Falgran Hastil (a 3.3.5 template that 3.3.5 only summons briefly in Theramore): Turtle's spawn at the Quagmire, giver of the Vimes chain; Chieftain Razortusk (just over the Barrens line), who drops the boar's trail clue of 'The Quillboar Suspects' / 'On a Boar's Trail'.",
+  "extra_quests": [
+    40719,
+    40555,
+    40556,
+    40575,
+    40580,
+    40581
+  ],
+  "_extra_quests": "Links of the zone's chains filed elsewhere or given by objects: Exquisite Goblin Engineering (Gizzix, Mudsprocket; filed under the Barrens); The Search for the Grave / Another Mystery to Solve (the Turmoiled Grave, Vimes chain); Willing to Serve (Mangletooth), Mighty Wattapo, the Wall (Do'gol to A Turmoiled Grave) and Mysterious Shield No More (the grave to Krog) - Kagoro's chain.",
+  "extra_creature_templates": [
+    60011,
+    60012,
+    60353,
+    60385,
+    60386,
+    60387,
+    60388,
+    60389,
+    60390,
+    60953
+  ],
+  "_extra_creature_templates": "Quest credit dummies the scripts give, and Paval Reethe's spirit (summoned by Magus Halister's ritual).",
+  "exclude_creatures": [
+    50514,
+    50515,
+    50516,
+    51581,
+    70006,
+    80930,
+    80931,
+    80932,
+    80933,
+    80934,
+    61133,
+    80856,
+    81260,
+    60939,
+    60940,
+    60941,
+    60942,
+    60943,
+    60944,
+    61137,
+    60670
+  ],
+  "_exclude_creatures": "Training dummies, the rented wolf, a Turtle dummy-player object; Turtle's copy of Mudsprocket (3.3.5's own town stays): its copies of Innkeeper Frizzo, Krixil, Drazzit, Gizzix, Razbo and the flight master Razzit (their quests go to 3.3.5's Drazzit and Gizzix), Twinkie Boomstick (a hunter trainer standing on 3.3.5's Drazzit) and Bulum (no role, a Turtle-only model); Deserter's Hideout (Daelin's Brigade, Sellick Voss) and Blackhorn Village (Blackhorn quillboar, Targos Hatewind) - see merge_region; Dolvan Bracewind (Key to Karazhan) and Captain James Darrowmont (a cancelled quest only).",
+  "exclude_gameobjects": [
+    3000332
+  ],
+  "exclude_quests": [
+    40824,
+    40825,
+    40826,
+    40827,
+    40828,
+    40829,
+    41136,
+    41137,
+    41310,
+    41311,
+    41312,
+    41577,
+    40385,
+    40565,
+    40687,
+    40689,
+    40722,
+    40688,
+    40690,
+    41984,
+    41653
+  ],
+  "_exclude_quests": "Turtle's Key to Karazhan chain and Dolvan Bracewind's Karazhan quests (a piece of their own); 40385 cancelled; the quests that need Sellick Voss or Daelin's Brigade (And Justice for All, Daelin's Brigade, Theramore Deserters, Justice for Dustwallow) or the Blackhorn quillboar (The Blackhorn Conflict, Blackhorn Village). 41984 Restocking for Vacation (Nat Pagle): its Mastercraft Fishing Rod and Fisherman's Backpack have no source in Turtle's world database. 41653 The Great Spirit Of Wisdom (ends at N'ribbi; its giver Hufan Earthbow has no spawn in Turtle).",
+  "notes": [],
+  "exclude_gameobject_boxes": [
+    [
+      -4700,
+      -4500,
+      -3300,
+      -3100
+    ]
+  ],
+  "_exclude_gameobject_boxes": "Mudsprocket: Turtle's 76 decorations of its own version of the town.",
+  "force_display": {
+    "80960": 1122
+  },
+  "_force_display": "Bourok's Turtle ogre model -> a 3.3.5 Mo'grosh ogre."
+}

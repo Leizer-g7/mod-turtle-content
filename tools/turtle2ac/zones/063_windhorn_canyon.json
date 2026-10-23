@@ -1,0 +1,75 @@
+{
+  "name": "Windhorn Canyon",
+  "slot": 18,
+  "map": 820,
+  "zone_id": 5641,
+  "terrain": "turtle",
+  "map_dir": "MooCanyon",
+  "_map": "Turtle instance map 820 (5-player dungeon, level 26+; WDT folder MooCanyon). Entrance in Thousand Needles (trigger 5611 at -5118,-3534), exit 5612 inside. Map 820 is unused in 3.3.5.",
+  "all_spawns": true,
+  "terrain_tiles": [
+    "37_45",
+    "37_46",
+    "37_47",
+    "38_45",
+    "38_46",
+    "38_47",
+    "39_45",
+    "39_46",
+    "39_47"
+  ],
+  "ship_wdt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5641": 3773
+  },
+  "area_templates": {
+    "5641": 209
+  },
+  "_area_templates": "Shadowfang Keep's area flags.",
+  "spawn_existing_templates": true,
+  "instance": {
+    "map_name": "Windhorn Canyon",
+    "instance_type": 1,
+    "max_players": 5,
+    "min_level": 26,
+    "template_map": 33,
+    "_min_level": "Turtle's entrance trigger says level 26.",
+    "corpse": [
+      1,
+      -5126.21,
+      -3532.49
+    ],
+    "loading_screen": "Interface\\Glues\\LoadingScreens\\LoadScreenWindhorn.blp",
+    "areatriggers": [
+      [
+        5611,
+        "enter"
+      ],
+      [
+        5612,
+        "exit"
+      ]
+    ],
+    "graveyard": {
+      "map": 1,
+      "x": -5529.94,
+      "y": -3459.07,
+      "z": -45.67,
+      "o": 0.0
+    },
+    "_graveyard": "Turtle's own Windhorn Canyon graveyard (WorldSafeLocs 174) in Thousand Needles."
+  },
+  "world_map": {
+    "tw_area": 5641
+  },
+  "wmo_area_ids": [
+    7075
+  ],
+  "extra_quests": [
+    41976
+  ],
+  "_extra_quests": "In Search of Tauren Relics (Tarwegg, Grim Reaches): its relics come from this dungeon.",
+  "exclude_quests": [],
+  "notes": []
+}

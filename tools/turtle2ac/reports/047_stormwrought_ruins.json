@@ -1,0 +1,147 @@
+{
+ "zone": "047_stormwrought_ruins",
+ "name": "Stormwrought Ruins",
+ "file": "mod_turtle_003_stormwrought_ruins.sql",
+ "terrain": "turtle",
+ "custom_subzones": [],
+ "counts": {
+  "areatable_dbc": 1,
+  "creature_template": 56,
+  "creature_template_model": 61,
+  "creature_template_resistance": 70,
+  "creature_template_movement": 56,
+  "creature_equip_template": 24,
+  "smart_scripts": 30,
+  "creature_template_addon": 7,
+  "creature": 564,
+  "waypoint_data": 1899,
+  "creature_addon": 141,
+  "npc_text": 3,
+  "gossip_menu": 3,
+  "gossip_menu_option": 1,
+  "npc_vendor": 1,
+  "creature_loot_template": 4187,
+  "skinning_loot_template": 3,
+  "quest_template": 4,
+  "quest_template_addon": 4,
+  "quest_offer_reward": 4,
+  "quest_request_items": 4,
+  "creature_queststarter": 1,
+  "creature_questender": 2,
+  "gameobject_template": 8,
+  "gameobject_template_addon": 3,
+  "gameobject_loot_template": 1,
+  "gameobject": 24
+ },
+ "go_pending": [],
+ "notes": {
+  "client_tiles": [
+   "Balor_38_42: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "Balor_38_43: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "Balor_38_44: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "Balor_39_42: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "Balor_39_43: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "Balor_39_44: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved",
+   "Balor_40_42: 0 empty-liquid offsets fixed, 24 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 1 object ids moved",
+   "Balor_40_43: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 1 object ids moved",
+   "Balor_40_44: 0 empty-liquid offsets fixed, 9 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 1 object ids moved"
+  ],
+  "client_assets": [
+   "107 Turtle files (buildings, textures) shipped in the client patch"
+  ],
+  "model_stand_in": [
+   "WORLD\\AZEROTH\\DUSKWOOD\\BUILDINGS\\GYPSYWAGON\\GYPSYWAGON2.M2 -> World\\Azeroth\\Duskwood\\Buildings\\GypsyWagon\\GypsyWagon.m2",
+   "WORLD\\KALIMDOR\\BALOR\\PASSIVEDOODADS\\WATERFALLS\\WaterfallRed.MDX -> World\\Kalimdor\\Mauradon\\PassiveDoodads\\Waterfalls\\MaraudonCorruptedFalls03.m2",
+   "World\\Azeroth\\balor\\shield_crest_a_02balor.MDX -> World\\Azeroth\\Elwynn\\PassiveDoodads\\BattleGladeShield1\\BattleGladeShield1.m2",
+   "world\\azeroth\\Balor\\BalorThrone.MDX -> World\\Azeroth\\Karazahn\\PassiveDoodads\\Throne\\KarazahnThrone01.m2"
+  ],
+  "new_areas": [
+   "5628 Stormwrought Ruins (zone, map 818, exploration bit 3640, level 30)"
+  ],
+  "zone_quests_elsewhere": [
+   "quest 41879: given and turned in outside the zone ([62419] / [62419])"
+  ],
+  "display_stand_in": [
+   "62532 Stormreaver Berserker: Turtle display 21084 -> stand-in 13282",
+   "62533 Stormreaver Ambusher: Turtle display 21082 -> stand-in 2577",
+   "62534 Stormreaver Hunter: Turtle display 21086 -> stand-in 3884",
+   "62535 Stormreaver Firecaller: Turtle display 21085 -> stand-in 18680",
+   "62536 Stormreaver Slaver: Turtle display 21087 -> stand-in 4919",
+   "62537 Stormreaver Battlemaster: Turtle display 20679 -> stand-in 1885",
+   "62538 Stormreaver Grunt: Turtle display 21083 -> stand-in 12166",
+   "62539 Stormreaver Sorcerer: Turtle display 21088 -> stand-in 11901",
+   "62540 Stormreaver Necrolyte: Turtle display 20675 -> stand-in 23932",
+   "62541 Translucent Guest: Turtle display 21090 -> stand-in 2480",
+   "62543 Tethered Noble: Turtle display 21089 -> stand-in 26110",
+   "62547 Dagar the Glutton: Turtle display 21067 -> stand-in 3739",
+   "62548 Oronok Torn-Heart: Turtle display 21072 -> stand-in 1321",
+   "62549 Duke Balor the IV: Turtle display 21032 -> stand-in 1513",
+   "62551 Chieftain Stormsong: Turtle display 20674 -> stand-in 2870",
+   "62645 Shadow Council Alchemist: Turtle display 21079 -> stand-in 3040",
+   "62646 Shadow Council Researcher: Turtle display 21080 -> stand-in 6834",
+   "62647 Shadow Council Summoner: Turtle display 21078 -> stand-in 9849",
+   "62651 Shadow Council Cultist: Turtle display 21077 -> stand-in 11307"
+  ],
+  "spell_sub": [
+   "Stormreaver Battlemaster: spell 15584 Cleave -> stand-in 15284 Cleave",
+   "Leechspore Horror: spell 45997 Fungal Spores -> stand-in 21547 Spore Cloud",
+   "Corroding Sludge: spell 44037 Corrosive Bolt -> stand-in 9591 Acid Spit",
+   "Rotgrip Lasher: spell 44038 Razorlash -> stand-in 13445 Rend",
+   "Shadow Council Torturer: spell 44044 Piercing Pain -> stand-in 15242 Fireball",
+   "Acrid Razormaw: spell 44039 Shredded Muscle -> stand-in 12166 Muscle Tear",
+   "Shadow Council Soulweaver: spell 44056 Soul Harvest -> stand-in 17238 Drain Life"
+  ],
+  "cpp_script": [
+   "62547 Dagar the Glutton: Turtle C++ script 'boss_dagar_the_glutton' (see manual/047_stormwrought_ruins.sql)",
+   "62548 Oronok Torn-Heart: Turtle C++ script 'boss_oronok_torn_heart' (see manual/047_stormwrought_ruins.sql)",
+   "62549 Duke Balor the IV: Turtle C++ script 'boss_duke_balor_iv' (see manual/047_stormwrought_ruins.sql)",
+   "62550 Deathlord Tidebane: Turtle C++ script 'boss_deathlord_tidebane' (see manual/047_stormwrought_ruins.sql)",
+   "62551 Chieftain Stormsong: Turtle C++ script 'boss_chieftain_stormsong' (see manual/047_stormwrought_ruins.sql)",
+   "62552 Librarian Theodorus: Turtle C++ script 'boss_librarian_theodorus' (see manual/047_stormwrought_ruins.sql)",
+   "62652 Subjugator Halthas Shadecrest: Turtle C++ script 'boss_subjugator_halthas_shadecrest' (see manual/047_stormwrought_ruins.sql)",
+   "62661 Eldermaw the Primordial: Turtle C++ script 'boss_eldermaw_the_primordial' (see manual/047_stormwrought_ruins.sql)",
+   "62664 Mycellakos: Turtle C++ script 'boss_mycellakos' (see manual/047_stormwrought_ruins.sql)",
+   "62665 Lady Drazare: Turtle C++ script 'boss_lady_drazare' (see manual/047_stormwrought_ruins.sql)",
+   "62671 Ighal'for: Turtle C++ script 'boss_ighalfor' (see manual/047_stormwrought_ruins.sql)",
+   "62673 Mergothid: Turtle C++ script 'boss_mergothid' (see manual/047_stormwrought_ruins.sql)"
+  ],
+  "spell_dropped": [
+   "Shadow Council Summoner: spell 44045 Summon Impling -> dropped (no 3.3.5 equivalent)"
+  ],
+  "item_quests": [
+   "quest 41840 All That Is Left: started by Etched Toy Sword, turned in to Judith Flenning",
+   "quest 41841 Artifact of the Dark Lady: started by Broken Bloodstone Pendant, turned in to Lady Sylvanas Windrunner"
+  ],
+  "go_display_added": [
+   "2001895 World AZEROTH ELWYNN PASSIVEDOODADS SKELETON BattleGladebske: new display row"
+  ],
+  "turtle_only_lock": [
+   "2020233 Stormwrought Castle Gate: lock 1656 is a Turtle-only lock type (e.g. Survival gathering) - left out"
+  ],
+  "existing_templates": [
+   "10 object spawns of 6 templates 3.3.5 already has (herbs, ore, chests ...)"
+  ],
+  "area_triggers": [
+   "Turtle trigger 5347 Stormwrought Ruins \u2013 Front Entrance -> 5900",
+   "Turtle trigger 5348 Stormwrought Ruins \u2013 Front Exit -> 5901",
+   "Turtle trigger 5605 Stormwrought Ruins \u2013 Back Entrance -> 5902",
+   "Turtle trigger 5606 Stormwrought Ruins \u2013 Back Exit -> 5903"
+  ],
+  "wmo_areas": [
+   "75 WMOAreaTable rows (room names) for WMO ids [7006]"
+  ],
+  "world_map": [
+   "WorldMapArea 2001 'StormwroughtRuins' + 0 subzone overlays, 12 map images"
+  ],
+  "script_spells": [
+   "spell 47386 Mind Flay -> stand-in 16568 Mind Flay",
+   "spell 52422 Lightning Strike -> stand-in 15306 Shock",
+   "spell 44041 Tail Slap -> stand-in 18813 Knock Away",
+   "spell 44042 Primordial Regeneration -> stand-in 27532 Rejuvenation",
+   "spell 44048 Volatile Fungus -> stand-in 25812 Toxic Volley",
+   "spell 44050 Decaying Mold -> stand-in 21547 Spore Cloud",
+   "spell 44051 Dark Seduction -> stand-in 20407 Seduction",
+   "spell 44053 Drazare's Embrace -> stand-in 15245 Shadow Bolt Volley"
+  ]
+ }
+}

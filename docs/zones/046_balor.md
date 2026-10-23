@@ -1,0 +1,248 @@
+# Balor
+
+File: `data/sql/db-world/mod_turtle_002_balor.sql`  
+Terrain mode: **turtle**
+
+## Counts
+
+- areatable_dbc: 16
+- conditions: 6
+- creature: 1084
+- creature_addon: 75
+- creature_equip_template: 46
+- creature_loot_template: 8921
+- creature_questender: 57
+- creature_queststarter: 56
+- creature_template: 115
+- creature_template_addon: 8
+- creature_template_model: 129
+- creature_template_movement: 115
+- creature_template_resistance: 21
+- gameobject: 274
+- gameobject_loot_template: 18
+- gameobject_questender: 1
+- gameobject_queststarter: 2
+- gameobject_template: 64
+- gameobject_template_addon: 12
+- gossip_menu: 41
+- gossip_menu_option: 17
+- npc_text: 41
+- npc_vendor: 133
+- pickpocketing_loot_template: 22
+- pool_gameobject: 121
+- pool_template: 3
+- quest_offer_reward: 57
+- quest_request_items: 54
+- quest_template: 57
+- quest_template_addon: 57
+- skinning_loot_template: 11
+- smart_scripts: 84
+- waypoint_data: 549
+
+## Client tiles (27)
+
+- Azeroth_23_45: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_23_46: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_23_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_23_48: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_23_49: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_23_50: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_24_45: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_24_46: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 84 object ids moved
+- Azeroth_24_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 11 object ids moved
+- Azeroth_24_48: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 30 object ids moved
+- Azeroth_24_49: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_24_50: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_25_45: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_25_46: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 126 object ids moved
+- Azeroth_25_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 263 object ids moved
+- Azeroth_25_48: 0 empty-liquid offsets fixed, 14 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 704 object ids moved, 1 Turtle models replaced
+- Azeroth_25_49: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 103 object ids moved
+- Azeroth_25_50: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_26_45: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_26_46: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 313 object ids moved
+- Azeroth_26_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 370 object ids moved
+- Azeroth_26_48: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 607 object ids moved
+- Azeroth_26_49: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 307 object ids moved
+- Azeroth_26_50: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- Azeroth_27_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 5 object ids moved
+- Azeroth_27_48: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 106 object ids moved
+- Azeroth_27_49: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 44 object ids moved
+
+## Client assets (1)
+
+- 64 Turtle files (buildings, textures) shipped in the client patch
+
+## Model stand in (1)
+
+- WORLD\AZEROTH\DUSKWOOD\BUILDINGS\GYPSYWAGON\GYPSYWAGON2.M2 -> World\Azeroth\Duskwood\Buildings\GypsyWagon\GypsyWagon.m2
+
+## Music stand in (1)
+
+- area 5561 Balor: zone music 558 -> 2
+
+## New areas (16)
+
+- 5561 Balor (zone, map 0, exploration bit 3624, level 30)
+- 5562 Gullwing Wreckage (subzone of 5561, map 0, exploration bit 3625, level 30)
+- 5563 Bilgerat Compound (subzone of 5561, map 0, exploration bit 3626, level 30)
+- 5564 SI:7 Outpost (subzone of 5561, map 0, exploration bit 3627, level 30)
+- 5565 Ruins of Breezehaven (subzone of 5561, map 0, exploration bit 3628, level 30)
+- 5566 Croaking Plateau (subzone of 5561, map 0, exploration bit 3629, level 30)
+- 5567 Langston Orchard (subzone of 5561, map 0, exploration bit 3630, level 30)
+- 5568 Sorrowmore Lake (subzone of 5561, map 0, exploration bit 3631, level 30)
+- 5569 Scurrying Thicket (subzone of 5561, map 0, exploration bit 3632, level 30)
+- 5570 Stormwrought Castle (subzone of 5561, map 0, exploration bit 3633, level 30)
+- 5571 Stormreaver Spire (subzone of 5561, map 0, exploration bit 3634, level 30)
+- 5572 Windrock Cliffs (subzone of 5561, map 0, exploration bit 3635, level 30)
+- 5573 Treacherous Crags (subzone of 5561, map 0, exploration bit 3636, level 30)
+- 5574 Vander Farmstead (subzone of 5561, map 0, exploration bit 3637, level 30)
+- 5575 Grahan Estate (subzone of 5561, map 0, exploration bit 3638, level 30)
+- 5576 Stormbreaker Point (subzone of 5561, map 0, exploration bit 3639, level 30)
+
+## Existing templates (2)
+
+- 62 creature spawns of 4 templates 3.3.5 already has (AzerothCore's template is used)
+- 137 object spawns of 21 templates 3.3.5 already has (herbs, ore, chests ...)
+
+## Display stand in (52)
+
+- 60936 Marine Hornby: Turtle display 18652 -> stand-in 11372
+- 62320 Hyphaenus: Turtle display 18392 -> stand-in 168
+- 62326 Vengeful Memory: Turtle display 21150 -> stand-in 146
+- 62356 Stormreaver Mystic: Turtle display 20675 -> stand-in 23932
+- 62357 Stormreaver Necromancer: Turtle display 20676 -> stand-in 4705
+- 62358 Stormreaver Outrunner: Turtle display 20677 -> stand-in 1332
+- 62359 Stormreaver Raider: Turtle display 20678 -> stand-in 3752
+- 62360 Stormreaver Acolyte: Turtle display 21042 -> stand-in 3950
+- 62361 Stormreaver Drone: Turtle display 21043 -> stand-in 14320
+- 62362 Stormreaver Ravager: Turtle display 21044 -> stand-in 14564
+- 62363 Stormreaver Ritualist: Turtle display 21045 -> stand-in 11979
+- 62364 Stormreaver Warlock: Turtle display 21048 -> stand-in 11589
+- 62365 Stormreaver Shadowcaller: Turtle display 21046 -> stand-in 9652
+- 62366 Stormreaver Torturer: Turtle display 21047 -> stand-in 12009
+- 62455 Verona Gillian: Turtle display 20767 -> stand-in 4422
+- 62456 Kinrial: Turtle display 20768 -> stand-in 2196
+- 62457 Nippsy Spickerspan: Turtle display 20769 -> stand-in 12940
+- 62458 Noppsy Spickerspan: Turtle display 20770 -> stand-in 5427
+- 62459 Rufus Hammerstrike: Turtle display 20771 -> stand-in 16837
+- 62460 Hydromancer Finnigan: Turtle display 21033 -> stand-in 1510
+- 62466 Alfin Grahan: Turtle display 21031 -> stand-in 14545
+- 62467 Lord Olivert Grahan: Turtle display 21040 -> stand-in 10339
+- 62468 Mechanic Kixqal: Turtle display 21037 -> stand-in 6882
+- 62469 Navigator Weebletax: Turtle display 21039 -> stand-in 7034
+- 62470 Olmir Halfhorn: Turtle display 21041 -> stand-in 16106
+- 62471 Methendra Owltalon: Turtle display 21038 -> stand-in 9136
+- 62508 Ziatajie: Turtle display 21092 -> stand-in 4570
+- 62519 Penny Plainsteel: Turtle display 21073 -> stand-in 7175
+- 62520 Rikki Fizmask: Turtle display 21075 -> stand-in 8665
+- 62521 Yunie Quicktrigger: Turtle display 21091 -> stand-in 8665
+- 62522 Stormreaver Brute: Turtle display 21127 -> stand-in 1377
+- 62523 Jailor Bloodhand: Turtle display 21068 -> stand-in 2885
+- 62524 Shadowlord Ar'kor: Turtle display 21081 -> stand-in 18535
+- 62556 Agent Deryl: Turtle display 20728 -> stand-in 5908
+- 62557 Agent Flynn: Turtle display 1027 -> stand-in 6531
+- 62564 Stormreaver Stormblade: Turtle display 21128 -> stand-in 8890
+- 62565 Warlord Jawbreaker: Turtle display 21130 -> stand-in 4499
+- 62566 Nethercaller Mahlgus: Turtle display 21121 -> stand-in 14797
+- 62570 Seer Sarno: Turtle display 21116 -> stand-in 10727
+- 62571 Grexx: Turtle display 21118 -> stand-in 6882
+- 62572 Zohze: Turtle display 21131 -> stand-in 3953
+- 62573 Nijima: Turtle display 21122 -> stand-in 14764
+- 62574 Hefeni: Turtle display 21120 -> stand-in 2115
+- 62575 Stormbreaker Guard: Turtle display 21124 -> stand-in 9636
+- 62575 Stormbreaker Guard: Turtle display 21125 -> stand-in 18500
+- 62575 Stormbreaker Guard: Turtle display 21126 -> stand-in 2997
+- 62586 O'jin: Turtle display 20765 -> stand-in 15575
+- 62587 Mok'gun Frostfingers: Turtle display 21117 -> stand-in 1679
+- 62588 Uda'pe Sungrass: Turtle display 21119 -> stand-in 19426
+- 62589 Gre'shka Wolfbite: Turtle display 21129 -> stand-in 2413
+- 62707 Lighthouse Keeper Tremond: Turtle display 20752 -> stand-in 1430
+- 62710 Drak'thul: Turtle display 21223 -> stand-in 5769
+
+## Spell sub (4)
+
+- Mistbark Webweaver: spell 46309 Web -> stand-in 745 Web
+- Stormreaver Ravager: spell 19310 Shadowguard -> stand-in 32861 Shadowguard
+- Stormreaver Stormblade: spell 52422 Lightning Strike -> stand-in 15306 Shock
+- Warlord Jawbreaker: spell 19134 Intimidating Shout -> stand-in 19134 Frightening Shout
+
+## Trainer (3)
+
+- 62519 Penny Plainsteel: Turtle trainer rows but no trainer flag - not a trainer
+- 62520 Rikki Fizmask: Turtle trainer rows but no trainer flag - not a trainer
+- 62521 Yunie Quicktrigger: Turtle trainer rows but no trainer flag - not a trainer
+
+## Gossip (5)
+
+- menu 41881 option 0: Turtle gossip script 4188102 -> SmartAI Give item 1041773
+- menu 41881 option 1: Turtle gossip script 4188104 -> SmartAI Summon 62355
+- menu 62557 option 0: Turtle gossip script 6255702 -> SmartAI Quest credit 60072
+- menu 62558 option 0: Turtle gossip script 6255802 -> SmartAI Quest credit 60073
+- menu 62559 option 0: Turtle gossip script 6255902 -> SmartAI Quest credit 60074
+
+## Go no model (2)
+
+- 2002591 World GENERIC BLOODELF PASSIVE DOODADS BE_jar_01.mdx: Turtle-only model with no stand-in (add one to go_model_substitutions)
+- 3000303 Sherpa_Bedroll_0: Turtle-only model with no stand-in (add one to go_model_substitutions)
+
+## Go display added (15)
+
+- 2002871 World GENERIC DWARF PASSIVE DOODADS TABLES DwarvenTableAvera: new display row
+- 2003116 World GENERIC HUMAN PASSIVE DOODADS Artwork Painting14.mdx: new display row
+- 2003501 World GENERIC HUMAN PASSIVE DOODADS Statues BustHM01.mdx: new display row
+- 2003524 World GENERIC HUMAN PASSIVE DOODADS Tables BloodyTable2.mdx: new display row
+- 2003790 World GENERIC OGRE PASSIVE DOODADS TORCHES OgreWallTorchRed.: new display row
+- 2003823 World GENERIC ORC PASSIVE DOODADS BARRELSANDCRATES OrcCrateB: new display row
+- 2003826 World GENERIC ORC PASSIVE DOODADS BONES WailingCavernsHangin: new display row
+- 2003827 World GENERIC ORC PASSIVE DOODADS BONES WailingCavernsHangin: new display row
+- 2004430 World GENERIC PASSIVEDOODADS TREASUREPILES GoldPilemedium01.: new display row
+- 2004617 World GENERIC TAUREN PASSIVE DOODADS FuneralPyres FuneralPyr: new display row
+- 2010378 World Generic HUMAN PASSIVE DOODADS Artwork Painting15.mdx: new display row
+- 2010425 World Generic PASSIVEDOODADS LIGHTS CandleOff01.mdx: new display row
+- 2020179 Unremarkable Crate: new display row
+- 2020224 Darkedged Bone: new display row
+- 2020285 Bright Wood Tree: new display row
+
+## Turtle only lock (2)
+
+- 2020233 Stormwrought Castle Gate: lock 1656 is a Turtle-only lock type (e.g. Survival gathering) - left out
+- 2020285 Bright Wood Tree: lock 1660 is a Turtle-only lock type (e.g. Survival gathering) - left out
+
+## Pools (1)
+
+- 3 spawn pools (121 objects, 0 creatures)
+
+## Graveyards (1)
+
+- Turtle graveyard 12 Balor -> 1900
+
+## Flight paths (6)
+
+- node 441 SI:7 Outpost, Balor (Turtle 83)
+- node 442 Stormbreaker Point, Balor (Turtle 88)
+- path 1990: 441 -> 4, 14 points, cost 110
+- path 1991: 4 -> 441, 14 points, cost 110
+- path 1992: 442 -> 20, 34 points, cost 330
+- path 1993: 20 -> 442, 34 points, cost 330
+
+## Wmo areas (1)
+
+- 15 WMOAreaTable rows (room names) for WMO ids [7061, 7063, 7064, 7065]
+
+## World map (1)
+
+- WorldMapArea 2000 'Balor' + 15 subzone overlays, 46 map images
+
+## Lights (5)
+
+- Light 4000 (Turtle 557) params [3000, 3001, 3002, 3001, 4]
+- Light 4001 (Turtle 559) params [3003, 3001, 3002, 3001, 4]
+- Light 4002 (Turtle 560) params [3003, 3001, 3002, 3001, 4]
+- Light 4003 (Turtle 561) params [3003, 3001, 3002, 3001, 4]
+- Light 4004 (Turtle 562) params [3004, 3001, 3002, 3001, 4]
+
+## Objects waiting for the client patch (2)
+
+- 2002591 World GENERIC BLOODELF PASSIVE DOODADS BE_jar_01.mdx - `World\GENERIC\BLOODELF\PASSIVE DOODADS\BE_jar_01.mdx`
+- 3000303 Sherpa_Bedroll_0 - `world\EXPANSION04\DOODADS\Sherpa\Sherpa_Bedroll_01.mdx`

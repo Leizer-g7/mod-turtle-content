@@ -1,0 +1,41 @@
+{
+  "name": "Zul'Farrak",
+  "slot": 28,
+  "map": 209,
+  "zone_id": 1176,
+  "map_dir": "TanarisInstance",
+  "terrain": "turtle",
+  "_terrain": "Turtle's additions to the 3.3.5 dungeon: the Farraki Arena (a basin cut into the hill west of the pyramid, its own building tanarisruins16.wmo; Champion Razjal the Quick, Kath'zen the Brutal, Juthza the Cunning) and Zel'jeb the Ancient's ritual cave under the northern cliffs (tanarisruins17.wmo, entered through a new opening in the ground; Zel'jeb and eleven Sandfury Ritualists), plus two Ancient Burial Containers (Hansu Go'sha's 'Drifting Across the Sand', Tanaris) and the Flame of Farrak. Everything else stays 3.3.5.",
+  "merge_region": {
+    "x": [
+      29,
+      30
+    ],
+    "y": [
+      28,
+      29
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "none",
+    "take_new_wmos": true,
+    "take_hole_changes": true,
+    "heal_turtle_seams": true,
+    "match_stock_edges": true,
+    "drop_removed_wmos": true,
+    "ship_replaced_wmo_tiles": true
+  },
+  "_merge_region": "Only the chunks Turtle changed: the arena basin (TanarisInstance_29_29 and 30_29), the ground around the cave's building and its new entrance hole (29_28; take_hole_changes also takes a chunk whose only change is a hole). Turtle's server maps show the same ground everywhere else (within 0.3 yd). drop_removed_wmos: Turtle's arena building (tanarisruins16) and cave (tanarisruins17) are reworked copies of 3.3.5's TanarisRuins07 and 09, placed at the same spots; the 3.3.5 originals go (on all four tiles that place them). ship_replaced_wmo_tiles: TanarisInstance_30_28 has no changed ground but places the arena building too, so it is shipped with the new building.",
+  "all_spawns": true,
+  "_all_spawns": "Zul'Farrak has no world-map rectangle (a vanilla dungeon): every Turtle spawn on map 209 of a template 3.3.5 does not have is this zone's (Turtle's spawns of 3.3.5 templates are not added).",
+  "ship_assets": true,
+  "exclude_gameobjects": [
+    20901
+  ],
+  "_exclude_gameobjects": "A second Gong of Zul'Farrak (Turtle id 20901, never spawned: spawntime -1) on the spot of 3.3.5's gong 141832.",
+  "extra_creature_templates": [
+    62499
+  ],
+  "_extra_creature_templates": "Sandfury Scorpid: Champion Razjal summons ten during the arena fight.",
+  "notes": []
+}

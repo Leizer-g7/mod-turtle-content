@@ -1,0 +1,205 @@
+# Tel'Abim
+
+File: `data/sql/db-world/mod_turtle_010_tel_abim.sql`  
+Terrain mode: **turtle**
+
+## Counts
+
+- areatable_dbc: 9
+- creature: 587
+- creature_addon: 18
+- creature_equip_template: 22
+- creature_loot_template: 4789
+- creature_questender: 40
+- creature_queststarter: 39
+- creature_template: 61
+- creature_template_addon: 2
+- creature_template_model: 65
+- creature_template_movement: 61
+- creature_template_resistance: 2
+- creature_text: 1
+- gameobject: 496
+- gameobject_loot_template: 11
+- gameobject_queststarter: 1
+- gameobject_template: 41
+- gameobject_template_addon: 12
+- gossip_menu: 18
+- gossip_menu_option: 3
+- npc_text: 18
+- npc_vendor: 68
+- pool_gameobject: 89
+- pool_pool: 24
+- pool_template: 26
+- quest_offer_reward: 40
+- quest_request_items: 40
+- quest_template: 40
+- quest_template_addon: 40
+- smart_scripts: 43
+- waypoint_data: 151
+
+## Client tiles (46)
+
+- 49 sea-bed chunks around the zone taken from Turtle (keep their 3.3.5 area); 222 other reshaped chunks left as 3.3.5 (reshaped: sea)
+- 1000 edge points where Turtle's own tiles do not meet: both sides set to the average
+- seams between Turtle and 3.3.5 chunks: 1896 edge points aligned (largest step 0.47 yd, 3.3.5 side moved)
+- Kalimdor_46_46: 1 sea-floor edge points matched to the 3.3.5 tiles next to it
+- Kalimdor_46_49: 1 sea-floor edge points matched to the 3.3.5 tiles next to it
+- Kalimdor_43_50: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_44_45: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_44_46: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_44_47: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_44_48: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_44_49: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_44_50: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_45_45: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_45_46: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_45_47: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_45_48: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_45_49: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_45_50: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_46_45: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_46_46: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_46_47: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_46_48: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_46_49: no 3.3.5 tile - built on open sea (stock tile moved here), added to Kalimdor.wdt
+- Kalimdor_43_45: merged - 1 of 256 chunks from Turtle
+- Kalimdor_43_46: merged - 72 of 256 chunks from Turtle
+- Kalimdor_43_47: merged - 106 of 256 chunks from Turtle (26 of them reshaped ground that keeps its 3.3.5 area)
+- Kalimdor_43_48: merged - 88 of 256 chunks from Turtle (15 of them reshaped ground that keeps its 3.3.5 area)
+- Kalimdor_43_49: merged - 45 of 256 chunks from Turtle
+- Kalimdor_43_50: merged - 0 of 256 chunks from Turtle
+- Kalimdor_44_45: merged - 69 of 256 chunks from Turtle
+- Kalimdor_44_46: merged - 256 of 256 chunks from Turtle
+- Kalimdor_44_47: merged - 256 of 256 chunks from Turtle
+- Kalimdor_44_48: merged - 256 of 256 chunks from Turtle
+- Kalimdor_44_49: merged - 256 of 256 chunks from Turtle
+- Kalimdor_44_50: merged - 0 of 256 chunks from Turtle
+- Kalimdor_45_45: merged - 112 of 256 chunks from Turtle (8 of them reshaped ground that keeps its 3.3.5 area)
+- Kalimdor_45_46: merged - 256 of 256 chunks from Turtle
+- Kalimdor_45_47: merged - 256 of 256 chunks from Turtle
+- Kalimdor_45_48: merged - 256 of 256 chunks from Turtle
+- Kalimdor_45_49: merged - 238 of 256 chunks from Turtle
+- Kalimdor_45_50: merged - 0 of 256 chunks from Turtle
+- Kalimdor_46_45: merged - 0 of 256 chunks from Turtle
+- Kalimdor_46_46: merged - 8 of 256 chunks from Turtle
+- Kalimdor_46_47: merged - 16 of 256 chunks from Turtle
+- Kalimdor_46_48: merged - 16 of 256 chunks from Turtle
+- Kalimdor_46_49: merged - 3 of 256 chunks from Turtle
+
+## Client assets (1)
+
+- 12 Turtle files (buildings, textures) shipped in the client patch
+
+## Model stand in (4)
+
+- WORLD\AZEROTH\DUSKWOOD\BUILDINGS\GYPSYWAGON\GYPSYWAGON2.M2 -> World\Azeroth\Duskwood\Buildings\GypsyWagon\GypsyWagon.m2
+- WORLD\KALIMDOR\BALOR\PASSIVEDOODADS\WATERFALLS\WaterfallRed.MDX -> World\Kalimdor\Mauradon\PassiveDoodads\Waterfalls\MaraudonCorruptedFalls03.m2
+- World\Azeroth\balor\shield_crest_a_02balor.MDX -> World\Azeroth\Elwynn\PassiveDoodads\BattleGladeShield1\BattleGladeShield1.m2
+- world\azeroth\Balor\BalorThrone.MDX -> World\Azeroth\Karazahn\PassiveDoodads\Throne\KarazahnThrone01.m2
+
+## New areas (9)
+
+- 5121 Tel'Abim (zone, map 1, exploration bit 3741, level 0)
+- 5122 The Shallow Strand (subzone of 5121, map 1, exploration bit 3742, level 54)
+- 5123 Tel Co. Basecamp (subzone of 5121, map 1, exploration bit 3743, level 52)
+- 5124 Bixxle's Storehouse (subzone of 5121, map 1, exploration bit 3744, level 55)
+- 5125 Highvale Rise (subzone of 5121, map 1, exploration bit 3745, level 56)
+- 5126 The Derelict Camp (subzone of 5121, map 1, exploration bit 3746, level 53)
+- 5127 Tazzo's Shack (subzone of 5121, map 1, exploration bit 3747, level 54)
+- 5128 The Jagged Isles (subzone of 5121, map 1, exploration bit 3748, level 58)
+- 5129 The Washing Shore (subzone of 5121, map 1, exploration bit 3749, level 54)
+
+## Existing templates (2)
+
+- 1 creature spawns of 1 templates 3.3.5 already has (AzerothCore's template is used)
+- 163 object spawns of 14 templates 3.3.5 already has (herbs, ore, chests ...)
+
+## Zone quests elsewhere (2)
+
+- quest 40758: given and turned in outside the zone ([8139] / [8139])
+- quest 40757: extra quest, given and turned in outside the zone or by an object ([8139] / [8139])
+
+## Display stand in (7)
+
+- 60955 Gelwig Darkbrow: Turtle display 18906 -> stand-in 6059
+- 61115 Wezzy Coppersaw: Turtle display 9132 -> stand-in 12409
+- 61116 Leezza Fraxtoggle: Turtle display 10746 -> stand-in 10746
+- 61117 Archaeologist Trixia Goldspark: Turtle display 18551 -> stand-in 7175
+- 61129 Wavecrest Explorer: Turtle display 9135 -> stand-in 4036
+- 61131 Wavecrest Tidefinder: Turtle display 9135 -> stand-in 4036
+- 61139 Darneg Darkbeard: Turtle display 18842 -> stand-in 8593
+
+## Cpp script (9)
+
+- 60955 Gelwig Darkbrow: Turtle C++ script 'npc_gelweg_darkbrow' (see manual/054_tel_abim.sql)
+- 61100 Tazzo Gearfire: Turtle C++ script 'npc_tazzo_gearfire' (see manual/054_tel_abim.sql)
+- 61101 Bixxle Screwfuse: Turtle C++ script 'npc_bixxle_screwfuse' (see manual/054_tel_abim.sql)
+- 61108 Wazlon Headiron: Turtle C++ script 'npc_wazlon_headiron' (see manual/054_tel_abim.sql)
+- 61110 Wrex Ozzlelight: Turtle C++ script '0' (see manual/054_tel_abim.sql)
+- 61111 Pumpworker Zalwan: Turtle C++ script 'npc_pumpworker_zalwan' (see manual/054_tel_abim.sql)
+- 61113 Sneel Fizzwack: Turtle C++ script 'npc_baron_telraz' (see manual/054_tel_abim.sql)
+- 61116 Leezza Fraxtoggle: Turtle C++ script 'npc_leeza_fraxtoggle' (see manual/054_tel_abim.sql)
+- 61157 Nibu: Turtle C++ script 'npc_nibu' (see manual/054_tel_abim.sql)
+
+## Spell sub (1)
+
+- Grimeclaw: spell 28131 Enrage -> stand-in 8599 Enrage
+
+## Trainer (2)
+
+- 61113 Sneel Fizzwack: Turtle trainer rows but no trainer flag - not a trainer
+- 61594 Dark Spirit of Loresh: Turtle trainer rows but no trainer flag - not a trainer
+
+## Loot (1)
+
+- 61594: lootid 61594 has no rows in Turtle's creature_loot_template - cleared
+
+## Go display added (11)
+
+- 2001781 World AZEROTH DUSKWOOD PASSIVEDOODADS Webs WebStretch01.mdx: new display row
+- 2002234 World AZEROTH WESTFALL PASSIVEDOODADS HaremPillow01 HaremPil: new display row
+- 2002873 World GENERIC DWARF PASSIVE DOODADS TABLES DwarvenTableAvera: new display row
+- 2003440 World GENERIC HUMAN PASSIVE DOODADS SACKS SackHerbsPeacebloo: new display row
+- 2003616 World GENERIC NIGHTELF PASSIVE DOODADS GlaiveThrower NightEl: new display row
+- 2004239 World GENERIC PASSIVEDOODADS LIGHTS CandleOff02.mdx: new display row
+- 2004560 World GENERIC QuilBoar Passive Doodads Huts Quillboar_small_: new display row
+- 2004698 World GENERIC TAUREN PASSIVE DOODADS TaurenCurtains TaurenBe: new display row
+- 2005319 World KALIMDOR DIREMAUL PassiveDoodads OGRELADDER DireMaulOg: new display row
+- 2010969 Inconspicuous Totem: new display row
+- 2020298 Tropical Wood Tree: new display row
+
+## Turtle only lock (1)
+
+- 2020298 Tropical Wood Tree: lock 1662 is a Turtle-only lock type (e.g. Survival gathering) - left out
+
+## Go no model (1)
+
+- 3000304 Sherpa_Bedroll_2: Turtle-only model with no stand-in (add one to go_model_substitutions)
+
+## Pools (1)
+
+- 26 spawn pools (89 objects, 0 creatures)
+
+## Area triggers (1)
+
+- Turtle trigger 4310 Tel'Abim - Tel Co. Basecamp (rest area) -> 5912
+
+## Graveyards (1)
+
+- Turtle graveyard 141 Tel\'Abim Island -> 1910
+
+## Flight paths (5)
+
+- node 435 Tel Co. Basecamp, Tel'Abim (Turtle 98)
+- path 2010: 39 -> 435, 14 points, cost 1020
+- path 2011: 435 -> 39, 14 points, cost 1020
+- path 2012: 40 -> 435, 16 points, cost 1020
+- path 2013: 435 -> 40, 16 points, cost 1020
+
+## World map (1)
+
+- WorldMapArea 2008 'TelAbim' + 6 subzone overlays, 35 map images
+
+## Objects waiting for the client patch (1)
+
+- 3000304 Sherpa_Bedroll_2 - `world\EXPANSION04\DOODADS\Sherpa\Sherpa_Bedroll_02.mdx`

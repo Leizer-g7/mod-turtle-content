@@ -1,0 +1,568 @@
+{
+  "_comment": "Paths are for the build machine. DBs: tw = Turtle world (Tortoise), ac = PRISTINE acore_world (without this module applied).",
+  "db": {
+    "unix_socket": "/run/mysqld/mysqld.sock",
+    "user": "root",
+    "password": "",
+    "host": "127.0.0.1",
+    "port": 3306
+  },
+  "tw_db": "tw_world",
+  "ac_db": "acore_world",
+  "tw_dbc": "/mnt/user-data/uploads/TWoW Data/dbc",
+  "ac_dbc": "/mnt/user-data/uploads/Acore Data/dbc",
+  "tw_maps": "/mnt/user-data/uploads/TWoW Data/maps",
+  "ac_maps": "/mnt/user-data/uploads/Acore Data/maps",
+  "client_patch_name": "patch-y.mpq",
+  "module_root": "../..",
+  "ids": {
+    "_comment": "Reserved ranges. Each zone gets slot*10000 GUIDs inside the creature/gameobject range. Taxi nodes must stay below 448 (client TaxiMask). dungeon_access_template.id is a TINYINT: the module uses 250-255, then 249 downwards. Turtle items whose id 3.3.5 uses for a different item get item_remap_base + their Turtle id. Turtle reputations whose id 3.3.5 uses for another faction get faction_base+ ids, new faction templates faction_template_base+, new reputations reputation indexes from reputation_index_base (client limit 128).",
+    "faction_base": 2001,
+    "faction_template_base": 3001,
+    "reputation_index_base": 105,
+    "guid_base": 9100000,
+    "guid_per_zone": 10000,
+    "reference_loot_base": 9100000,
+    "actionlist_base": 0,
+    "text_offset": 9000000,
+    "go_display_base": 30000,
+    "taxi_node_base": 441,
+    "taxi_path_base": 1990,
+    "taxi_path_node_base": 60000,
+    "areatrigger_base": 5900,
+    "graveyard_base": 1900,
+    "pool_base": 9100000,
+    "game_tele_base": 9100,
+    "dungeon_access_base": 250,
+    "item_remap_base": 1000000,
+    "_comment_client": "Client-table and server *_dbc ids the module allocates. Never 'stock max + 1': HD patches and other modules (mod-individual-progression) add their rows right after the stock ids, and a full-table patch then hides one side. Measured stock/HD maxima: LoadingScreens 300, MapDifficulty 754+, WorldMapArea 922, WorldMapOverlay 1641, Light 2546, LightParams 926, WMOAreaTable 51118.",
+    "loading_screen_base": 900,
+    "map_difficulty_base": 1000,
+    "world_map_area_base": 2000,
+    "world_map_overlay_base": 3000,
+    "light_base": 4000,
+    "light_params_base": 3000,
+    "wmo_area_base": 60000,
+    "creature_remap_base": 5000000
+  },
+  "area_id_remap": {
+    "_comment": "Turtle area ids that 3.3.5 uses for another area (Turtle reused Northrend ids). They get these ids in the client tiles, AreaTable, quests, WMO areas and world-map overlays. Never change one once shipped.",
+    "4018": 6100,
+    "4019": 6101,
+    "4020": 6102
+  },
+  "global_excludes": {
+    "_comment": "Turtle-only systems that do not exist on AzerothCore.",
+    "item_name_prefixes": [
+      "Plans: ",
+      "Design: "
+    ],
+    "item_ids_min_max_excluded": [
+      [
+        54000,
+        54999
+      ],
+      [
+        55000,
+        56999
+      ],
+      [
+        70000,
+        70999
+      ]
+    ],
+    "creature_script_names": [
+      "npc_scripted_companion",
+      "custom_npc_training_dummy"
+    ]
+  },
+  "creature_id_takeover": {
+    "_comment": "3.3.5 test templates nothing spawns or uses, whose ids Turtle gave to real creatures: the zone that spawns them writes Turtle's template over them and its rollback puts the stock rows back. The 3.3.5 name is checked at build time.",
+    "19": "Benny Questgiver",
+    "67": "[UNUSED] Marlon Darnik",
+    "82": "Crazy Leonetti",
+    "108": "Green Dragonspawn"
+  },
+  "creature_id_remap": {
+    "_comment": "Turtle creatures whose id 3.3.5 uses for a creature it spawns (so the id cannot be taken over): they get the id creature_remap_base + their Turtle id in every row the module writes (template, spawns, quests, scripts, texts). The value is the 3.3.5 name, checked at build time. Elder Moonhoof (Moonwhisper Coast) / Shoveltusk Forager; Lovely Pink Fox (Gilneas City) / Battlemage Vyara.",
+    "29479": "Shoveltusk Forager",
+    "22211": "Battlemage Vyara"
+  },
+  "lock_substitutions": {
+    "_comment": "Turtle locks that need a Turtle key item (no 3.3.5 Lock.dbc row can ask for it) -> a plain 3.3.5 lock; the zone's manual script makes the loot need the key.",
+    "1654": 43
+  },
+  "faction_keep_335": [
+    709
+  ],
+  "_faction_keep_335": "Turtle factions whose 3.3.5 row stays as it is (Battleground Neutral 709: Turtle gives it a hidden reputation; the Scarlet camp in Tirisfal uses its template 1194, which 3.3.5 has too).",
+  "spell_substitutions": {
+    "19285": 11980,
+    "7371": 3385,
+    "_comment": "Turtle spells that do not exist in 3.3.5, or whose id is a different spell there -> 3.3.5 stand-in (0 = drop).",
+    "44041": 18813,
+    "44042": 27532,
+    "44043": 0,
+    "44048": 25812,
+    "44049": 0,
+    "44050": 21547,
+    "44051": 20407,
+    "44052": 15245,
+    "44053": 15245,
+    "44100": 0,
+    "47386": 16568,
+    "52422": 15306,
+    "46309": 745,
+    "19134": 19134,
+    "19310": 32861,
+    "15584": 15284,
+    "44037": 9591,
+    "44038": 13445,
+    "44039": 12166,
+    "44044": 15242,
+    "44056": 17238,
+    "45997": 21547,
+    "44045": 0,
+    "5532": 15284,
+    "15622": 15284,
+    "7585": 9053,
+    "14267": 32908,
+    "51294": 11971,
+    "42035": 11430,
+    "15579": 15284,
+    "3019": 8599,
+    "51206": 8599,
+    "2495": 13953,
+    "5569": 13953,
+    "9754": 31279,
+    "28131": 8599,
+    "10876": 25779,
+    "24579": 31273,
+    "8269": 8599,
+    "44026": 9574,
+    "44027": 1490,
+    "44028": 11970,
+    "44032": 15039,
+    "15663": 15284,
+    "9907": 770,
+    "57097": 15618,
+    "52695": 18267,
+    "33397": 12255,
+    "33398": 3237,
+    "33399": 0,
+    "56519": 17228,
+    "56520": 41106,
+    "56523": 12749,
+    "45967": 9912,
+    "19299": 9835,
+    "17937": 11722,
+    "10941": 586,
+    "52915": 17204,
+    "57562": 9876,
+    "10875": 25779,
+    "45535": 23605,
+    "57668": 9835,
+    "57105": 12795
+  },
+  "item_spell_replacements": {
+    "57158": {
+      "stat": [
+        43,
+        3
+      ],
+      "note": "5% casting regen -> 3 mp5"
+    },
+    "8815": {
+      "stat": [
+        36,
+        20
+      ],
+      "note": "2% attack/cast speed -> 20 haste rating"
+    },
+    "46774": {
+      "spell": 20887,
+      "note": "Turtle thorns proc -> vanilla 'Thorns Dmg +2'"
+    }
+  },
+  "mount_spell_by_item": {
+    "_comment": "Turtle mount items (all use Turtle's generic mount spell 46499) -> the closest 3.3.5 mount spell; the item then teaches it like a stock mount item.",
+    "81237": 23249,
+    "81198": 22718,
+    "81192": 22719,
+    "81193": 23223,
+    "81194": 23225,
+    "81195": 23222,
+    "81233": 22720,
+    "80433": 60119,
+    "80438": 60116,
+    "81226": 60116,
+    "83157": 23229,
+    "950": 17481
+  },
+  "zones": [
+    "045_arathi_highlands",
+    "046_balor",
+    "047_stormwrought_ruins",
+    "048_northwind",
+    "049_grim_reaches",
+    "050_gilneas",
+    "051_gilneas_city",
+    "052_gillijims_isle",
+    "053_lapidis_isle",
+    "054_tel_abim",
+    "055_mount_hyjal",
+    "056_wetlands",
+    "057_dragonmaw_retreat",
+    "058_stranglethorn_vale",
+    "059_azshara",
+    "060_stormwind_city",
+    "061_stormwind_vault",
+    "062_thousand_needles",
+    "063_windhorn_canyon",
+    "064_swamp_of_sorrows",
+    "065_stonetalon_mountains",
+    "066_badlands",
+    "067_feralas",
+    "068_felwood",
+    "069_ashenvale",
+    "070_crescent_grove",
+    "071_dustwallow_marsh",
+    "072_tanaris",
+    "073_zulfarrak",
+    "074_dun_morogh",
+    "075_frostmane_hollow",
+    "076_mulgore",
+    "077_thunder_bluff",
+    "078_teldrassil",
+    "079_darnassus",
+    "080_eastern_plaguelands",
+    "081_tirisfal_glades",
+    "082_undercity",
+    "083_burning_steppes",
+    "084_hateforge_quarry",
+    "085_westfall",
+    "086_deadmines",
+    "087_moonwhisper_coast",
+    "088_wailing_caverns"
+  ],
+  "tw_client_assets": "/mnt/user-data/uploads/TWoW Data/turtle_extract/assets",
+  "map_extractor": "/home/claude/build_me/map_extractor",
+  "go_model_substitutions": {
+    "_comment": "Turtle object models that a 3.3.5 client does not have -> an existing 3.3.5 display id (number) or a 3.3.5 model path (text).",
+    "world\\expansion06\\doodads\\dalaran\\7dl_dalaran_paintingwitch01.mdx": 2850,
+    "world\\custom\\stbanner\\stbanner01.mdx": 6389,
+    "world\\custom\\stbanner\\stbanner02.mdx": 6389,
+    "world\\custom\\stbanner\\stbanner03.mdx": 6389,
+    "world\\generic\\goblin\\passivedoodads\\kezan\\chairs\\goblin_kezan_beachchair_01.mdx": 138,
+    "world\\generic\\goblin\\passivedoodads\\kezan\\chairs\\goblin_kezan_beachchair_02.mdx": 138,
+    "world\\generic\\goblin\\passivedoodads\\kezan\\items\\goblin_beachparasol_01.mdx": 7389,
+    "world\\generic\\goblin\\passivedoodads\\kezan\\items\\goblin_beachparasol_02.mdx": 7389,
+    "world\\azeroth\\westfall\\buildings\\church\\elwynnchurch.mdx": "World\\AZEROTH\\WESTFALL\\Buildings\\Church\\WestfallChurch.mdx",
+    "world\\generic\\petrock\\petrock01.mdx": 4311,
+    "world\\generic\\passivedoodads\\thanksgiving\\g_thanksgivingplate_01.mdx": "World\\Generic\\PassiveDoodads\\Thanksgiving\\G_ThanksgivingPlate_01.mdx",
+    "world\\generic\\passivedoodads\\mapleleaves\\maple_leaves01.mdx": 6884,
+    "world\\generic\\goblin\\passivedoodads\\tub\\goblin_tub_02.mdx": 7494,
+    "world\\azeroth\\elwynn\\passivedoodads\\elwynnbarn\\barnelwynn.mdx": 8057,
+    "world\\expansion03\\doodads\\wildhammer\\banner\\wildhammer_banner_01.mdx": 7721,
+    "spells\\creature_scourgerunecirclecrystal.mdx": 6679,
+    "world\\generic\\goblin\\passivedoodads\\oildrum\\goblin_oildrum_01.mdx": 6904,
+    "world\\generic\\owlbear\\rocks\\owlbearrock03.mdx": 6843
+  },
+  "client335": "/mnt/user-data/uploads/TWoW Data/turtle_extract/client335",
+  "m2_substitutions": {
+    "_comment": "Turtle-made doodad models (1.12 format, unreadable by 3.3.5) -> a 3.3.5 model with a similar look. Paths inside map tiles and buildings are rewritten.",
+    "world\\azeroth\\balor\\balorthrone": "World\\Azeroth\\Karazahn\\PassiveDoodads\\Throne\\KarazahnThrone01.m2",
+    "world\\azeroth\\balor\\shield_crest_a_02balor": "World\\Azeroth\\Elwynn\\PassiveDoodads\\BattleGladeShield1\\BattleGladeShield1.m2",
+    "world\\kalimdor\\balor\\passivedoodads\\waterfalls\\waterfallred": "World\\Kalimdor\\Mauradon\\PassiveDoodads\\Waterfalls\\MaraudonCorruptedFalls03.m2",
+    "world\\azeroth\\duskwood\\buildings\\gypsywagon\\gypsywagon2": "World\\Azeroth\\Duskwood\\Buildings\\GypsyWagon\\GypsyWagon.m2",
+    "world\\generic\\harvestgolemprop\\harvestgolemfull": "Creature\\GolemHarvest\\GolemHarvest.m2",
+    "world\\generic\\harvestgolemprop\\harvestgolembare": "Creature\\GolemHarvest\\GolemHarvest.m2",
+    "world\\generic\\harvestgolemprop\\harvestgolemnoback": "Creature\\GolemHarvest\\GolemHarvest.m2",
+    "world\\generic\\harvestgolemprop\\harvestgolemnohands": "Creature\\GolemHarvest\\GolemHarvest.m2",
+    "world\\generic\\harvestgolemprop\\harvestgolemnohead": "Creature\\GolemHarvest\\GolemHarvest.m2",
+    "world\\generic\\harvestgolemprop\\harvestgolemonehand": "Creature\\GolemHarvest\\GolemHarvest.m2"
+  },
+  "zone_music_substitutions": {
+    "_comment": "Turtle ZoneMusic ids that mean something else (or nothing) in 3.3.5 -> 3.3.5 ZoneMusic id (2 = Duskwood, 1 = Elwynn Forest). 563 (Turtle Windhorn Canyon; 3.3.5's 563 is Pit of Saron) -> 9 Plains (Thousand Needles). Moonwhisper Coast's own music (Turtle 570 Moonwhisper, 571 Moonwhisper Tauren, 572 Tyrandas, 510 WC3 Night Elf, 514 Indule; in 3.3.5 these ids are Zul'Farrak event and Ulduar music) -> 191 Dark Forest (Darkshore), 9 Plains, 11 Enchanted Forest (Ashenvale).",
+    "558": 2,
+    "559": 2,
+    "560": 2,
+    "548": 1,
+    "551": 227,
+    "563": 9,
+    "570": 191,
+    "571": 9,
+    "572": 11,
+    "510": 11,
+    "514": 191
+  },
+  "intro_music_substitutions": {
+    "_comment": "Turtle ZoneIntroMusicTable ids with no 3.3.5 equivalent.",
+    "626": 0,
+    "622": 0,
+    "623": 0,
+    "619": 0,
+    "301": 0,
+    "628": 0,
+    "630": 0
+  },
+  "quest_npc_substitutions": {
+    "_comment": "quest -> {Turtle quest NPC: 3.3.5 stand-in} for quest givers / turn-ins that exist in 3.3.5 but are never spawned there",
+    "41768": {
+      "1749": 29611
+    },
+    "80390": {
+      "80932": 23572
+    },
+    "80403": {
+      "80932": 23572
+    },
+    "80404": {
+      "80932": 23572
+    },
+    "40718": {
+      "80933": 23570
+    },
+    "40719": {
+      "80933": 23570
+    },
+    "40720": {
+      "80933": 23570
+    }
+  },
+  "client335_skip_archives": {
+    "_comment": "Archives of the 3.3.5 client (HD patches) whose map tiles are not used as the base of merged tiles: the merge starts from the standard 3.3.5 tile, and the module's patch-y wins over these anyway.",
+    "list": [
+      "patch-2.mpq",
+      "patch-3.mpq"
+    ]
+  },
+  "_client335": "Extract of the server owner's PLAY client (client335_extract.py). The build takes every client table and file it changes from the highest-priority archive there (build.py archive_rank), so the patch keeps the HD/other patches' rows. A different client (e.g. the Backup Client without patch-x) gives a patch that hides the play client's own changes.",
+  "tile_fixes": {
+    "_comment": "Applied to every shipped tile at the end of the build (Max's fixes, 2026-10-09). remove_placements: tile -> unique ids of placements to drop (3.3.5's Stormwind Harbor hangar blocks Turtle's Northwind gate). texture_substitutions: Turtle terrain textures that render flat neon green in the 3.3.5 client -> stock texture. dark_water_below: Turtle water keeps its 'deep' flag (server dark water, Fatigue) only over ground lower than this.",
+    "remove_placements": {
+      "World\\Maps\\Azeroth\\Azeroth_29_47.adt": [
+        2544788
+      ],
+      "World\\Maps\\Azeroth\\Azeroth_30_47.adt": [
+        2544788
+      ]
+    },
+    "texture_substitutions": {
+      "tileset\\duskwood\\duskwoodgrassbase04.blp": "Tileset\\SilverPine\\SilverPineGrass.blp",
+      "tileset\\duskwood\\duskwoodgrassthorns.blp": "Tileset\\Wetlands\\WetlandsGrassDark01.blp"
+    },
+    "dark_water_below": -60.0,
+    "seabed_from_turtle_server": {
+      "_comment": "Sea chunks more than deeper_than yards below Turtle's server height (TWoW Data maps, where Turtle has water over it) take Turtle's server heights; edges meet the unchanged chunks; MH2O depth = depth_per_yard x yards.",
+      "enabled": true,
+      "deeper_than": 30.0,
+      "depth_per_yard": 1.72,
+      "skip_chunks": {}
+    }
+  },
+  "never_ship": [
+    "tileset\\elwynn\\elwynncobblestonedock.blp",
+    "tileset\\elwynn\\elwynncobblestonedockdirt.blp",
+    "tileset\\duskwood\\duskwoodgrassbase04.blp",
+    "tileset\\duskwood\\duskwoodgrassthorns.blp",
+    "world\\wmo\\azeroth\\buildings\\guardtower\\guardtower_damaged.wmo",
+    "world\\wmo\\azeroth\\buildings\\guardtower\\guardtower_destroyed.wmo",
+    "world\\wmo\\kalimdor\\buildings\\dwarf\\ol_dwarven_watchtower.wmo",
+    "world\\wmo\\outland\\shadowmoon\\slagpit\\shadowmoon_slagpit01.wmo",
+    "world\\wmo\\northrend\\buildings\\human\\db_barracks.wmo",
+    "world\\wmo\\lorderon\\buildings\\zulaman\\ftroll_huts\\forrest_troll_hut2story.wmo",
+    "world\\wmo\\lorderon\\buildings\\zulaman\\ftroll_huts\\forrest_troll_hutsmall01.wmo"
+  ],
+  "_never_ship": "Turtle files with the names of stock 3.3.5 files that must not replace them (the Stormwind harbor dock textures), the Turtle textures tile_fixes replaces, and buildings (WMO roots; their groups go with them) Turtle copied from TBC/Wrath that the 3.3.5 client already has at the same path (found in AzerothCore's vmaps with the same group count): the client's own files are used.",
+  "reserved_client_ids": {
+    "_comment": "client-table ids the module must not use: Max's own rows in his patch-z (WorldMapOverlay: 3 Arathi rows, 3085-3087 earlier, now 3111-3113).",
+    "WorldMapOverlay": [
+      3085,
+      3086,
+      3087,
+      3111,
+      3112,
+      3113
+    ]
+  },
+  "ground_effects": {
+    "_comment": "Max's fixes 2026-10-09 (handoff section 4). rows: GroundEffectTexture rows written into the client's own table (weights all 1). copy = doodads and terrain type of a stock row; doodads = GroundEffectDoodad ids; neither = Turtle's own doodads matched to 3.3.5 models by name. 30004/30008 are not in Max's list (unverified guess: Turtle's doodads, density 10). retag: untagged layers of a texture get a row, only in new-zone chunks of those zones. no_clutter: noEffectDoodad on cells under water (surface more than water_above over the ground) or whose most visible texture is a road or sand, new-zone chunks only.",
+    "rows": {
+      "30000": {
+        "copy": 671,
+        "density": 12
+      },
+      "30002": {
+        "doodads": [
+          4,
+          5,
+          343,
+          347
+        ],
+        "density": 14
+      },
+      "30003": {
+        "doodads": [
+          4,
+          5,
+          343,
+          347
+        ],
+        "density": 11
+      },
+      "30004": {
+        "density": 10
+      },
+      "30008": {
+        "density": 10
+      },
+      "30014": {
+        "doodads": [
+          4,
+          5,
+          357,
+          141
+        ],
+        "density": 11
+      },
+      "30015": {
+        "doodads": [
+          4,
+          5,
+          357,
+          141
+        ],
+        "density": 11
+      },
+      "30016": {
+        "doodads": [
+          4,
+          5,
+          357,
+          141
+        ],
+        "density": 11
+      },
+      "30017": {
+        "copy": 382,
+        "density": 11
+      },
+      "30018": {
+        "copy": 453,
+        "density": 6
+      },
+      "30019": {
+        "copy": 407,
+        "density": 8
+      },
+      "30020": {
+        "doodads": [
+          4,
+          5,
+          16,
+          15
+        ],
+        "density": 10
+      },
+      "30021": {
+        "doodads": [
+          4,
+          5,
+          16,
+          15
+        ],
+        "density": 10
+      },
+      "30029": {
+        "doodads": [
+          4,
+          7,
+          348,
+          349
+        ],
+        "density": 10,
+        "terrain": 0
+      },
+      "30031": {
+        "doodads": [
+          4,
+          7,
+          348,
+          349
+        ],
+        "density": 10,
+        "terrain": 0
+      },
+      "30032": {
+        "doodads": [
+          16,
+          15,
+          4,
+          364
+        ],
+        "density": 8,
+        "terrain": 0
+      }
+    },
+    "retag": [
+      {
+        "zones": [
+          "050_gilneas",
+          "051_gilneas_city"
+        ],
+        "texture": "tileset\\darkshore\\darkshoredirt",
+        "from": [
+          0,
+          65535,
+          9906
+        ],
+        "to": 30029
+      },
+      {
+        "zones": [
+          "050_gilneas",
+          "051_gilneas_city"
+        ],
+        "texture": "tileset\\duskwood\\duskwooddirt2",
+        "from": [
+          0,
+          65535,
+          9906
+        ],
+        "to": 30031
+      },
+      {
+        "zones": [
+          "046_balor"
+        ],
+        "texture": "tileset\\loch modan\\lochmodandirt",
+        "from": [
+          0,
+          65535,
+          9906
+        ],
+        "to": 30032
+      }
+    ],
+    "no_clutter": {
+      "road": [
+        "road",
+        "cobble",
+        "brick",
+        "street",
+        "path"
+      ],
+      "sand": [
+        "sand",
+        "beach",
+        "shore"
+      ],
+      "sand_not": [
+        "grass",
+        "darkshore"
+      ],
+      "water_above": 0.2
+    }
+  }
+}

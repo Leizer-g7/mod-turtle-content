@@ -1,0 +1,177 @@
+# Dustwallow Marsh
+
+File: `data/sql/db-world/mod_turtle_027_dustwallow_marsh.sql`  
+Terrain mode: **turtle**
+
+## Counts
+
+- areatable_dbc: 1
+- creature: 128
+- creature_addon: 19
+- creature_equip_template: 16
+- creature_loot_template: 1713
+- creature_questender: 52
+- creature_queststarter: 53
+- creature_template: 39
+- creature_template_addon: 3
+- creature_template_model: 39
+- creature_template_movement: 39
+- gameobject: 85
+- gameobject_loot_template: 9
+- gameobject_questender: 2
+- gameobject_queststarter: 2
+- gameobject_template: 16
+- gameobject_template_addon: 7
+- gossip_menu: 11
+- npc_text: 11
+- npc_vendor: 7
+- quest_offer_reward: 58
+- quest_request_items: 58
+- quest_template: 58
+- quest_template_addon: 58
+- smart_scripts: 3
+- waypoint_data: 52
+
+## Client tiles (22)
+
+- Kalimdor_38_41: merged on top of an earlier zone's tile
+- Kalimdor_40_40: chunk 35 taken for Turtle's redridgesmalldock02.wmo
+- Kalimdor_40_40: chunk 157 taken for Turtle's westfall_human_farmb.wmo
+- Kalimdor_40_40: chunk 182 taken for Turtle's dustwallowfootbridge.wmo
+- Kalimdor_40_40: chunk 228 taken for Turtle's dustwallowfootbridge.wmo
+- Kalimdor_40_40: chunk 229 taken for Turtle's duskwoodabandoned_human_farm.wmo
+- Kalimdor_40_40: chunk 242 taken for Turtle's duskwoodabandoned_humantwostory.wmo
+- Kalimdor_40_40: chunk 245 taken for Turtle's dustwallowfootbridge.wmo
+- Kalimdor_40_41: chunk 21 taken for Turtle's dustwallowfootbridge.wmo
+- Kalimdor_40_41: chunk 52 taken for Turtle's duskwoodchapel.wmo
+- Kalimdor_40_41: chunk 53 taken for Turtle's duskwoodabandoned_human_farm.wmo
+- Kalimdor_40_41: chunk 54 taken for Turtle's duskwoodabandoned_human_farm.wmo
+- Kalimdor_40_41: chunk 55 taken for Turtle's duskwoodabandoned_human_farm.wmo
+- 0 reshaped chunks next to the zone taken (keep their 3.3.5 area); 3 reshaped chunks away from the zone left as 3.3.5
+- 134 edge points where Turtle's own tiles do not meet: both sides set to the average
+- seams between Turtle and 3.3.5 chunks: 33 edge points aligned (largest step 0.43 yd)
+- 0 edge points at the rim matched to the 3.3.5 tiles next to it
+- Kalimdor_39_40: merged - 17 of 256 chunks from Turtle
+- Kalimdor_39_41: merged - 10 of 256 chunks from Turtle
+- Kalimdor_40_40: merged - 167 of 256 chunks from Turtle
+- Kalimdor_40_41: merged - 87 of 256 chunks from Turtle
+- Kalimdor_41_40: merged - 3 of 256 chunks from Turtle
+
+## Client assets (1)
+
+- 0 Turtle files (buildings, textures) shipped in the client patch
+
+## Model stand in (4)
+
+- WORLD\AZEROTH\DUSKWOOD\BUILDINGS\GYPSYWAGON\GYPSYWAGON2.M2 -> World\Azeroth\Duskwood\Buildings\GypsyWagon\GypsyWagon.m2
+- WORLD\KALIMDOR\BALOR\PASSIVEDOODADS\WATERFALLS\WaterfallRed.MDX -> World\Kalimdor\Mauradon\PassiveDoodads\Waterfalls\MaraudonCorruptedFalls03.m2
+- World\Azeroth\balor\shield_crest_a_02balor.MDX -> World\Azeroth\Elwynn\PassiveDoodads\BattleGladeShield1\BattleGladeShield1.m2
+- world\azeroth\Balor\BalorThrone.MDX -> World\Azeroth\Karazahn\PassiveDoodads\Throne\KarazahnThrone01.m2
+
+## New areas (1)
+
+- 5114 Westhaven Hollow (subzone of 15, map 1, exploration bit 3796, level 36)
+
+## Spawned elsewhere (2)
+
+- Dockmaster Lorman (tw guid 2570534): already spawned by 050_gilneas (its extra_spawns)
+- Corporal Danmere (tw guid 2577475): already spawned by 050_gilneas (its extra_spawns)
+
+## Seasonal spawns (2)
+
+- 2 creature spawns that Turtle shows only during seasonal events left out
+- 44 object spawns that Turtle shows only during seasonal events left out
+
+## Existing templates (1)
+
+- 1 creature spawns of 1 templates 3.3.5 already has (AzerothCore's template is used)
+
+## Zone quests elsewhere (26)
+
+- quest 80390: given and turned in outside the zone ([3391] / [80932])
+- quest 40406: given and turned in outside the zone ([13476] / [13476])
+- quest 40402: given and turned in outside the zone ([4502] / [4502])
+- quest 40405: given and turned in outside the zone ([4879] / [4879])
+- quest 40408: given and turned in outside the zone ([4792] / [4792])
+- quest 40411: given and turned in outside the zone ([2616] / [2616])
+- quest 40548: given and turned in outside the zone ([4944] / [5088])
+- quest 40549: given and turned in outside the zone ([5088] / [5088])
+- quest 40550: given and turned in outside the zone ([5088] / [3442])
+- quest 40551: given and turned in outside the zone ([3442] / [3442])
+- quest 40552: given and turned in outside the zone ([3442] / [5088])
+- quest 40553: given and turned in outside the zone ([5088] / [4944])
+- quest 40554: given and turned in outside the zone ([4944] / [4944])
+- quest 40557: given and turned in outside the zone ([4944] / [5088])
+- quest 40558: given and turned in outside the zone ([5088] / [4944])
+- quest 40559: given and turned in outside the zone ([4944] / [4944])
+- quest 40563: given and turned in outside the zone ([4944] / [5088])
+- quest 40564: given and turned in outside the zone ([5088] / [4944])
+- quest 40578: given and turned in outside the zone ([4943] / [4926])
+- quest 40579: given and turned in outside the zone ([4926] / [5087])
+- quest 40719: extra quest, given and turned in outside the zone or by an object ([80933] / [80933])
+- quest 40555: extra quest, given and turned in outside the zone or by an object ([4944] / ['object 2010920'])
+- quest 40556: extra quest, given and turned in outside the zone or by an object (['object 2010920'] / [4944])
+- quest 40575: extra quest, given and turned in outside the zone or by an object ([3430] / [3430])
+- quest 40580: extra quest, given and turned in outside the zone or by an object ([5087] / ['object 2010923'])
+- quest 40581: extra quest, given and turned in outside the zone or by an object (['object 2010923'] / [4926])
+
+## Excluded in box (1)
+
+- 95 object spawns inside exclude_gameobject_boxes left out
+
+## Cpp script (9)
+
+- 60631 N'ribbi: Turtle C++ script 'npc_nribbi' (see manual/071_dustwallow_marsh.sql)
+- 60727 Colonel Breen: Turtle C++ script 'npc_colonel_breen' (see manual/071_dustwallow_marsh.sql)
+- 60729 Captain Wallace Cross: Turtle C++ script 'npc_captain_wallace_cross' (see manual/071_dustwallow_marsh.sql)
+- 60730 Captain Harker: Turtle C++ script 'npc_captain_harker' (see manual/071_dustwallow_marsh.sql)
+- 60731 Magus Halister: Turtle C++ script 'npc_magus_halister' (see manual/071_dustwallow_marsh.sql)
+- 60949 Private Talmand: Turtle C++ script 'npc_private_q_shields_owner' (see manual/071_dustwallow_marsh.sql)
+- 60950 Private Sleightor: Turtle C++ script 'npc_private_q_shields_owner' (see manual/071_dustwallow_marsh.sql)
+- 60951 Private Valnor: Turtle C++ script 'npc_private_q_shields_owner' (see manual/071_dustwallow_marsh.sql)
+- 61056 Kagoro: Turtle C++ script 'npc_kagoro' (see manual/071_dustwallow_marsh.sql)
+
+## Display stand in (9)
+
+- 60727 Colonel Breen: Turtle display 18802 -> stand-in 4839
+- 60728 Old Bryan: Turtle display 18803 -> stand-in 18623
+- 60729 Captain Wallace Cross: Turtle display 18804 -> stand-in 4839
+- 60730 Captain Harker: Turtle display 18805 -> stand-in 4839
+- 60731 Magus Halister: Turtle display 18806 -> stand-in 3666
+- 60732 Sergeant Terresa: Turtle display 18807 -> stand-in 3145
+- 61019 Private Glenndel: Turtle display 18969 -> stand-in 11372
+- 81250 Moxie Steelgrille: Turtle display 18555 -> stand-in 7175
+- 81258 Vixie Dampknob: Turtle display 11389 -> stand-in 11389
+
+## Quest spell (1)
+
+- quest 40353 The Way Of The Witch Doctor V: RewSpellCast spell 47263 Hex is 'Torture' in 3.3.5 - dropped (add a stand-in to spell_substitutions)
+
+## Go display added (4)
+
+- 2001945 World AZEROTH KARAZAHN PASSIVEDOODADS Barrel KarazahnBarrel0: new display row
+- 2003902 World GENERIC ORC PASSIVE DOODADS Rickshaw Rickshaw.mdx: new display row
+- 2020293 Shade Wood Tree: new display row
+- 3000248 Barrel of Oil: stand-in display 6904 (World\Generic\Human\Passive Doodads\OilDrums\oildrum01.mdx)
+
+## Turtle only lock (1)
+
+- 2020293 Shade Wood Tree: lock 1661 is a Turtle-only lock type (e.g. Survival gathering) - left out
+
+## Quest npc stand in (7)
+
+- quest 80403: Drazzit Dripvalve (80932) has no spawn in 3.3.5 - Drazzit Dripvalve (23572) stands in
+- quest 40719: Gizzix Grimegurgle (80933) has no spawn in 3.3.5 - Gizzix Grimegurgle (23570) stands in
+- quest 40720: Gizzix Grimegurgle (80933) has no spawn in 3.3.5 - Gizzix Grimegurgle (23570) stands in
+- quest 80390: Drazzit Dripvalve (80932) has no spawn in 3.3.5 - Drazzit Dripvalve (23572) stands in
+- quest 80404: Drazzit Dripvalve (80932) has no spawn in 3.3.5 - Drazzit Dripvalve (23572) stands in
+- quest 40718: Gizzix Grimegurgle (80933) has no spawn in 3.3.5 - Gizzix Grimegurgle (23570) stands in
+- quest 40719: Gizzix Grimegurgle (80933) has no spawn in 3.3.5 - Gizzix Grimegurgle (23570) stands in
+
+## Quest giver flag (1)
+
+- quest-giver flag added to 3.3.5 NPCs [1319, 5088, 10578] (Bryan Cross, Falgran Hastil, Bom'bay)
+
+## Quest chain (1)
+
+- quest 40352: PrevQuestID 40351 is not in this build - link removed

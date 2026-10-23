@@ -1,0 +1,81 @@
+{
+  "name": "Wailing Caverns",
+  "slot": 43,
+  "map": 43,
+  "zone_id": 718,
+  "map_dir": "WailingCaverns",
+  "terrain": "stock",
+  "_terrain": "Turtle's addition to the 3.3.5 dungeon: three new parts of the Wailing Caverns building (wailingcaverns_instance groups 23-25, WMO group ids 22027-22029): The Overgrowth (two parts, west of the Winding Chasm) with Vangros, the Unnatural Overgrowths and Deviates, and Kolkar Falls (east) with the Kolkar camp and Zandara Windhoof. Turtle's copy of the building is 3.3.5's (the same 23 parts with the same ids; every 3.3.5 collision vertex is in it except 11 of the Winding Chasm (5693) and 1 of 6419, where the openings to the new parts are) plus the three new parts. Shipped whole (ship_wmos); everything else stays 3.3.5.",
+  "ship_wmos": [
+    "World\\wmo\\Dungeon\\KL_Wailing\\wailingcaverns_instance.wmo"
+  ],
+  "all_spawns": true,
+  "_all_spawns": "Every Turtle spawn on map 43 of a template 3.3.5 does not have is this zone's (all of them stand in the new parts).",
+  "extra_spawns": [
+    2582998,
+    2582999,
+    2583213,
+    2583157,
+    2583158,
+    2583159,
+    2583160,
+    2583161,
+    2583162,
+    2583164,
+    2583165,
+    2583173,
+    2583174,
+    2583176,
+    2583172,
+    2583177,
+    2583179,
+    2583181,
+    2583182,
+    2583183,
+    2583184,
+    2583185,
+    2583186,
+    2583187,
+    2583189,
+    2583191,
+    2583195,
+    2583197,
+    2583198,
+    2583199,
+    2583200,
+    2583201,
+    2583202,
+    2583214,
+    2583215,
+    2583216,
+    2583217,
+    2583218,
+    2583219,
+    2583220
+  ],
+  "extra_gameobject_spawns": [
+    5018536,
+    5018537,
+    5018538,
+    5018539,
+    5018540,
+    5018545,
+    5018546,
+    5018553,
+    5018554
+  ],
+  "_extra_spawns": "Turtle's spawns of 3.3.5 templates in the new parts (Deviates, Biletoads, Evolving Ectoplasms; Serpentbloom and Liferoot): found by their distance to the new parts' geometry (closer to them than to any 3.3.5 part). Turtle's extra spawns of 3.3.5 templates in the old parts are not added.",
+  "wmo_area_ids": [
+    1143
+  ],
+  "wmo_area_groups": [
+    22027,
+    22028,
+    22029
+  ],
+  "_wmo_area_ids": "Room names of the new parts only (The Overgrowth x2, Kolkar Falls); 3.3.5 names its own rooms already.",
+  "ship_assets": true,
+  "notes": [
+    "Turtle's world map art and loading screen of the dungeon are not taken (3.3.5's stay)."
+  ]
+}

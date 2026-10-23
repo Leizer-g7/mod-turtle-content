@@ -1,0 +1,95 @@
+{
+  "name": "Lapidis Isle",
+  "slot": 8,
+  "map": 0,
+  "zone_id": 409,
+  "terrain": "turtle",
+  "_terrain": "Turtle's island north of Gillijim's Isle, west of Stranglethorn. 3.3.5 has deep open sea there (area 409 'Island of Doctor Lapidis' already). Six of its tiles are shared with Gillijim's Isle: the merge runs on top of Gillijim's result.",
+  "merge_region": {
+    "x": [
+      23,
+      27
+    ],
+    "y": [
+      51,
+      57
+    ],
+    "height_tolerance": 0.5,
+    "reshaped": "sea",
+    "reshaped_skip_zones": [
+      408
+    ],
+    "sea_below": -2.0,
+    "sea_take": {
+      "x": [
+        24,
+        26
+      ],
+      "y": [
+        52,
+        56
+      ]
+    },
+    "ocean_base": "World\\Maps\\Azeroth\\Azeroth_25_56.adt",
+    "stitch_onto": "donor",
+    "heal_turtle_seams": true,
+    "take_unnamed_land": true
+  },
+  "_merge_region": "Tiles Azeroth_23_51 .. Azeroth_27_57; the isle is on 24-26 x 52-56 (one tile of margin). Same options as Gillijim's Isle (README 'Terrain modes'); tiles Gillijim's Isle already ships are the base here, so both islands' chunks are kept.",
+  "zone_from_adt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5043": 3731,
+    "5044": 3732,
+    "5045": 3733,
+    "5046": 3734,
+    "5047": 3735,
+    "5048": 3736,
+    "5049": 3737,
+    "5050": 3738,
+    "5051": 3739,
+    "5072": 3740
+  },
+  "_area_bits": "Subzones 5043-5051 and 5072; the zone (409) is a 3.3.5 area already.",
+  "exclude_creatures": [],
+  "exclude_gameobjects": [],
+  "world_map": {
+    "tw_area": 409
+  },
+  "loading_screen": null,
+  "taxi_nodes": [
+    95
+  ],
+  "_taxi_nodes": "Caelan's Rest (Alliance).",
+  "graveyards": [
+    142
+  ],
+  "taverns": [
+    4
+  ],
+  "_taverns": "Caelan's Rest inn.",
+  "lights": [],
+  "wmo_area_ids": [],
+  "notes": [],
+  "spawn_existing_templates": true,
+  "exclude_quests": [],
+  "extra_creature_templates": [
+    60325,
+    60326,
+    60327,
+    60334,
+    60338,
+    60499
+  ],
+  "_extra_creature_templates": "Quest credits (The Boran Family x2, The Tower of Lapidis IV, The Hermit, The Maul'ogg Crisis III) and Fearoth, the dark presence of Uncovering Evil.",
+  "force_display": {},
+  "extra_spawns": [
+    2567508,
+    2567808,
+    2567511
+  ],
+  "_extra_spawns": "Samual Boran in Southshore (The Boran Family) and Pethax Blackhorn in Felwood (Pethax's Horn: The Tower of Lapidis VIII, The Maul'ogg Crisis V). Hargul the Hardy on the islet north of the isle (The Aqua Stone; his chunks carry no Turtle area).",
+  "_take_unnamed_land": "Turtle ground whose chunks carry no area at all (a small islet north of Lapidis Isle where Hargul the Hardy stands, two chunks by Gillijim) is taken with the sea bed.",
+  "spawns_in_whole_region": true,
+  "_spawns_in_whole_region": "Spawns are looked for over the whole merge region, not only inside Turtle's world-map rectangle of the zone."
+}

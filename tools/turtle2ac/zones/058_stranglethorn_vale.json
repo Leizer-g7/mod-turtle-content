@@ -1,0 +1,122 @@
+{
+  "name": "Stranglethorn Vale",
+  "slot": 13,
+  "map": 0,
+  "zone_id": 33,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle reworked lightly: a new subzone, Bloodsail Retreat, on the south coast (tiles 32_59 and 33_59), and new NPCs, quests and objects across the zone (Booty Bay, the Gurubashi Arena, Crystalvein Mine). The 3.3.5 Stranglethorn, its NPCs and quests stay; Turtle's additions are merged in.",
+  "merge_region": {
+    "x": [
+      31,
+      34
+    ],
+    "y": [
+      58,
+      60
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "own_exclude_areas": [
+      2338,
+      2339
+    ],
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "heal_turtle_seams": true,
+    "drop_removed_wmos": true
+  },
+  "zone_from_adt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5084": 3768
+  },
+  "spawn_existing_in_subzones": [
+    5084
+  ],
+  "exclude_creatures": [
+    40049,
+    50015,
+    50017,
+    50018,
+    50019,
+    50020,
+    50021,
+    50022,
+    50023,
+    50024,
+    50025,
+    50099,
+    61616,
+    61617,
+    61618,
+    61619,
+    61620,
+    61638,
+    61639,
+    51241,
+    51244,
+    51245,
+    51246,
+    51247,
+    51248,
+    51251,
+    51252,
+    52120,
+    52121,
+    51580,
+    51581,
+    50070
+  ],
+  "exclude_gameobjects": [
+    2010955,
+    2010960
+  ],
+  "exclude_quests": [
+    39984,
+    80401,
+    55028,
+    55029,
+    55030,
+    55031,
+    55051,
+    42041
+  ],
+  "notes": [],
+  "zone_from_335_tiles": true,
+  "_zone_from_335_tiles": "Turtle's server maps miss the north of Stranglethorn (Nesingwary's camp, Kurzen's Compound): where Turtle did not change a tile, the zone and subzone come from the 3.3.5 tile.",
+  "_merge_region": "own=changed: only the Stranglethorn chunks Turtle reshaped or gave its new subzone (Bloodsail Retreat, 25 chunks on tiles 32_59 and 33_59) are taken; the rest of the zone keeps its 3.3.5 ground. The South Seas / Great Sea areas (2338, 2339) belong to Stranglethorn in the area table but Turtle reshaped them for Gillijim's and Lapidis Isle: not the zone's own.",
+  "_exclude_creatures": "Turtle's Blood Ring at the Gurubashi Arena (Vizlow, Trixy Gollavix, Gorug, the Arena Spectators, Bradley Steel, the four Bloody Gladiator vendors, Grenthor, Frixxle Blastvalve): its Arena Marks and Tokens of Blood come from Turtle's arena system (C++), so its quests and vendors cannot work. The Shellcoin scene in Booty Bay (Marlos Catos and the investors: Turtle's C++ coin exchange). The rented riding wolves at Grom'gol (rented_mount). Rufus Hardwick, Turtle's Survival trainer.",
+  "_exclude_gameobjects": "The Shellcoin information panel and poster.",
+  "_exclude_quests": "39984 Rich and Convicted (a Shellcoin quest from Orgrimmar whose giver is not ported); 80401 To Build a Pounder (Oglethorpe; it follows Turtle's 80398 chain elsewhere and needs drops from Crimson Hammersmiths, which have no spawn); 55028-55031 and 55051, Shalgrig Pipeshack's chain between Booty Bay and Pazzle Brightwrench at Turtle's Sparkwater Port (new land in Durotar, not ported): it starts and ends there (55026, 55027, 55051). 42041 To Survive in the Jungle (Turtle's Survival profession).",
+  "extra_spawns": [
+    2569415,
+    2567775,
+    2567767
+  ],
+  "_extra_spawns": "Fazgel Mechaflame (Feralas; Mechaflame's Bargain and Highly Unexpected Event of Vil'do One-Tusk's chain), Wally Wisecrack (Hillsbrad; 'Wally Wisecrack' of 'Slip's chain), Yig Oilfuse (the Barrens; Delivery for Oilfuse / The Old Bonds).",
+  "extra_gameobject_spawns": [
+    5003651,
+    5003322,
+    5003323,
+    5003324,
+    5003325,
+    5000114,
+    4014218
+  ],
+  "_extra_gameobject_spawns": "Lyvdia Dawnbird and the four Highborne Golden Statues (Feralas; Taking the Booty Home), the Mysterious Shipment (Breaking Contracts), the Steamwheedle Barrel (Tanaris; Smuggling Ale).",
+  "extra_creature_templates": [
+    60328,
+    60330,
+    60331,
+    60332,
+    60333,
+    60354,
+    60355
+  ],
+  "_extra_creature_templates": "Quest credit dummies of the Bloodsail chain (Turtle's quest_*_dummy_triger creatures): 40174, 40186, 40187, 40172, 40180, 40354, 40362.",
+  "force_display": {
+    "50097": 2161
+  },
+  "_force_display": "Shadowhorn Stag: Turtle's model 21271 is not in 3.3.5 - the 3.3.5 stag (Crazed Stag's model).",
+  "_stock_spawns": "manual/058 removes three 3.3.5 Skymane Gorillas (guids 802, 808, 919) that stood where Turtle built Bloodsail Retreat (Turtle removed them); the rollback restores them."
+}

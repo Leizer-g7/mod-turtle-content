@@ -1,0 +1,275 @@
+# Grim Reaches
+
+File: `data/sql/db-world/mod_turtle_005_grim_reaches.sql`  
+Terrain mode: **turtle**
+
+## Counts
+
+- areatable_dbc: 20
+- conditions: 2
+- creature: 1394
+- creature_addon: 120
+- creature_equip_template: 74
+- creature_loot_template: 8673
+- creature_questender: 82
+- creature_queststarter: 73
+- creature_template: 126
+- creature_template_addon: 6
+- creature_template_model: 133
+- creature_template_movement: 126
+- creature_template_resistance: 21
+- creature_text: 21
+- gameobject: 520
+- gameobject_loot_template: 16
+- gameobject_queststarter: 3
+- gameobject_template: 40
+- gameobject_template_addon: 15
+- gossip_menu: 50
+- gossip_menu_option: 13
+- npc_text: 50
+- npc_vendor: 293
+- pool_gameobject: 176
+- pool_template: 4
+- quest_offer_reward: 82
+- quest_request_items: 80
+- quest_template: 82
+- quest_template_addon: 82
+- skinning_loot_template: 34
+- smart_scripts: 71
+- waypoint_data: 1148
+
+## Client tiles (30)
+
+- 329 reshaped chunks next to the zone taken (keep their 3.3.5 area); 379 reshaped chunks away from the zone left as 3.3.5
+- seams between Turtle and 3.3.5 chunks: 187 edge points aligned (largest step 0.46 yd)
+- Azeroth_39_37: merged - 119 of 256 chunks from Turtle (114 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_39_38: merged - 108 of 256 chunks from Turtle (50 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_39_39: merged - 78 of 256 chunks from Turtle (11 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_39_40: merged - 26 of 256 chunks from Turtle (5 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_40_37: merged - 86 of 256 chunks from Turtle (8 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_40_38: merged - 256 of 256 chunks from Turtle
+- Azeroth_40_39: merged - 256 of 256 chunks from Turtle
+- Azeroth_40_40: merged - 249 of 256 chunks from Turtle (9 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_40_41: merged - 222 of 256 chunks from Turtle (27 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_40_42: merged - 189 of 256 chunks from Turtle
+- Azeroth_40_43: merged - 192 of 256 chunks from Turtle
+- Azeroth_40_44: merged - 7 of 256 chunks from Turtle (3 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_41_37: merged - 107 of 256 chunks from Turtle (15 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_41_38: merged - 256 of 256 chunks from Turtle
+- Azeroth_41_39: merged - 256 of 256 chunks from Turtle
+- Azeroth_41_40: merged - 256 of 256 chunks from Turtle
+- Azeroth_41_41: merged - 256 of 256 chunks from Turtle
+- Azeroth_41_42: merged - 256 of 256 chunks from Turtle
+- Azeroth_41_43: merged - 255 of 256 chunks from Turtle (2 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_41_44: merged - 39 of 256 chunks from Turtle (8 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_42_37: merged - 22 of 256 chunks from Turtle (6 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_42_38: merged - 157 of 256 chunks from Turtle (13 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_42_39: merged - 205 of 256 chunks from Turtle (10 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_42_40: merged - 219 of 256 chunks from Turtle (11 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_42_41: merged - 205 of 256 chunks from Turtle (15 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_42_42: merged - 193 of 256 chunks from Turtle (14 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_42_43: merged - 127 of 256 chunks from Turtle (8 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_42_44: merged - 3 of 256 chunks from Turtle
+
+## Client assets (1)
+
+- 77 Turtle files (buildings, textures) shipped in the client patch
+
+## Model stand in (4)
+
+- WORLD\AZEROTH\DUSKWOOD\BUILDINGS\GYPSYWAGON\GYPSYWAGON2.M2 -> World\Azeroth\Duskwood\Buildings\GypsyWagon\GypsyWagon.m2
+- WORLD\KALIMDOR\BALOR\PASSIVEDOODADS\WATERFALLS\WaterfallRed.MDX -> World\Kalimdor\Mauradon\PassiveDoodads\Waterfalls\MaraudonCorruptedFalls03.m2
+- World\Azeroth\balor\shield_crest_a_02balor.MDX -> World\Azeroth\Elwynn\PassiveDoodads\BattleGladeShield1\BattleGladeShield1.m2
+- world\azeroth\Balor\BalorThrone.MDX -> World\Azeroth\Karazahn\PassiveDoodads\Throne\KarazahnThrone01.m2
+
+## Music stand in (1)
+
+- area 5602 Grim Reaches: zone music 551 -> 227
+
+## New areas (20)
+
+- 5602 Grim Reaches (zone, map 0, exploration bit 3663, level 35)
+- 5603 Dun Kithas (subzone of 5602, map 0, exploration bit 3664, level 35)
+- 5606 The Grim Hollow (subzone of 5602, map 0, exploration bit 3665, level 35)
+- 5607 Lake Kithas (subzone of 5602, map 0, exploration bit 3666, level 35)
+- 5608 Slatebeard's Forge (subzone of 5602, map 0, exploration bit 3667, level 35)
+- 5609 The High Pass (subzone of 5602, map 0, exploration bit 3668, level 35)
+- 5610 Baggoth's Wall (subzone of 5602, map 0, exploration bit 3669, level 35)
+- 5611 Sal'Galaz Mines (subzone of 5602, map 0, exploration bit 3670, level 35)
+- 5612 East Ridge Outpost (subzone of 5602, map 0, exploration bit 3671, level 35)
+- 5613 Baggoth's Rampart (subzone of 5602, map 0, exploration bit 3672, level 35)
+- 5614 Ruins of Stolgaz Keep (subzone of 5602, map 0, exploration bit 3673, level 35)
+- 5615 Groldan's Excavation (subzone of 5602, map 0, exploration bit 3674, level 35)
+- 5616 Zarm'geth Stronghold (subzone of 5602, map 0, exploration bit 3675, level 35)
+- 5617 Geth'kar (subzone of 5602, map 0, exploration bit 3676, level 35)
+- 5618 Zarm'geth Point (subzone of 5602, map 0, exploration bit 3677, level 35)
+- 5619 Shatterblade Post (subzone of 5602, map 0, exploration bit 3678, level 35)
+- 5620 Grim Batol Memorial (subzone of 5602, map 0, exploration bit 3679, level 35)
+- 5621 Brangar's Folly (subzone of 5602, map 0, exploration bit 3680, level 35)
+- 5630 Barleycrest Farmstead (subzone of 5602, map 0, exploration bit 3681, level 30)
+- 5639 Ruins of Grim Batol (subzone of 5602, map 0, exploration bit 3682, level 25)
+
+## Existing templates (2)
+
+- 84 creature spawns of 3 templates 3.3.5 already has (AzerothCore's template is used)
+- 204 object spawns of 22 templates 3.3.5 already has (herbs, ore, chests ...)
+
+## Zone quests elsewhere (1)
+
+- quest 41807: given and turned in outside the zone ([7406] / [7406])
+
+## Display stand in (54)
+
+- 60925 Lord Nazgrim Redbrand: Turtle display 18949 -> stand-in 3044
+- 62210 Dragonmaw Pillager: Turtle display 20774 -> stand-in 3760
+- 62211 Dragonmaw Handler: Turtle display 20739 -> stand-in 3868
+- 62213 Dragonmaw Renegade: Turtle display 20801 -> stand-in 1880
+- 62213 Dragonmaw Renegade: Turtle display 20802 -> stand-in 1332
+- 62214 Dragonmaw Flamebinder: Turtle display 20741 -> stand-in 4463
+- 62215 Dragonmaw Invader: Turtle display 20773 -> stand-in 1383
+- 62216 Dragonmaw Acolyte: Turtle display 20797 -> stand-in 11979
+- 62217 Geshgan Blackhollow: Turtle display 20799 -> stand-in 3849
+- 62218 Rethkag Mirefang: Turtle display 20795 -> stand-in 15352
+- 62219 Commander Korlag Doomsong: Turtle display 20800 -> stand-in 3849
+- 62220 Dragonmaw Darkweaver: Turtle display 20798 -> stand-in 3743
+- 62221 Dragonmaw Elite: Turtle display 20775 -> stand-in 6848
+- 62222 Dragonmaw Champion: Turtle display 20803 -> stand-in 4048
+- 62386 Mountaineer Steelwind: Turtle display 21020 -> stand-in 3837
+- 62387 Dorlegg Firegrip: Turtle display 21005 -> stand-in 13371
+- 62388 Mountaineer Lightboots: Turtle display 21021 -> stand-in 3870
+- 62389 Enumerator Gravelcrest: Turtle display 21009 -> stand-in 3089
+- 62390 Sorgan Trustgrip: Turtle display 21025 -> stand-in 3430
+- 62391 Historian Sternhand: Turtle display 21014 -> stand-in 8596
+- 62392 Telga Wildward: Turtle display 21008 -> stand-in 9338
+- 62393 Keeper Blackforge: Turtle display 21015 -> stand-in 9946
+- 62394 Dandegg Shortbelly: Turtle display 21001 -> stand-in 1835
+- 62395 Magistrate Hurdam Toughhand: Turtle display 21016 -> stand-in 1835
+- 62396 Alfog Bravebrew: Turtle display 21004 -> stand-in 3042
+- 62397 Marshal Rorin Palepike: Turtle display 21019 -> stand-in 11424
+- 62398 Velwin Gravelcrest: Turtle display 21029 -> stand-in 1401
+- 62399 Harfig Ironbrow: Turtle display 18987 -> stand-in 1354
+- 62403 Vohand Blundergate: Turtle display 21010 -> stand-in 3415
+- 62407 Hilga Snowbrew: Turtle display 21013 -> stand-in 13806
+- 62411 Foreman Kegg Boulderboots: Turtle display 18986 -> stand-in 2283
+- 62414 Prospector Dustshoulder: Turtle display 18950 -> stand-in 3074
+- 62417 Farleg Slatebeard: Turtle display 18998 -> stand-in 4899
+- 62418 Margella Slatebeard: Turtle display 21018 -> stand-in 6755
+- 62419 Grukson Slatebeard: Turtle display 18951 -> stand-in 10462
+- 62423 Gimban Togglefuse: Turtle display 20338 -> stand-in 24395
+- 62424 Shatterblade Grunt: Turtle display 21023 -> stand-in 13301
+- 62424 Shatterblade Grunt: Turtle display 21024 -> stand-in 13302
+- 62425 Grunt Morkan: Turtle display 21011 -> stand-in 4544
+- 62428 Ragnaz: Turtle display 21022 -> stand-in 31564
+- 62429 Bargolnak: Turtle display 21002 -> stand-in 11434
+- 62430 Targen Bladecall: Turtle display 21027 -> stand-in 1332
+- 62431 Harlekk: Turtle display 21012 -> stand-in 2740
+- 62432 Far Seer Mothang: Turtle display 21006 -> stand-in 1388
+- 62433 Commander Aggnash: Turtle display 21003 -> stand-in 13301
+- 62434 Advisor Ranagg: Turtle display 21007 -> stand-in 15387
+- 62436 Hagrekk: Turtle display 21026 -> stand-in 4294
+- 62437 Maktha: Turtle display 21017 -> stand-in 2885
+- 62439 Tashga: Turtle display 21028 -> stand-in 25050
+- 62442 Yor'thegg the Wise: Turtle display 21030 -> stand-in 1371
+- 62732 Ranger Sinastria Viltmoore: Turtle display 21263 -> stand-in 28153
+- 62733 Ranger Darthal Whitemane: Turtle display 21264 -> stand-in 20266
+- 62734 Ranger Faellina Swiftstride: Turtle display 21265 -> stand-in 16036
+- 62747 Reach Ram: Turtle display 21266 -> stand-in 10000
+
+## Spell sub (2)
+
+- Commander Korlag Doomsong: spell 19134 Intimidating Shout -> stand-in 19134 Frightening Shout
+- Dragonmaw Champion: spell 15579 Cleave -> stand-in 15284 Cleave
+
+## Eventai (1)
+
+- 62227 Elder Stonehide Boar: spell 3019 Enrage -> stand-in 8599 Enrage
+
+## Trainer (1)
+
+- 62428 Ragnaz: Turtle trainer rows but no trainer flag - not a trainer
+
+## Cpp script (1)
+
+- 62725 Thromrar Darkflame: Turtle C++ script 'npc_thromrar_darkflame' (see manual/049_grim_reaches.sql)
+
+## Gossip text dropped (1)
+
+- menu 41904 option 0: Turtle script 4190402 text line not shown
+
+## Gossip (2)
+
+- menu 41904 option 0: Turtle gossip script 4190402 -> SmartAI Summon 62585 (Turtle delays of up to 3s dropped)
+- menu 6242104 option 0: Turtle gossip script 6242104 -> SmartAI Quest credit 60081
+
+## Item quests (1)
+
+- quest 41734 Damaged Relic Mechanism: started by Damaged Relic Mechanism, turned in to Jarkal Mossmeld
+
+## Quest scripts (2)
+
+- 41731 The Ritual of Uth'okk: Turtle start/complete script 41731/0 (not ported)
+- 41807 I Am Become Death...: Turtle start/complete script 0/4180701 (not ported)
+
+## Go display added (7)
+
+- 2003989 World GENERIC ORC PASSIVE DOODADS TaxiFlags OrcTaxiFlag.mdx: new display row
+- 2010578 World EXPANSION01 DOODADS GENERIC BLOODELF BARREL BE_Barrel_: new display row
+- 2010654 HE_Wagon_01: new display row
+- 2020192 Reachroot: new display row
+- 2020243 Banner of Baggoth: stand-in display 7721 (WORLD\GENERIC\HUMAN\PASSIVE DOODADS\BANNERS\DWARVENBANNER01.MDX)
+- 2020248 Stone Brick: new display row
+- 2020289 Shade Wood Tree: new display row
+
+## Turtle only lock (1)
+
+- 2020289 Shade Wood Tree: lock 1661 is a Turtle-only lock type (e.g. Survival gathering) - left out
+
+## Pools (1)
+
+- 4 spawn pools (176 objects, 0 creatures)
+
+## Area triggers (2)
+
+- Turtle trigger 1702 Grim Reaches - Shatterblade Point Inn (rest area) -> 5905
+- Turtle trigger 1703 Grim Reaches - Dun Kithas Inn (rest area) -> 5906
+
+## Graveyards (2)
+
+- Turtle graveyard 14 Grim Reaches, Dun Kithas -> 1904
+- Turtle graveyard 15 Grim Reaches, Grim Batol Memorial -> 1905
+
+## Flight paths (6)
+
+- node 444 Shatterblade Post, Grim Reaches (Turtle 90)
+- node 445 Dun Kithas, Grim Reaches (Turtle 91)
+- path 1998: 444 -> 17, 37 points, cost 330
+- path 1999: 17 -> 444, 37 points, cost 330
+- path 2000: 8 -> 445, 27 points, cost 330
+- path 2001: 445 -> 8, 27 points, cost 330
+
+## Wmo areas (1)
+
+- 10 WMOAreaTable rows (room names) for WMO ids [7026, 7060]
+
+## World map (1)
+
+- WorldMapArea 2003 'GrimReaches' + 16 subzone overlays, 46 map images
+
+## Lights (4)
+
+- Light 4008 (Turtle 563) params [3014, 3015, 3016, 3015, 3]
+- Light 4009 (Turtle 564) params [3008, 3009, 3010, 3009, 4]
+- Light 4010 (Turtle 565) params [3011, 3012, 3013, 3012, 4]
+- Light 4011 (Turtle 566) params [3011, 3012, 3013, 3012, 4]
+
+## Quest giver flag (1)
+
+- quest-giver flag added to 3.3.5 NPCs [2818] (Slagg)
+
+## Quest chain (1)
+
+- quest 41848: PrevQuestID 41847 is not in this build - link removed
+
+## Script spells (1)
+
+- spell 51206 Enrage -> stand-in 8599 Enrage

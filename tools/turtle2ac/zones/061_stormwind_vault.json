@@ -1,0 +1,69 @@
+{
+  "name": "Stormwind Vault",
+  "slot": 16,
+  "map": 35,
+  "zone_id": 5087,
+  "terrain": "turtle",
+  "map_dir": "StormwindPrison",
+  "_map": "Map 35 is 'StormwindPrison' in both clients: the Stormwind Vault map Blizzard left unused (a WMO-only map). Turtle made it a 5-player dungeon (level 58+) without changing its files; 3.3.5 has the same map as a non-instance map, so the module replaces its Map row with an instance row (existing_map).",
+  "all_spawns": true,
+  "ship_assets": false,
+  "_ship_assets": "Nothing to ship but the world map art (world_map): the map's WMO and the dungeon loading screen are 3.3.5's own.",
+  "area_bits": {
+    "5087": 3772
+  },
+  "area_templates": {
+    "5087": 209
+  },
+  "_area_templates": "Shadowfang Keep's area flags.",
+  "spawn_existing_templates": true,
+  "instance": {
+    "map_name": "Stormwind Vault",
+    "instance_type": 1,
+    "max_players": 5,
+    "min_level": 58,
+    "template_map": 33,
+    "existing_map": true,
+    "corpse": [
+      0,
+      -8667.6,
+      623.6
+    ],
+    "loading_screen": "Interface\\Glues\\LoadingScreens\\LoadScreenDungeon.blp",
+    "_loading_screen": "Turtle uses the generic dungeon loading screen (LoadingScreens 23).",
+    "areatriggers": [
+      [
+        107,
+        "enter"
+      ],
+      [
+        5002,
+        "enter"
+      ],
+      [
+        5003,
+        "enter"
+      ],
+      [
+        109,
+        "exit"
+      ]
+    ],
+    "_areatriggers": "Turtle's entrances: 107 and 5002 in Stormwind, 5003 at Mirror Lake (Elwynn); 109 the exit inside (to Stormwind).",
+    "graveyard": {
+      "map": 0,
+      "x": -9339.46,
+      "y": 171.41,
+      "z": 61.56,
+      "o": 0.0
+    },
+    "_graveyard": "Turtle's graveyard for the Vault: WorldSafeLocs 41 (Northshire / Elwynn, Alliance; 111 for the Horde is further away), {map,x,y,z,o}."
+  },
+  "world_map": {
+    "tw_area": 5087
+  },
+  "notes": [],
+  "exclude_quests": [],
+  "extra_quests": [],
+  "extra_spawns": []
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Northwind",
+  "slot": 3,
+  "map": 0,
+  "zone_id": 5581,
+  "terrain": "turtle",
+  "_terrain": "Turtle's forest north of Stormwind. Its map tiles are shared with Stormwind City, the harbor, Dun Morogh, Searing Gorge and Elwynn, so each tile is the 3.3.5 one with Turtle's chunks merged in (merge_region).",
+  "merge_region": {
+    "x": [
+      28,
+      33
+    ],
+    "y": [
+      43,
+      48
+    ],
+    "height_tolerance": 0.5
+  },
+  "_merge_region": "Tiles Azeroth_28_43 .. Azeroth_33_48. A chunk comes from Turtle when Turtle marks it Northwind or reshaped its ground (more than height_tolerance yards); reshaped chunks outside Northwind keep their 3.3.5 area. Chunk edges are then made to meet exactly.",
+  "zone_from_adt": true,
+  "_zone_from_adt": "Which spawns belong to the zone is read from the area id of Turtle's map chunks (Turtle's server maps put some Elwynn and Stormwind spawns in Northwind).",
+  "ship_assets": true,
+  "area_bits": {
+    "5581": 3641,
+    "5582": 3642,
+    "5583": 3643,
+    "5584": 3644,
+    "5585": 3645,
+    "5586": 3646,
+    "5587": 3647,
+    "5588": 3648,
+    "5589": 3649,
+    "5590": 3650,
+    "5591": 3651,
+    "5592": 3652,
+    "5593": 3653,
+    "5594": 3654,
+    "5595": 3655,
+    "5596": 3656,
+    "5597": 3657,
+    "5622": 3658,
+    "5623": 3659,
+    "5624": 3660,
+    "5625": 3661,
+    "5626": 3662
+  },
+  "area_templates": {
+    "5581": 12
+  },
+  "_area_templates": "3.3.5 area whose flags (and its subzones' flags) the new zone copies: Elwynn Forest.",
+  "exclude_creatures": [],
+  "exclude_gameobjects": [],
+  "world_map": {
+    "tw_area": 5581
+  },
+  "loading_screen": null,
+  "taxi_nodes": [
+    82
+  ],
+  "_taxi_nodes": "Ambershire (Alliance), with Turtle's path to Stormwind.",
+  "graveyards": [
+    10,
+    11
+  ],
+  "_graveyards": "Northwind, Alliance and Northwind, Horde.",
+  "taverns": [
+    1700
+  ],
+  "_taverns": "Ambershire Inn rest area.",
+  "lights": [
+    555,
+    556,
+    558
+  ],
+  "_lights": "Turtle's sky/fog lights inside Northwind.",
+  "wmo_area_ids": [
+    7023
+  ],
+  "_wmo_area_ids": "Amberwood Keep room names.",
+  "notes": [],
+  "spawn_existing_templates": true,
+  "exclude_quests": [],
+  "extra_creature_templates": [
+    60063,
+    60064,
+    60065,
+    60066,
+    60067,
+    60068,
+    60070,
+    60071,
+    60078,
+    62691,
+    62692,
+    62693,
+    62694,
+    62695,
+    62696,
+    62702,
+    62703,
+    62704,
+    62705
+  ],
+  "_extra_creature_templates": "Creatures with no spawn: invisible quest-credit NPCs and the ten jousters Duke Sherwood's show summons (manual/048_northwind.py).",
+  "force_display": {
+    "33000": 29938,
+    "90975": 29937,
+    "90976": 28918,
+    "40004": 5554,
+    "62129": 6193,
+    "62493": 6193,
+    "62130": 304,
+    "62443": 5556
+  },
+  "_force_display": "Turtle-made models with no 3.3.5 file: armoured tournament horses -> Argent Tournament warhorses, fox -> orange cat, ducks -> chickens, Cheese Wizard (a cat) -> black cat."
+}

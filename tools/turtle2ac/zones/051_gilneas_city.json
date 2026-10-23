@@ -1,0 +1,88 @@
+{
+  "name": "Gilneas City",
+  "slot": 6,
+  "map": 815,
+  "zone_id": 5208,
+  "terrain": "turtle",
+  "map_dir": "Giln",
+  "_map": "Turtle instance map 815 (10-player dungeon, a walled-off copy of Gilneas City). Map 815 is unused in 3.3.5.",
+  "all_spawns": true,
+  "terrain_tiles": [
+    "25_32",
+    "25_33",
+    "25_34",
+    "25_35",
+    "26_32",
+    "26_33",
+    "26_34",
+    "26_35",
+    "27_32",
+    "27_33",
+    "27_34",
+    "27_35",
+    "28_32",
+    "28_33",
+    "28_34",
+    "28_35"
+  ],
+  "ship_wdt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5208": 3711,
+    "5209": 3712
+  },
+  "area_templates": {
+    "5208": 209
+  },
+  "_area_templates": "Shadowfang Keep's area flags.",
+  "extra_creature_templates": [],
+  "force_display": {
+    "61426": 522,
+    "61643": 6299,
+    "22211": 161
+  },
+  "spawn_existing_templates": true,
+  "instance": {
+    "map_name": "Gilneas City",
+    "instance_type": 1,
+    "max_players": 10,
+    "min_level": 40,
+    "template_map": 33,
+    "_min_level": "Turtle's value (the entrance trigger says level 40).",
+    "corpse": [
+      0,
+      -1765.49,
+      1607.01
+    ],
+    "loading_screen": "Interface\\GLUES\\LoadingScreens\\LoadScreenGilneasCity.blp",
+    "areatriggers": [
+      [
+        5014,
+        "enter"
+      ],
+      [
+        5015,
+        "exit"
+      ]
+    ],
+    "graveyard": {
+      "map": 0,
+      "x": -1765.49,
+      "y": 1607.01,
+      "z": 58.16,
+      "o": 0.0
+    },
+    "_graveyard": "Turtle's Gilneas graveyard (WorldSafeLocs 136), which Turtle also uses for the instance. Always {map,x,y,z,o}."
+  },
+  "world_map": {
+    "tw_area": 5208
+  },
+  "wmo_area_ids": [
+    5196
+  ],
+  "lights": [
+    546
+  ],
+  "notes": [],
+  "_force_display": "Darkpelt Shadowcaster (worgen caster) -> black worgen, Raven -> black owl. Lovely Pink Fox (Turtle's Mistfox model) -> Coyote's display (161), as for Westfall's Young Brown Fox."
+}

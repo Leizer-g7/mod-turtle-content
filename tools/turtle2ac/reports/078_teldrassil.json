@@ -1,0 +1,79 @@
+{
+ "zone": "078_teldrassil",
+ "name": "Teldrassil",
+ "file": "mod_turtle_034_teldrassil.sql",
+ "terrain": "turtle",
+ "custom_subzones": [
+  5627
+ ],
+ "counts": {
+  "areatable_dbc": 1,
+  "creature_template": 13,
+  "creature_template_model": 13,
+  "creature_template_movement": 13,
+  "creature_equip_template": 4,
+  "smart_scripts": 6,
+  "creature_text": 2,
+  "creature": 80,
+  "waypoint_data": 97,
+  "creature_addon": 5,
+  "npc_text": 2,
+  "gossip_menu": 2,
+  "creature_loot_template": 365,
+  "quest_template": 11,
+  "quest_template_addon": 11,
+  "quest_offer_reward": 11,
+  "quest_request_items": 10,
+  "creature_queststarter": 10,
+  "creature_questender": 9,
+  "gameobject_template": 1,
+  "gameobject_loot_template": 1,
+  "gameobject": 2
+ },
+ "go_pending": [],
+ "notes": {
+  "client_tiles": [
+   "Kalimdor_28_14: chunk 160 taken for Turtle's nightelfmoonwellornate.wmo",
+   "0 reshaped chunks next to the zone taken (keep their 3.3.5 area); 0 reshaped chunks away from the zone left as 3.3.5",
+   "77 edge points where Turtle's own tiles do not meet: both sides set to the average",
+   "seams between Turtle and 3.3.5 chunks: 34 edge points aligned (largest step 0.46 yd)",
+   "0 edge points at the rim matched to the 3.3.5 tiles next to it",
+   "Kalimdor_27_14: merged - 67 of 256 chunks from Turtle",
+   "Kalimdor_28_14: merged - 113 of 256 chunks from Turtle"
+  ],
+  "client_assets": [
+   "0 Turtle files (buildings, textures) shipped in the client patch"
+  ],
+  "model_stand_in": [
+   "WORLD\\AZEROTH\\DUSKWOOD\\BUILDINGS\\GYPSYWAGON\\GYPSYWAGON2.M2 -> World\\Azeroth\\Duskwood\\Buildings\\GypsyWagon\\GypsyWagon.m2",
+   "WORLD\\KALIMDOR\\BALOR\\PASSIVEDOODADS\\WATERFALLS\\WaterfallRed.MDX -> World\\Kalimdor\\Mauradon\\PassiveDoodads\\Waterfalls\\MaraudonCorruptedFalls03.m2",
+   "World\\Azeroth\\balor\\shield_crest_a_02balor.MDX -> World\\Azeroth\\Elwynn\\PassiveDoodads\\BattleGladeShield1\\BattleGladeShield1.m2",
+   "world\\azeroth\\Balor\\BalorThrone.MDX -> World\\Azeroth\\Karazahn\\PassiveDoodads\\Throne\\KarazahnThrone01.m2"
+  ],
+  "new_areas": [
+   "5627 Ursan Heights (subzone of 141, map 1, exploration bit 3805, level 10)"
+  ],
+  "seasonal_spawns": [
+   "71 creature spawns that Turtle shows only during seasonal events left out",
+   "261 object spawns that Turtle shows only during seasonal events left out"
+  ],
+  "zone_quests_elsewhere": [
+   "quest 60111: given and turned in outside the zone ([2151] / [2151])",
+   "quest 60143: given and turned in outside the zone ([3611] / [3611])",
+   "quest 40300: given and turned in outside the zone ([3607] / [7295])",
+   "quest 40205: given and turned in outside the zone ([60473] / [60473])"
+  ],
+  "display_stand_in": [
+   "62718 Drethanis Mournshade: Turtle display 21224 -> stand-in 1701"
+  ],
+  "go_display_added": [
+   "2020270 Simple Wood Tree: new display row"
+  ],
+  "turtle_only_lock": [
+   "2020270 Simple Wood Tree: lock 1665 is a Turtle-only lock type (e.g. Survival gathering) - left out"
+  ],
+  "quest_giver_flag": [
+   "quest-giver flag added to 3.3.5 NPCs [7295] (Shailiea)"
+  ]
+ }
+}

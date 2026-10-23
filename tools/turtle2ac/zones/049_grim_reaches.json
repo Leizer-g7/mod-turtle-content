@@ -1,0 +1,102 @@
+{
+  "name": "Grim Reaches",
+  "slot": 4,
+  "map": 0,
+  "zone_id": 5602,
+  "terrain": "turtle",
+  "_terrain": "Turtle's highlands east of Loch Modan and the Wetlands, raised out of what is open sea (The Forbidding Sea) in 3.3.5. Its map tiles also hold the edges of the Wetlands and Loch Modan, so they are merged.",
+  "merge_region": {
+    "x": [
+      38,
+      42
+    ],
+    "y": [
+      36,
+      45
+    ],
+    "height_tolerance": 0.5,
+    "reshaped": "connected"
+  },
+  "_merge_region": "Tiles Azeroth_38_36 .. Azeroth_42_45. reshaped=connected: Turtle's reshaped ground is only taken where it touches Grim Reaches; Turtle's other edits in these tiles (Badlands, Lethlor Ravine, Grim Batol) stay 3.3.5.",
+  "zone_from_adt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5602": 3663,
+    "5603": 3664,
+    "5606": 3665,
+    "5607": 3666,
+    "5608": 3667,
+    "5609": 3668,
+    "5610": 3669,
+    "5611": 3670,
+    "5612": 3671,
+    "5613": 3672,
+    "5614": 3673,
+    "5615": 3674,
+    "5616": 3675,
+    "5617": 3676,
+    "5618": 3677,
+    "5619": 3678,
+    "5620": 3679,
+    "5621": 3680,
+    "5630": 3681,
+    "5639": 3682
+  },
+  "area_templates": {
+    "5602": 11
+  },
+  "_area_templates": "3.3.5 area whose flags (and its subzones' flags) the new zone copies: Wetlands.",
+  "exclude_creatures": [],
+  "exclude_gameobjects": [],
+  "world_map": {
+    "tw_area": 5602
+  },
+  "loading_screen": null,
+  "taxi_nodes": [
+    90,
+    91
+  ],
+  "_taxi_nodes": "Shatterblade Post (Horde, to Hammerfall) and Dun Kithas (Alliance, to Thelsamar).",
+  "graveyards": [
+    14,
+    15
+  ],
+  "taverns": [
+    1702,
+    1703
+  ],
+  "_taverns": "Shatterblade Point Inn and Dun Kithas Inn.",
+  "lights": [
+    563,
+    564,
+    565,
+    566
+  ],
+  "wmo_area_ids": [
+    7026,
+    7060
+  ],
+  "notes": [],
+  "spawn_existing_templates": true,
+  "exclude_quests": [
+    41733,
+    41976,
+    41847
+  ],
+  "extra_creature_templates": [
+    60079,
+    60081,
+    62585
+  ],
+  "_extra_creature_templates": "Quest-credit creatures with no spawn.",
+  "extra_spawns": [
+    2572434,
+    2586978
+  ],
+  "_extra_spawns": "Lord Nazgrim Redbrand and Tarwegg Dustbrow in Ironforge: 'Ore Must Flow' is turned in to / started by Nazgrim, 'Damaged Relic Mechanism' is turned in to Tarwegg.",
+  "_exclude_quests": "Tarwegg's other quests: 'Rebuilding the Relic' needs a Turtle drop from 3.3.5's Uldaman Stone Keepers, 'In Search of Tauren Relics' belongs to Windhorn Canyon (not ported). 'Honoring Old Alliances' starts at Turtle's Lor'themar in Quel'Thalas, which 3.3.5 does not have on this continent.",
+  "force_display": {
+    "62725": 8756
+  },
+  "_force_display": "Thromrar Darkflame (Turtle-made Skardyn model) -> General Angerforge's Dark Iron look."
+}

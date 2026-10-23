@@ -1,0 +1,41 @@
+[worldserver]
+
+########################################
+# mod-turtle-content configuration
+########################################
+#
+#    TurtleContent.Announce
+#        Description: Log how many Turtle WoW creatures/gameobjects are loaded at startup.
+#        Default:     1 - (Enabled)
+#                     0 - (Disabled)
+
+TurtleContent.Announce = 1
+
+#
+#    TurtleContent.BossScripts
+#        Description: Use the C++ boss scripts ported from Turtle WoW for Stormwrought Ruins
+#                     and Gilneas City. When disabled, those creatures use their SmartAI rows.
+#                     Takes effect for creatures spawned after a .reload config or restart.
+#        Default:     1 - (Enabled)
+#                     0 - (Disabled)
+
+TurtleContent.BossScripts = 1
+
+#
+#    TurtleContent.TurtleSpellValues
+#        Description: When a converted Turtle WoW creature casts one of its own Turtle spells,
+#                     use Turtle's numbers (damage, healing, aura amounts, level scaling and
+#                     duration) instead of the 3.3.5 ones, which often differ a lot for the
+#                     same spell id (e.g. Sinister Strike 15667: +40 on Turtle, +900 in 3.3.5).
+#        Default:     1 - (Enabled)
+#                     0 - (Disabled)
+
+TurtleContent.TurtleSpellValues = 1
+
+#
+#    TurtleContent.GilneasCityRain
+#        Description: Heavy rain inside the Gilneas City dungeon (Turtle WoW behaviour).
+#        Default:     1 - (Enabled)
+#                     0 - (Disabled)
+
+TurtleContent.GilneasCityRain = 1

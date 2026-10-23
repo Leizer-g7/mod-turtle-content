@@ -1,0 +1,114 @@
+{
+  "name": "Balor",
+  "slot": 1,
+  "map": 0,
+  "zone_id": 5561,
+  "terrain": "turtle",
+  "_terrain": "Turtle's island west of Stormwind Harbor. All tiles are Turtle's; the ones a 3.3.5 client does not have are added to Azeroth.wdt.",
+  "terrain_tiles": [
+    "23_45",
+    "23_46",
+    "23_47",
+    "23_48",
+    "23_49",
+    "23_50",
+    "24_45",
+    "24_46",
+    "24_47",
+    "24_48",
+    "24_49",
+    "24_50",
+    "25_45",
+    "25_46",
+    "25_47",
+    "25_48",
+    "25_49",
+    "25_50",
+    "26_45",
+    "26_46",
+    "26_47",
+    "26_48",
+    "26_49",
+    "26_50",
+    "27_47",
+    "27_48",
+    "27_49"
+  ],
+  "_terrain_tiles": "18 island tiles + ocean around it (column 23, row 50) so the sea does not end at the island. Seams against the 3.3.5 tiles were checked (heights match).",
+  "ship_assets": true,
+  "_ship_assets": "Ship the Turtle buildings (WMO), textures and minimap images these tiles use.",
+  "area_bits": {
+    "5561": 3624,
+    "5562": 3625,
+    "5563": 3626,
+    "5564": 3627,
+    "5565": 3628,
+    "5566": 3629,
+    "5567": 3630,
+    "5568": 3631,
+    "5569": 3632,
+    "5570": 3633,
+    "5571": 3634,
+    "5572": 3635,
+    "5573": 3636,
+    "5574": 3637,
+    "5575": 3638,
+    "5576": 3639
+  },
+  "area_templates": {
+    "5561": 10
+  },
+  "_area_templates": "3.3.5 area whose flags (and its subzones' flags) the new zone copies: Duskwood.",
+  "exclude_creatures": [],
+  "exclude_gameobjects": [],
+  "world_map": {
+    "tw_area": 5561
+  },
+  "loading_screen": null,
+  "taxi_nodes": [
+    83,
+    88
+  ],
+  "_taxi_nodes": "Turtle flight masters: SI:7 Outpost (Alliance, to Sentinel Hill) and Stormbreaker Point (Horde, to Grom'gol).",
+  "graveyards": [
+    12
+  ],
+  "lights": [
+    557,
+    559,
+    560,
+    561,
+    562
+  ],
+  "_lights": "Turtle's stormy sky/fog for the island (Light.dbc rows), ported with their LightParams/bands under new ids.",
+  "notes": [],
+  "spawn_existing_templates": true,
+  "force_display": {
+    "62350": 441,
+    "62590": 1872
+  },
+  "_force_display": "Turtle-made models with no 3.3.5 file: Tidecaller Mrglrar -> murloc oracle, Kilrogg Deadeye -> Nazgrel (orc chieftain).",
+  "wmo_area_ids": [
+    7061,
+    7063,
+    7064,
+    7065
+  ],
+  "exclude_quests": [],
+  "_exclude_quests": "Empty: 'To The Darkest Places' (gossip scripts, converted by the build) and 'Explosives Make My Heart Go BOOM!' (manual/046_balor.py) are both ported.",
+  "extra_creature_templates": [
+    60072,
+    60073,
+    60074,
+    60075,
+    60076,
+    60077,
+    62355
+  ],
+  "_extra_creature_templates": "Creatures with no spawn: the invisible quest-credit NPCs for 41694 and 41698, and the Abysstide Siren that the Tidal Altar summons for 'Calming The Tempest'.",
+  "extra_spawns": [
+    2572080,
+    2591478
+  ],
+  "_extra_spawns": "Marine Hornby (Stormwind Harbor) and Ronald Gillian (Stormwind City): they start 'A Hydromancer's Curiosity' and 'My Darling Wife'."
+}

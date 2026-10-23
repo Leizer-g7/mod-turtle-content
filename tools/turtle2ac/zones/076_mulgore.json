@@ -1,0 +1,81 @@
+{
+  "name": "Mulgore",
+  "slot": 31,
+  "map": 1,
+  "zone_id": 215,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle changed in places: Red Cloud Roost (wind-serpent roost on the western cliffs above Red Cloud Mesa, area 5096), the reshaped ridge of Windswept Heights, and Suntail Pass (Bristleback quillboars and the Spirit Walkers' camp on the north-east border, area 5100). The 3.3.5 zone, its NPCs and quests stay.",
+  "merge_region": {
+    "x": [
+      30,
+      34
+    ],
+    "y": [
+      32,
+      37
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 6,
+    "reshaped_skip_zones": [
+      406,
+      17,
+      405,
+      357,
+      400,
+      1638
+    ],
+    "heal_turtle_seams": true,
+    "take_new_wmos": true,
+    "match_stock_edges": true,
+    "reshaped_take_areas": [
+      17,
+      1702
+    ]
+  },
+  "_merge_region": "own=changed: only Mulgore chunks Turtle reshaped or gave a new subzone. reshaped_skip_zones: Stonetalon, the Barrens, Desolace, Feralas, Thousand Needles (their own zones), Thunder Bluff (077).",
+  "area_bits": {
+    "5096": 3803,
+    "5100": 3804
+  },
+  "_area_bits": "Red Cloud Roost, Suntail Pass.",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "exclude_creatures": [
+    61172,
+    62959,
+    62958,
+    51532,
+    51533,
+    51580,
+    51581
+  ],
+  "_exclude_creatures": "Turtle systems: the Winter Veil storyteller (The Winter Patriarch), Survival (Nasnan Hillcreek, Ammi Summerpelt), gardening (Kern Mosshoof, Yrta Younghoof), the rented riding wolves.",
+  "exclude_gameobjects": [
+    1000373,
+    1000055,
+    1000372,
+    300203,
+    300058
+  ],
+  "_exclude_gameobjects": "Gardening Zone Check, Speedy's Jukebox, Ripe Garden Watermelon (gardening), Apple Bob and TEMP Greater Moonlight (event objects).",
+  "exclude_quests": [
+    60061,
+    42054,
+    42055,
+    42056,
+    42057,
+    42058,
+    42059,
+    42060
+  ],
+  "_exclude_quests": "You Reap What You Sow (gardening). The tauren priest chain (Hallowed Note ... Spiritwalk): 3.3.5 has no tauren priests.",
+  "extra_creature_templates": [
+    60301,
+    60382
+  ],
+  "_extra_creature_templates": "Quest credit dummies the manual script gives: Shagu's Shisha (Hookah for Your Troubles), Sunchaser's fight (Bond Through Battle).",
+  "notes": []
+}

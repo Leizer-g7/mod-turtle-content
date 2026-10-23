@@ -1,0 +1,113 @@
+{
+  "name": "Gilneas",
+  "slot": 5,
+  "map": 0,
+  "zone_id": 5179,
+  "terrain": "turtle",
+  "_terrain": "Turtle's Gilneas south of Silverpine: land 3.3.5 has (behind the Greymane Wall) but nobody can reach. Its tiles also hold Silverpine's south and the coast, so they are merged.",
+  "merge_region": {
+    "x": [
+      25,
+      32
+    ],
+    "y": [
+      32,
+      37
+    ],
+    "height_tolerance": 0.5,
+    "reshaped": "connected"
+  },
+  "_merge_region": "Tiles Azeroth_25_32 .. Azeroth_32_37 (x = 32 - worldY/533.33, y = 32 - worldX/533.33). reshaped=connected: Turtle's other edits in these tiles stay 3.3.5.",
+  "zone_from_adt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5179": 3683,
+    "5180": 3684,
+    "5181": 3685,
+    "5182": 3686,
+    "5183": 3687,
+    "5184": 3688,
+    "5185": 3689,
+    "5186": 3690,
+    "5187": 3691,
+    "5188": 3692,
+    "5189": 3693,
+    "5190": 3694,
+    "5191": 3695,
+    "5192": 3696,
+    "5193": 3697,
+    "5194": 3698,
+    "5195": 3699,
+    "5196": 3700,
+    "5197": 3701,
+    "5198": 3702,
+    "5199": 3703,
+    "5200": 3704,
+    "5201": 3705,
+    "5202": 3706,
+    "5203": 3707,
+    "5205": 3708,
+    "5206": 3709,
+    "5207": 3710
+  },
+  "area_templates": {
+    "5179": 130
+  },
+  "_area_templates": "3.3.5 area whose flags the new zone copies: Silverpine Forest.",
+  "exclude_creatures": [],
+  "exclude_gameobjects": [],
+  "world_map": {
+    "tw_area": 5179
+  },
+  "loading_screen": null,
+  "taxi_nodes": [
+    100,
+    101
+  ],
+  "_taxi_nodes": "Ravenshire and Stillward Church.",
+  "graveyards": [
+    136
+  ],
+  "taverns": [
+    5338
+  ],
+  "_taverns": "Shademore Tavern.",
+  "lights": [
+    545,
+    548,
+    549,
+    550
+  ],
+  "wmo_area_ids": [
+    2553
+  ],
+  "notes": [],
+  "spawn_existing_templates": true,
+  "exclude_quests": [
+    40413,
+    41043,
+    41047
+  ],
+  "extra_creature_templates": [
+    60046,
+    60047,
+    60049,
+    61514
+  ],
+  "force_display": {
+    "61238": 203,
+    "61550": 1562,
+    "61553": 24579,
+    "61643": 6299
+  },
+  "_force_display": "Turtle-made models: Nighthowl Shadowcaster (worgen caster) -> black worgen, Baron Perenolde (Forsaken mage) -> an undead male, Widow of the Woods (Cataclysm geist) -> Northrend geist, Raven -> black owl.",
+  "extra_spawns": [
+    2575747,
+    2577475,
+    2570534,
+    2578251
+  ],
+  "_extra_spawns": "Quest NPCs outside the zone: Dark Ranger Anya in Undercity ('To Gilneas', Horde), Corporal Danmere and Dockmaster Lorman in Theramore ('The Brigade is Coming Home', 'The Gilneas Lighthouse'), Larodar Wildwhisper at Thalanaar in Feralas ('The Fallen Ancient' / 'Back to Thalanaar' with Lurn Five-Pelts).",
+  "_extra_creature_templates": "Quest-credit dummies (The Rebellion, In Memory of Franklin, The Upper Binding IV) and Willow, summoned at Aliattan's Campfire.",
+  "_exclude_quests": "Quests the outside NPCs bring along that belong to their own zones: Old Bryan's Food Delivery (Theramore) and Larodar Wildwhisper's Feralas quests other than the Gilneas chain."
+}

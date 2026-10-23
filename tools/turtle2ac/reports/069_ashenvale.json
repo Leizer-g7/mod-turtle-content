@@ -1,0 +1,168 @@
+{
+ "zone": "069_ashenvale",
+ "name": "Ashenvale",
+ "file": "mod_turtle_025_ashenvale.sql",
+ "terrain": "turtle",
+ "custom_subzones": [],
+ "counts": {
+  "creature_template": 52,
+  "creature_template_model": 54,
+  "creature_template_movement": 52,
+  "creature_equip_template": 16,
+  "smart_scripts": 13,
+  "creature_template_addon": 1,
+  "creature": 129,
+  "creature_addon": 6,
+  "waypoint_data": 1,
+  "npc_text": 16,
+  "gossip_menu": 16,
+  "npc_vendor": 183,
+  "creature_loot_template": 851,
+  "skinning_loot_template": 4,
+  "pickpocketing_loot_template": 14,
+  "quest_template": 47,
+  "quest_template_addon": 47,
+  "quest_offer_reward": 47,
+  "quest_request_items": 47,
+  "creature_queststarter": 46,
+  "creature_questender": 47,
+  "gameobject_template": 75,
+  "gameobject_template_addon": 6,
+  "gameobject_loot_template": 5,
+  "gameobject": 552
+ },
+ "go_pending": [
+  {
+   "entry": 2003672,
+   "name": "World GENERIC NIGHTELF PASSIVE DOODADS STATUES DruidStone.mdx",
+   "turtle_display": 24551,
+   "model": "World\\GENERIC\\NIGHTELF\\PASSIVE DOODADS\\STATUES\\DruidStone.mdx"
+  },
+  {
+   "entry": 3000303,
+   "name": "Sherpa_Bedroll_0",
+   "turtle_display": 32880,
+   "model": "world\\EXPANSION04\\DOODADS\\Sherpa\\Sherpa_Bedroll_01.mdx"
+  },
+  {
+   "entry": 3000304,
+   "name": "Sherpa_Bedroll_2",
+   "turtle_display": 32881,
+   "model": "world\\EXPANSION04\\DOODADS\\Sherpa\\Sherpa_Bedroll_02.mdx"
+  }
+ ],
+ "notes": {
+  "client_tiles": [
+   "Kalimdor_33_29: merged on top of an earlier zone's tile",
+   "Kalimdor_34_28: chunk 198 taken for Turtle's md_mushroomcave07.wmo",
+   "Kalimdor_37_26: chunk 142 taken for Turtle's nightelftent02_pvp.wmo",
+   "Kalimdor_38_26: chunk 83 taken for Turtle's nightelfpvpguardtower.wmo",
+   "Kalimdor_38_26: chunk 96 taken for Turtle's nightelftent01_pvp.wmo",
+   "Kalimdor_38_26: chunk 98 taken for Turtle's nightelftent02_pvp.wmo",
+   "Kalimdor_38_26: chunk 115 taken for Turtle's nightelftent02_pvp.wmo",
+   "Kalimdor_38_26: chunk 131 taken for Turtle's nightelftent02_pvp.wmo",
+   "Kalimdor_38_26: chunk 132 taken for Turtle's nightelftent02_pvp.wmo",
+   "Kalimdor_38_26: chunk 145 taken for Turtle's nightelf2story.wmo",
+   "0 reshaped chunks next to the zone taken (keep their 3.3.5 area); 18 reshaped chunks away from the zone left as 3.3.5",
+   "0 edge points where Turtle's own tiles do not meet: both sides set to the average",
+   "seams between Turtle and 3.3.5 chunks: 17 edge points aligned (largest step 0.42 yd)",
+   "0 edge points at the rim matched to the 3.3.5 tiles next to it",
+   "Kalimdor_34_28: merged - 7 of 256 chunks from Turtle",
+   "Kalimdor_37_26: merged - 1 of 256 chunks from Turtle",
+   "Kalimdor_38_26: merged - 22 of 256 chunks from Turtle"
+  ],
+  "client_assets": [
+   "0 Turtle files (buildings, textures) shipped in the client patch"
+  ],
+  "model_stand_in": [
+   "WORLD\\AZEROTH\\DUSKWOOD\\BUILDINGS\\GYPSYWAGON\\GYPSYWAGON2.M2 -> World\\Azeroth\\Duskwood\\Buildings\\GypsyWagon\\GypsyWagon.m2",
+   "WORLD\\KALIMDOR\\BALOR\\PASSIVEDOODADS\\WATERFALLS\\WaterfallRed.MDX -> World\\Kalimdor\\Mauradon\\PassiveDoodads\\Waterfalls\\MaraudonCorruptedFalls03.m2",
+   "World\\Azeroth\\balor\\shield_crest_a_02balor.MDX -> World\\Azeroth\\Elwynn\\PassiveDoodads\\BattleGladeShield1\\BattleGladeShield1.m2",
+   "world\\azeroth\\Balor\\BalorThrone.MDX -> World\\Azeroth\\Karazahn\\PassiveDoodads\\Throne\\KarazahnThrone01.m2"
+  ],
+  "spawned_elsewhere": [
+   "Faldan Moonshatter (tw guid 2567635): already spawned by 065_stonetalon_mountains (its extra_spawns)",
+   "Scartusk (tw guid 2572924): already spawned by 065_stonetalon_mountains (its extra_spawns)"
+  ],
+  "seasonal_spawns": [
+   "11 creature spawns that Turtle shows only during seasonal events left out",
+   "105 object spawns that Turtle shows only during seasonal events left out"
+  ],
+  "zone_quests_elsewhere": [
+   "quest 70031: given and turned in outside the zone ([3995] / [3995])",
+   "quest 40193: given and turned in outside the zone ([60471] / [3516])",
+   "quest 40192: given and turned in outside the zone ([60471] / [60471])",
+   "quest 40146: given and turned in outside the zone ([11749] / [11720])",
+   "quest 40145: given and turned in outside the zone ([11720] / [11749])"
+  ],
+  "cpp_script": [
+   "60310 Malanys Cloudpiercer: Turtle C++ script 'npc_malanys_cloudpiercer' (see manual/069_ashenvale.sql)",
+   "60409 Naxiar: Turtle C++ script 'npc_naxiar' (see manual/069_ashenvale.sql)",
+   "60470 Old Greypaw: Turtle C++ script 'npc_old_greypaw' (see manual/069_ashenvale.sql)",
+   "61143 Commander Starwind: Turtle C++ script 'npc_commander_starwind' (see manual/069_ashenvale.sql)",
+   "61147 Brolthan Ironglade: Turtle C++ script 'npc_brolthan_ironglade' (see manual/069_ashenvale.sql)",
+   "70022 Norvok Hawkspear: Turtle C++ script 'npc_norvok' (see manual/069_ashenvale.sql)",
+   "91287 Daela Evermoon: Turtle C++ script 'npc_daela_evermoon' (see manual/069_ashenvale.sql)",
+   "91288 Ardaen Evermoon: Turtle C++ script 'npc_ardaen_evermoon' (see manual/069_ashenvale.sql)"
+  ],
+  "display_stand_in": [
+   "61650 Ragnak Helmcleaver: Turtle display 18871 -> stand-in 4544"
+  ],
+  "loot": [
+   "61427: lootid 61427 has no rows in Turtle's creature_loot_template - cleared"
+  ],
+  "go_type_changed": [
+   "2000481 world wmo kalimdor pvp collidabledoodads netents nightelften: type 14 (static WMO) -> 5 (generic)",
+   "2008054 World wmo Kalimdor CollidableDoodads Silithus NightElfMoonWe: type 14 (static WMO) -> 5 (generic)"
+  ],
+  "go_display_added": [
+   "2002312 World CRITTER FireFlies FireFlies01.mdx: new display row",
+   "2002315 World CRITTER butterflies ButterflyOrange01.mdx: new display row",
+   "2002316 World CRITTER butterflies ButterflyPurple01.mdx: new display row",
+   "2002317 World CRITTER butterflies ButterflyWhite01.mdx: new display row",
+   "2002778 World GENERIC DWARF PASSIVE DOODADS ExcavationBarrierPlank E: new display row",
+   "2003595 World GENERIC NIGHTELF PASSIVE DOODADS Banners NightElfOwlBa: new display row",
+   "2003615 World GENERIC NIGHTELF PASSIVE DOODADS Gazibos KalidarGazibo: new display row",
+   "2003618 World GENERIC NIGHTELF PASSIVE DOODADS HippogryphRoost Hippo: new display row",
+   "2003621 World GENERIC NIGHTELF PASSIVE DOODADS LAMPS DarnassusWrecke: new display row",
+   "2003622 World GENERIC NIGHTELF PASSIVE DOODADS LAMPS DarnassusWrecke: new display row",
+   "2003629 World GENERIC NIGHTELF PASSIVE DOODADS MAGICALIMPLEMENTS NEM: new display row",
+   "2003637 World GENERIC NIGHTELF PASSIVE DOODADS MAGICALIMPLEMENTS NEM: new display row",
+   "2003727 World GENERIC NIGHTELF PASSIVE DOODADS Statue KalidarWoodSta: new display row",
+   "2003976 World GENERIC ORC PASSIVE DOODADS Tailoring Clothes OrcHangi: new display row",
+   "2003977 World GENERIC ORC PASSIVE DOODADS Tailoring Clothes OrcHangi: new display row",
+   "2004393 World GENERIC PASSIVEDOODADS ShieldRacks RackShieldHorde02.m: new display row",
+   "2004477 World GENERIC PASSIVEDOODADS WEAPONS FlintSpear01.mdx: new display row",
+   "2004576 World GENERIC Satyr Passive Doodads Tents SatyrTent02.mdx: new display row",
+   "2004577 World GENERIC Satyr Passive Doodads Tents SatyrTent03.mdx: new display row",
+   "2004587 World GENERIC TAUREN PASSIVE DOODADS BOWLS TaurenBowl04.mdx: new display row",
+   "2004707 World GENERIC TAUREN PASSIVE DOODADS TaurenWallHangings Taur: new display row",
+   "2004709 World GENERIC TAUREN PASSIVE DOODADS TaurenWallHangings Taur: new display row",
+   "2004714 World GENERIC TAUREN PASSIVE DOODADS TaurenWallScrolls Taure: new display row",
+   "2004736 World GENERIC TAUREN PASSIVE DOODADS WARHARNASSES WarHarness: new display row",
+   "2005043 World KALIMDOR ASHENVALE PASSIVEDOODADS AshenvaleRoots Ashen: new display row",
+   "2005063 World KALIMDOR ASHENVALE PASSIVEDOODADS SATYRTOTEM AshenSaty: new display row",
+   "2005069 World KALIMDOR ASHENVALE PASSIVEDOODADS SHRINES DryadShrine0: new display row",
+   "2005172 World KALIMDOR Barrens PassiveDoodads Bones KotoBeastBone04.: new display row",
+   "2005220 World KALIMDOR DARKSHORE PASSIVEDOODADS DarkshoreLogs Darksh: new display row",
+   "2005284 World KALIMDOR DESOLACE PASSIVEDOODADS SpearWalls CentaurSpe: new display row",
+   "2005492 World KALIMDOR Generic PassiveDoodads NightElfGuardTower Nig: new display row",
+   "2005506 World KALIMDOR KALIDAR PASSIVEDOODADS FURBOLGTENT FurbolgTen: new display row",
+   "2005519 World KALIMDOR KALIDAR PASSIVEDOODADS KalidarBushes KalidarB: new display row",
+   "2005537 World KALIMDOR KALIDAR PASSIVEDOODADS ORACLETREE OracleTree.: new display row",
+   "2008054 World wmo Kalimdor CollidableDoodads Silithus NightElfMoonWe: new display row",
+   "2008756 World EXPANSION01 DOODADS GENERIC BLOODELF TABLES BE_Table_W: new display row",
+   "2020286 Bright Wood Tree: new display row",
+   "2020287 Bright Wood Tree: new display row"
+  ],
+  "go_no_model": [
+   "2003672 World GENERIC NIGHTELF PASSIVE DOODADS STATUES DruidStone.md: Turtle-only model with no stand-in (add one to go_model_substitutions)",
+   "3000303 Sherpa_Bedroll_0: Turtle-only model with no stand-in (add one to go_model_substitutions)",
+   "3000304 Sherpa_Bedroll_2: Turtle-only model with no stand-in (add one to go_model_substitutions)"
+  ],
+  "turtle_only_lock": [
+   "2020286 Bright Wood Tree: lock 1660 is a Turtle-only lock type (e.g. Survival gathering) - left out",
+   "2020287 Bright Wood Tree: lock 1660 is a Turtle-only lock type (e.g. Survival gathering) - left out"
+  ]
+ }
+}

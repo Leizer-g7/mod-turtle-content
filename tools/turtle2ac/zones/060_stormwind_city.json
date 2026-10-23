@@ -1,0 +1,124 @@
+{
+  "name": "Stormwind City",
+  "slot": 15,
+  "map": 0,
+  "zone_id": 1519,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 city Turtle changed lightly: Turtle's Stormwind and harbor are the same WotLK buildings 3.3.5 has (same WMOs, same places); Turtle added Davenburg, a small Kul Tiras settlement in the harbor's north-east shipyard (its own buildings kttown/ktfarm), and new NPCs and quests across the city. The 3.3.5 city, its NPCs and quests stay; Turtle's additions are merged in.",
+  "merge_region": {
+    "x": [
+      28,
+      30
+    ],
+    "y": [
+      46,
+      48
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "none",
+    "heal_turtle_seams": false,
+    "drop_removed_wmos": false
+  },
+  "_merge_region": "own=changed: only Davenburg's 12 chunks (area id only, ground within 0.5 yd) and the one city chunk Turtle reshaped that the Northwind build did not already take (tiles 29_47/30_47 are built on Northwind's shipped tiles). reshaped=none: nothing outside the city. 3.3.5's WotLK icebreaker hulls and the hangar stay (their origins are outside Davenburg).",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5115": 3771
+  },
+  "_area_bits": "Davenburg 5115.",
+  "spawn_existing_in_subzones": [
+    5115
+  ],
+  "extra_creature_templates": [
+    60395,
+    60396,
+    60397
+  ],
+  "_extra_creature_templates": "The three quest_40660_dummy_triger credit creatures of 'Controlling Sailors' (no spawns).",
+  "exclude_creatures": [
+    9,
+    50074,
+    50053,
+    51290,
+    51292,
+    52120,
+    52121,
+    52122,
+    60053,
+    51560,
+    51561,
+    80917,
+    80403,
+    80954,
+    61629,
+    61630,
+    61905,
+    61906,
+    61907,
+    61908
+  ],
+  "_exclude_creatures": "Turtle systems (C++ or custom items/spells): Baron Bobby (shop refunds), Bustus (title_masker), Isabella Locksley (hair dyes: Turtle cosmetic items), Felicia and Ophelia Worthington (Turtle's transmogrification and its 'Fashion Demands Sacrifices' quests), the Shellcoin scene (Distraught/Very Sad Investor, Shell Co Lobbyist), the bounty-board quest dummy (Slay the Honorable/Dishonorable), the rented horses (rented_mount), Teller Plushner (Turtle's guild vault), Tolif Valanor (Turtle companion pets), Valiant (Turtle's Stormwind tabard and armored warhorse), Marven and Heartclaw (pet trainer: 3.3.5 has no pet training), the Fencer family (Turtle's own Jewelcrafting: its recipes and supplies are Turtle spells and items).",
+  "exclude_gameobjects": [
+    1000223,
+    2011109,
+    1000079,
+    1000312,
+    1000459,
+    1000055,
+    1000373,
+    105180,
+    2020090
+  ],
+  "_exclude_gameobjects": "Wanted: Vile Criminal! (bounty board), Shell Co has relocated! (Shellcoin), Stormwind Fashion House (transmogrification sign), the fountain's sparkling coin (go_stormwind_fountain: Turtle's collectible coins), the High Elf survival tent (Survival profession), Speedy's Jukebox (go_radio), the Gardening Zone Checks (Turtle gardening), Turtle's barbershop chairs (3.3.5 has its own barbershop in the same place), the Fencer Family Jewels sign.",
+  "exclude_quests": [
+    39980,
+    39981,
+    39986,
+    39987,
+    39988,
+    39989,
+    40273,
+    40514,
+    40599,
+    40600,
+    40601,
+    40794,
+    41134,
+    41268,
+    41269,
+    41270,
+    41347,
+    41348,
+    41352,
+    60030,
+    60031,
+    60032,
+    60033,
+    60034,
+    60035,
+    60036,
+    80205,
+    80210,
+    80220,
+    80366,
+    80700,
+    80708
+  ],
+  "_exclude_quests": "Turtle systems: 39980/39981 (bounty board), 39986-39989 (Shellcoin), 60030-60036 (transmogrification). Quests of Turtle content elsewhere (their other end is not ported): 40273 (started by the Uncommon Journal in Hillsbrad), 40514 (Lady Meldralis Windsong in Ironforge), 40599-40601 (The Old Church of Westfall VII-IX: I-VI are Turtle Westfall), 40794 (Lieutenant Alverold in the Barrens), 41134 (Daisy Windhelm's hunter chain in Elwynn, ends at Marven), 41268-41270 (Vera Lauren's Winter Veil chain), 41347/41348/41352 (Countess Tillia Earlwake in Karazhan), 80700 and 80708 (the SI:7 / Thandol Span / Scarlet chain left out with the Wetlands). High elf race quests (Turtle race bit 512 is the Blood Elf here): 80205, 80210, 80220, 80366.",
+  "scripted_taxi_paths": [
+    {
+      "path": 298,
+      "to": 83,
+      "name": "Stormwind Harbor (Steelwing)",
+      "at": [
+        -8479.55,
+        1349.96,
+        5.23
+      ]
+    }
+  ],
+  "_scripted_taxi_paths": "Steelwing, Operative Simmons' gryphon at the harbor: Turtle gossip script 8016301 starts taxi path 298 to the SI:7 Outpost on Balor (node of 046_balor). 'at' puts the start node on Steelwing (Turtle's node is 3.6 yd away; the core starts a scripted flight only within 10 yd of its node).",
+  "notes": []
+}

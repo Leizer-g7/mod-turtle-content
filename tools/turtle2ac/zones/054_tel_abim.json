@@ -1,0 +1,116 @@
+{
+  "name": "Tel'Abim",
+  "slot": 9,
+  "map": 1,
+  "zone_id": 5121,
+  "terrain": "turtle",
+  "_terrain": "Turtle's island east of Tanaris on Kalimdor. 3.3.5 has open sea there: tiles x 43 exist as empty sea, x 44-46 do not exist at all (built on a moved stock sea tile and added to Kalimdor.wdt). The stock Lost Rigger Cove coast is on x 42.",
+  "merge_region": {
+    "x": [
+      42,
+      47
+    ],
+    "y": [
+      43,
+      51
+    ],
+    "height_tolerance": 0.5,
+    "reshaped": "sea",
+    "reshaped_skip_zones": [],
+    "sea_below": -2.0,
+    "sea_take": {
+      "x": [
+        43,
+        46
+      ],
+      "y": [
+        44,
+        50
+      ]
+    },
+    "ocean_base": "World\\Maps\\Kalimdor\\Kalimdor_43_45.adt",
+    "stitch_onto": "donor",
+    "heal_turtle_seams": true,
+    "take_unnamed_land": true
+  },
+  "_merge_region": "Tiles Kalimdor_42_43 .. Kalimdor_47_51; the island and its sea bed are on 43-46 x 44-50 (one tile of margin). Same options as Gillijim's Isle (README 'Terrain modes').",
+  "zone_from_adt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5121": 3741,
+    "5122": 3742,
+    "5123": 3743,
+    "5124": 3744,
+    "5125": 3745,
+    "5126": 3746,
+    "5127": 3747,
+    "5128": 3748,
+    "5129": 3749
+  },
+  "_area_bits": "Zone 5121 and subzones 5122-5129 are new to 3.3.5.",
+  "area_templates": {
+    "5121": 440
+  },
+  "_area_templates": "Tanaris",
+  "exclude_creatures": [],
+  "exclude_gameobjects": [
+    2020106
+  ],
+  "world_map": {
+    "tw_area": 5121
+  },
+  "loading_screen": null,
+  "taxi_nodes": [
+    98
+  ],
+  "_taxi_nodes": "Tel Co. Basecamp (both factions).",
+  "graveyards": [
+    141
+  ],
+  "taverns": [
+    4310
+  ],
+  "_taverns": "Tel Co. Basecamp inn.",
+  "lights": [],
+  "wmo_area_ids": [],
+  "notes": [],
+  "spawn_existing_templates": true,
+  "exclude_quests": [
+    41973,
+    41975,
+    40590,
+    40591
+  ],
+  "_exclude_quests": "41973 Contracts in Moonwhisper Coast and 41975 Zalwan's Cut belong to Gordnak in Moonwhisper Coast (another Turtle zone). 40590/40591 are Gelwig Darkbrow's Tanaris quests (he is added only for Secrets of the Dark Iron Desecrator). 40749 (item-started, no turn-in, its follow-up does not exist) and 41346 (A Mossy Mystery: its key has no source) are unfinished on Turtle and are left out by the build on their own.",
+  "extra_quests": [
+    40757
+  ],
+  "_extra_quests": "Operation Help Jabbey (Jabbey in Tanaris, Blackrock Depths): the link between 40756 and 40758 of Bixxle Screwfuse's chain.",
+  "extra_creature_templates": [
+    60013,
+    60014
+  ],
+  "force_display": {
+    "9940": 21360,
+    "61077": 21360,
+    "61078": 21360,
+    "61126": 21360,
+    "61134": 21360,
+    "61157": 21360
+  },
+  "extra_spawns": [
+    2573808,
+    2572336
+  ],
+  "_extra_spawns": "Darneg Darkbeard in Blackrock Depths (map 230): drops the Extremely Potent Snuff for Operation Help Jabbey. Gelwig Darkbrow at Steamwheedle Port (Tanaris): gives the plans for Secrets of the Dark Iron Desecrator.",
+  "spawns_in_whole_region": true,
+  "_spawns_in_whole_region": "Spawns are looked for over the whole merge region, not only inside Turtle's world-map rectangle of the zone.",
+  "_extra_creature_templates": "Quest credits (Gargantuan Information!, The Missing Friend!).",
+  "_force_display": "Turtle's monkey model (Creature\\Monkey) does not exist in 3.3.5 -> the small gorilla (3.3.5 display 21360) for the Peach King, Highvale Chimpanzees and Monkeys, Ebu, Simbu and Nibu.",
+  "extra_gameobject_spawns": [
+    5012039,
+    5012037
+  ],
+  "_extra_gameobject_spawns": "The Dark Iron Desecrator (40762): the Magma Condensor Crate in Blackrock Depths and the Intricate Arcanite Barrels in Lower Blackrock Spire.",
+  "_exclude_gameobjects": "Mosscovered Chest: starts and ends A Mossy Mystery (41346), whose Barnacle Covered Key has no source in Turtle's database (an unfinished treasure hunt) - the quest is left out, so the chest would be an empty quest giver."
+}

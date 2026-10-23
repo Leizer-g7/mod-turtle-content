@@ -1,0 +1,16 @@
+{
+  "name": "The Deadmines",
+  "slot": 41,
+  "map": 36,
+  "zone_id": 1581,
+  "map_dir": "DeadminesInstance",
+  "terrain": "stock",
+  "_terrain": "Turtle's addition to the 3.3.5 dungeon: Jared Voss' alchemy lab, five new parts of the Deadmines building (AZ_Deadmines_B groups 44-48, WMO group ids 22021-22026) east of the Goblin Foundry with Defias Chemists, Mixologists, Manufactured Golems and the Masterpiece Harvester. Turtle's copy of the building is 3.3.5's (the same 44 parts with the same ids, including Wrath's 12510/12511) plus the lab; two parts (ids 201, 214) are widened to open into it. Shipped whole (ship_wmos); everything else stays 3.3.5.",
+  "ship_wmos": [
+    "World\\wmo\\Dungeon\\AZ_Deadmines\\AZ_Deadmines_B.wmo"
+  ],
+  "all_spawns": true,
+  "_all_spawns": "Every Turtle spawn on map 36 of a template 3.3.5 does not have is this zone's (Turtle's extra spawns of 3.3.5 templates - more miners, pirates, two Heavy Doors - are not added).",
+  "ship_assets": true,
+  "notes": []
+}

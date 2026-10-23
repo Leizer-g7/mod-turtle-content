@@ -1,0 +1,101 @@
+{
+  "name": "Swamp of Sorrows",
+  "slot": 19,
+  "map": 0,
+  "zone_id": 8,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle changed lightly: Sorrowguard Keep (a new Alliance keep in the north-west, area 5075) and its garrison's quests, the draenei exiles of Sanv K'la, and other new NPCs and quests. The 3.3.5 zone, its NPCs and quests stay; Turtle's additions are merged in.",
+  "merge_region": {
+    "x": [
+      35,
+      41
+    ],
+    "y": [
+      49,
+      53
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "reshaped_skip_zones": [
+      44,
+      4,
+      46,
+      33,
+      10
+    ],
+    "heal_turtle_seams": true,
+    "drop_removed_wmos": false,
+    "take_new_wmos": true
+  },
+  "_merge_region": "own=changed: only Swamp chunks Turtle reshaped or gave a new subzone (Sorrowguard Keep on 36_51, four chunks of 38_50). reshaped_skip_zones: Redridge (Turtle's Redwall Keep), the Blasted Lands, Burning Steppes, Stranglethorn, Duskwood - their Turtle ground belongs to their own zones. take_new_wmos: the keep's buildings on unchanged ground. Deadwind Pass is not skipped: Turtle reshaped the mountainside behind the keep across that border (16 chunks, up to 53 yd), taken with the keep (they keep their 3.3.5 area).",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5075": 3774
+  },
+  "_area_bits": "Sorrowguard Keep 5075.",
+  "spawn_existing_in_subzones": [
+    5075
+  ],
+  "exclude_creatures": [
+    50515,
+    51560,
+    51561,
+    51580,
+    51581,
+    63071,
+    60607,
+    61987,
+    60403,
+    60404,
+    60405,
+    60406,
+    60407,
+    60410,
+    60414,
+    60415,
+    60416,
+    60417,
+    60418,
+    60838,
+    60839,
+    60840,
+    60841,
+    60842,
+    60844
+  ],
+  "_exclude_creatures": "Turtle systems: the training dummies, the rented horses and riding wolves (rented_mount), Swampwalker Krug (Turtle's Survival trainer). Kor'gan 60607 (C++ npc_korgan; his 'Depths of Karazhan' chain leads into Turtle's Karazhan Crypts, not ported). Akh Z'ador <Riftmaster> 61987 (his quest follows Kas'tal's chain in the Blasted Lands, not ported). The two expedition camps in the south-east - Grungi 60403 (Alliance) and Re'than 60410 with Tulu and the fallen warriors/soldiers 60414-60418 (Horde) - and the four cultists 60404-60407 they send players after: the camps are the middle of the level-60 'Uldum' chains of High Explorer Magellas and Sage Truthseeker, whose earlier steps are in Un'Goro and the Barrens and whose end is a scripted event at the Uldum pedestal. The Boulderclaw tunnelers 60838-60842 and Gorlush the Trampler 60844: they fill the cave under the south-east, where 3.3.5 has its Nethergarde miners; they belong to Turtle's Nethergarde rework ('The Garrison Armory Disaster', Blasted Lands) and wait for a Blasted Lands port.",
+  "exclude_gameobjects": [
+    2010892,
+    2020095
+  ],
+  "exclude_quests": [
+    40104,
+    40105,
+    40112,
+    40113,
+    40304,
+    40305,
+    40306,
+    40307,
+    40308,
+    40309,
+    40310,
+    41296,
+    41299,
+    41326,
+    41327,
+    41328,
+    41922
+  ],
+  "notes": [],
+  "_exclude_gameobjects": "2010892 Garrison Supply Cache: it only holds the item of 'Recovering Armory Supplies' (40429, Blasted Lands, not ported). 2020095 Gemstone Deposit: the five in this zone are in the Nethergarde mine (see exclude_creatures).",
+  "_exclude_quests": "40104/40105 and 40112/40113: the expedition camps (see exclude_creatures). 40304-40310: Kor'gan's Karazhan Crypts chain. 41296 The Collector (needs Turtle's Jewelcrafting) and 41299 (follows 41298 in the Blasted Lands). 41326-41328: Kas'tal's chain (Blasted Lands, not ported) and Akh Z'ador <Riftmaster>. 41922 Homecoming (from Elder Krasheen at Turtle's Moonwhisper Coast, not ported).",
+  "extra_gameobject_spawns": [
+    5000283
+  ],
+  "_extra_gameobject_spawns": "The Aged Wooden Chest in the Scarlet Monastery Library (The Orb of Kaladus, 40233)."
+}

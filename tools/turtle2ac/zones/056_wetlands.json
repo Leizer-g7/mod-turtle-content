@@ -1,0 +1,93 @@
+{
+  "name": "Wetlands",
+  "slot": 11,
+  "map": 0,
+  "zone_id": 11,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle reworked: Hawk's Vigil and Dun Agrath (dwarf settlements), the Ruins of Grim Batol, the Dragonmaw Retreat entrance, reshaped ground around Grim Batol. The 3.3.5 Wetlands, its NPCs and quests stay; Turtle's changes are merged in.",
+  "merge_region": {
+    "x": [
+      31,
+      41
+    ],
+    "y": [
+      34,
+      43
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "own_exclude_areas": [
+      2365,
+      2402
+    ],
+    "reshaped": "connected",
+    "connect_depth": 8,
+    "heal_turtle_seams": true,
+    "drop_removed_wmos": true
+  },
+  "_merge_region": "own=changed: only the Wetlands chunks Turtle reshaped or gave one of its new subzones are taken (the rest of the Wetlands stays 3.3.5, where 3.3.5's spawns stand); the Wetlands' sea areas (The Great Sea 2365, The Forbidding Sea 2402) are not the zone's own: Turtle reshaped them for other zones. reshaped=connected with connect_depth 8: Turtle's reshaped ground up to eight chunks around the taken chunks (Turtle's Dun Morogh slopes under Dun Agrath and Hawk's Vigil: 58 chunks, after which the seams meet within 0.5 yd); Turtle's other edits of Dun Morogh, Loch Modan, Arathi and the Badlands in these tiles stay 3.3.5. Tiles 38-41 x 36-43 are built on top of the Grim Reaches tiles. drop_removed_wmos: 3.3.5's Grim Batol entrance building, which Turtle replaced with its own, is removed (it stood in Turtle's).",
+  "zone_from_adt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "4018": 3762,
+    "4019": 3763,
+    "5550": 3764,
+    "5600": 3765
+  },
+  "_area_bits": "Hawk's Vigil (4018, written as 6100) and Dun Agrath (4019, written as 6101): 3.3.5 uses those two ids for Northrend areas (config area_id_remap). Ruins of Grim Batol 5550, Dragonmaw Retreat (entrance area) 5600.",
+  "spawn_existing_in_subzones": [
+    4018,
+    4019,
+    5550,
+    5600
+  ],
+  "_spawn_existing_in_subzones": "Turtle's spawns of 3.3.5 creatures/objects (critters, guards, furniture) only inside Turtle's new subzones; elsewhere the 3.3.5 spawns stay as they are.",
+  "spawn_existing_skip": [
+    5570,
+    2364
+  ],
+  "exclude_creatures": [
+    90974,
+    50673,
+    50674,
+    50676,
+    51560,
+    51561
+  ],
+  "exclude_gameobjects": [],
+  "exclude_quests": [],
+  "taxi_nodes": [
+    92
+  ],
+  "_taxi_nodes": "Dun Agrath (Alliance), to Menethil Harbor as on Turtle; its path to Turtle's Ironforge Airfields (another Turtle zone) is left out.",
+  "wmo_area_ids": [
+    6006,
+    7074
+  ],
+  "notes": [],
+  "_exclude_creatures": "Thandol Span Attack Trigger 90974, Scarlet Recruits 50673 and both Vladeus Springrivers (50674, 50676): Turtle's level-60 chain 80703 'Thandol Span' -> 80704 (it starts outside the Wetlands with 80730) - a piece of its own. White Stallion/Palomino 51560/51561: Turtle's horse rental (rented_mount script).",
+  "extra_quests": [
+    40569,
+    55221,
+    55222,
+    55223
+  ],
+  "_extra_quests": "Links of the zone's chains filed elsewhere: 40569 Sweet Dreams are Made of This (Gakin the Darkbinder, Stormwind; Lesser Felguards in Ashenvale drop its item) before 40570; 55221 The Stockade Search (Master Mathias Shaw; the Sealed Documents Crate in the Stockade), 55222 Investigating Corinth and 55223 Uncovering Evidence (Innkeeper Helbrek, Thelsamar) between 55220 and 55224 of the Hawk's Vigil chain.",
+  "extra_gameobject_spawns": [
+    4011321
+  ],
+  "_extra_gameobject_spawns": "Sealed Documents Crate in the Stormwind Stockade (55221).",
+  "_left_out": "Gowlfang 91243, Bogpaw Truthsay 60972 (and Okul 62638 in Dragonmaw Retreat) have no spawn in Turtle's DB: they appear through the dungeon's boss scripts, which are not in either Turtle source tree. Their quests (40679-40681, 40683, 55035; 41752) are left out until those scripts are available.",
+  "_spawn_existing_skip": "Bruuk Barleybeard and Neema: 3.3.5 NPCs Turtle moved into its new subzones; they stay where 3.3.5 has them.",
+  "extra_spawns": [
+    1260154,
+    1260180
+  ],
+  "_extra_spawns": "Rann Blackbeard and Orion Coalborn, at Turtle's Ironforge Airfields (Dun Morogh, just south of Dun Agrath; their ground and buildings are part of the merge): turn-ins of The Pie Delivery (55208) and Tinkering Away (55212), givers of 55207 and 55213.",
+  "extra_creature_templates": [
+    60391,
+    91301,
+    60954
+  ],
+  "_extra_creature_templates": "Quest credit dummies for Sleepwalking at Day (60391) and Oscilation Inhibited Disk! (91301); Hedania (60954), whom Bert Mano calls for Strange Bedfellows."
+}

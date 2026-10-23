@@ -1,0 +1,113 @@
+# Frostmane Hollow
+
+File: `data/sql/db-world/mod_turtle_031_frostmane_hollow.sql`  
+Terrain mode: **turtle**
+
+## Counts
+
+- areatable_dbc: 1
+- creature: 148
+- creature_addon: 58
+- creature_equip_template: 11
+- creature_loot_template: 953
+- creature_questender: 3
+- creature_queststarter: 3
+- creature_template: 20
+- creature_template_model: 28
+- creature_template_movement: 20
+- creature_template_resistance: 14
+- creature_text: 3
+- gameobject: 12
+- gameobject_loot_template: 1
+- gameobject_template: 1
+- gameobject_template_addon: 1
+- gossip_menu: 1
+- npc_text: 1
+- pickpocketing_loot_template: 1
+- quest_offer_reward: 3
+- quest_request_items: 2
+- quest_template: 3
+- quest_template_addon: 3
+- skinning_loot_template: 3
+- smart_scripts: 20
+- waypoint_data: 355
+
+## Client tiles (9)
+
+- FrostmaneCaverns_37_45: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- FrostmaneCaverns_38_45: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 0 object ids moved
+- FrostmaneCaverns_39_45: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 0 object ids moved
+- FrostmaneCaverns_37_46: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 0 object ids moved
+- FrostmaneCaverns_38_46: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved
+- FrostmaneCaverns_39_46: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 0 object ids moved
+- FrostmaneCaverns_37_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 256 legacy liquid blocks dropped, 0 object ids moved
+- FrostmaneCaverns_38_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 1 object ids moved
+- FrostmaneCaverns_39_47: 0 empty-liquid offsets fixed, 0 duplicated water layers collapsed, 0 legacy liquid blocks dropped, 0 object ids moved
+
+## Client assets (1)
+
+- 48 Turtle files (buildings, textures) shipped in the client patch
+
+## Model stand in (4)
+
+- WORLD\AZEROTH\DUSKWOOD\BUILDINGS\GYPSYWAGON\GYPSYWAGON2.M2 -> World\Azeroth\Duskwood\Buildings\GypsyWagon\GypsyWagon.m2
+- WORLD\KALIMDOR\BALOR\PASSIVEDOODADS\WATERFALLS\WaterfallRed.MDX -> World\Kalimdor\Mauradon\PassiveDoodads\Waterfalls\MaraudonCorruptedFalls03.m2
+- World\Azeroth\balor\shield_crest_a_02balor.MDX -> World\Azeroth\Elwynn\PassiveDoodads\BattleGladeShield1\BattleGladeShield1.m2
+- world\azeroth\Balor\BalorThrone.MDX -> World\Azeroth\Karazahn\PassiveDoodads\Throne\KarazahnThrone01.m2
+
+## New areas (1)
+
+- 5734 Frostmane Hollow (zone, map 822, exploration bit 3802, level 0)
+
+## Display stand in (21)
+
+- 51 Frostmane Slave: Turtle display 18790 -> stand-in 5605
+- 51 Frostmane Slave: Turtle display 18794 -> stand-in 6675
+- 67 Frostmane Cretin: Turtle display 18791 -> stand-in 5625
+- 82 Frostmane Tamer: Turtle display 18792 -> stand-in 11238
+- 96 Frostmane Ritualist: Turtle display 18780 -> stand-in 5610
+- 108 Frostmane Warrior: Turtle display 18792 -> stand-in 11238
+- 108 Frostmane Warrior: Turtle display 18793 -> stand-in 12953
+- 36519 Frostmane Ritualist: Turtle display 18780 -> stand-in 5610
+- 63129 Kan'za the Seer: Turtle display 18795 -> stand-in 5610
+- 63130 Hailar the Frigid: Turtle display 18641 -> stand-in 69
+- 63131 Battlemaster Ubukaz: Turtle display 18796 -> stand-in 4104
+- 63135 Ice Elemental: Turtle display 18641 -> stand-in 69
+- 63136 Frostmane Oracle: Turtle display 18784 -> stand-in 4627
+- 63136 Frostmane Oracle: Turtle display 18785 -> stand-in 6535
+- 63137 Frostmane Snowcaller: Turtle display 18781 -> stand-in 11076
+- 63137 Frostmane Snowcaller: Turtle display 18782 -> stand-in 14021
+- 63138 Frostmane Berserker: Turtle display 18783 -> stand-in 11313
+- 63138 Frostmane Berserker: Turtle display 18786 -> stand-in 5605
+- 63138 Frostmane Berserker: Turtle display 18787 -> stand-in 14056
+- 63139 Frostmane Pathfinder: Turtle display 18788 -> stand-in 4634
+- 63139 Frostmane Pathfinder: Turtle display 18789 -> stand-in 27491
+
+## Spell sub (2)
+
+- Frostmane Cretin: spell 33398 Icerot Decay -> stand-in 3237 Curse of Thule
+- Ice Elemental: spell 33397 Frozen Mind -> stand-in 12255 Curse of Tuten'kash
+
+## Eventai (3)
+
+- 82 Frostmane Tamer: spell 33399 Summon Ice Claw -> dropped (no 3.3.5 equivalent)
+- 63131 Battlemaster Ubukaz: spell 28131 Enrage -> stand-in 8599 Enrage
+- 63133 Tan'sha the Sleek: spell 19134 Intimidating Shout -> stand-in 19134 Frightening Shout
+
+## Cpp script (2)
+
+- 36519 Frostmane Ritualist: Turtle C++ script 'npc_frostmane_ritualist' (see manual/075_frostmane_hollow.sql)
+- 63130 Hailar the Frigid: Turtle C++ script 'boss_hailar_the_frigid' (see manual/075_frostmane_hollow.sql)
+
+## Existing templates (1)
+
+- 10 object spawns of 3 templates 3.3.5 already has (herbs, ore, chests ...)
+
+## Area triggers (2)
+
+- Turtle trigger 5662 Frostmane Hollow – Entrance -> 5929
+- Turtle trigger 5663 Frostmane Hollow – Exit -> 5930
+
+## World map (1)
+
+- WorldMapArea 2014 'FrostmaneHollow' + 0 subzone overlays, 0 map images

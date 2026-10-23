@@ -1,0 +1,124 @@
+{
+  "name": "Gillijim's Isle",
+  "slot": 7,
+  "map": 0,
+  "zone_id": 408,
+  "terrain": "turtle",
+  "_terrain": "Turtle's island south-west of Stranglethorn. 3.3.5 only has open sea there (stock ocean tiles, already area 408 'Gillijim's Isle'), and no tile at all on the island's west and south edges.",
+  "merge_region": {
+    "x": [
+      23,
+      29
+    ],
+    "y": [
+      54,
+      60
+    ],
+    "height_tolerance": 0.5,
+    "reshaped": "sea",
+    "reshaped_skip_zones": [
+      409
+    ],
+    "sea_below": -2.0,
+    "ocean_base": "World\\Maps\\Azeroth\\Azeroth_25_56.adt",
+    "stitch_onto": "donor",
+    "sea_take": {
+      "x": [
+        24,
+        28
+      ],
+      "y": [
+        55,
+        59
+      ]
+    },
+    "heal_turtle_seams": true,
+    "take_unnamed_land": true
+  },
+  "_merge_region": "Tiles Azeroth_23_54 .. Azeroth_29_60 (the island is on 24-28 x 55-59; one tile of margin so the sea bed taken around it never reaches the region's edge) (x = 32 - worldY/533.33, y = 32 - worldX/533.33). 3.3.5 has only deep open sea here (floor about -516). reshaped=sea: the island's chunks plus the Turtle sea bed around it (chunks under water in both, reached from the island), never Lapidis Isle (409, another Turtle zone sharing the north-west tiles) - so the island's shallow sea bed does not end in a 500-yard cliff. ocean_base: where 3.3.5 has no tile (24_56..24_59, 25_59, 26_59) the base is this stock open-sea tile moved to the missing position; those tiles are added to the client's Azeroth.wdt.",
+  "zone_from_adt": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5054": 3713,
+    "5055": 3714,
+    "5056": 3715,
+    "5057": 3716,
+    "5058": 3717,
+    "5059": 3718,
+    "5060": 3719,
+    "5061": 3720,
+    "5062": 3721,
+    "5063": 3722,
+    "5064": 3723,
+    "5065": 3724,
+    "5066": 3725,
+    "5067": 3726,
+    "5068": 3727,
+    "5069": 3728,
+    "5070": 3729,
+    "5071": 3730
+  },
+  "_area_bits": "Subzones 5054-5071; the zone itself (408) is a 3.3.5 area already.",
+  "exclude_creatures": [],
+  "exclude_gameobjects": [],
+  "world_map": {
+    "tw_area": 408
+  },
+  "loading_screen": null,
+  "taxi_nodes": [
+    96
+  ],
+  "_taxi_nodes": "Maul'Ogg Refuge.",
+  "graveyards": [
+    146
+  ],
+  "taverns": [
+    5
+  ],
+  "_taverns": "Maul'ogg Refuge inn.",
+  "lights": [],
+  "wmo_area_ids": [],
+  "notes": [],
+  "spawn_existing_templates": true,
+  "exclude_quests": [
+    40169,
+    40170,
+    40171,
+    40180,
+    40182,
+    40183,
+    40185,
+    40186,
+    40187,
+    40210,
+    40211,
+    40212,
+    40213,
+    40214,
+    40251,
+    40354,
+    41959,
+    41960,
+    41961
+  ],
+  "extra_creature_templates": [
+    60337,
+    60339
+  ],
+  "force_display": {
+    "61518": 11172
+  },
+  "extra_spawns": [],
+  "_extra_creature_templates": "Quest-credit dummies for The Maul'ogg Crisis I and IX.",
+  "_exclude_quests": "Garfield Sparkblast's Bloodsail chain (40180-40187, 40354): built with 058_stranglethorn_vale, where it starts (Booty Bay) and ends (Bloodsail Retreat). The Flute of Spirits chain (41959-41961) belongs to another Turtle zone (Timbermaw Hold). Insom'ni's Lapidis Isle quests are built by 053_lapidis_isle.",
+  "_force_display": "Aquitus: Turtle's poison-elemental model does not exist in 3.3.5 -> the green water elemental (3.3.5 display 11172).",
+  "_stitch_onto": "donor: at the island's border the empty 3.3.5 sea floor is raised to meet Turtle's ground (default 'base' would pull the island's edge down 500 yards where it meets Lapidis Isle). No 3.3.5 spawn stands on these tiles.",
+  "_sea_take": "Sea bed is taken from Turtle only on the island's own tiles; the margin tiles around them only meet it at the seams (the 3.3.5 Stranglethorn sea on 29_xx keeps its floor and its objects).",
+  "extra_gameobject_spawns": [
+    5003304
+  ],
+  "_extra_gameobject_spawns": "The Atal'ai Chest in the Sunken Temple (The Maul'ogg Crisis VII).",
+  "_take_unnamed_land": "Turtle ground whose chunks carry no area at all (a small islet north of Lapidis Isle where Hargul the Hardy stands, two chunks by Gillijim) is taken with the sea bed.",
+  "spawns_in_whole_region": true,
+  "_spawns_in_whole_region": "Spawns are looked for over the whole merge region, not only inside Turtle's world-map rectangle of the zone."
+}

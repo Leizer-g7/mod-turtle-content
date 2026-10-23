@@ -1,0 +1,63 @@
+{
+  "name": "Thousand Needles",
+  "slot": 17,
+  "map": 1,
+  "zone_id": 400,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle changed lightly: the Windhorn tauren camp, the Blackwind tauren around the entrance of Windhorn Canyon (Turtle's dungeon), the goblins' landing near the Screeching Canyon, the Mirage Raceway's race crews, new NPCs and quests. No new subzones. The 3.3.5 zone, its NPCs and quests stay; Turtle's additions are merged in.",
+  "merge_region": {
+    "x": [
+      32,
+      41
+    ],
+    "y": [
+      39,
+      44
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "own_exclude_areas": [
+      439
+    ],
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "reshaped_skip_zones": [
+      357,
+      15,
+      440,
+      17,
+      405,
+      406
+    ],
+    "heal_turtle_seams": true,
+    "drop_removed_wmos": false,
+    "take_new_wmos": true,
+    "take_wmo_names": [
+      "moocave.wmo"
+    ]
+  },
+  "_merge_region": "own=changed: only Thousand Needles chunks Turtle reshaped (55: the Windhorn camp, the canyon entrance, the east of the Shimmering Flats). reshaped_skip_zones: Feralas, Dustwallow Marsh, Tanaris, the Barrens, Desolace, Stonetalon - Turtle reshaped their edges for its own content there (Chimaera Roost Vale, Westhaven Hollow, Sandmoon Village ...), not ported with this zone. own_exclude_areas: The Shimmering Flats (439): Turtle's only reshaped Flats chunks are its south-east tip, raised by up to 85 yd as the north end of its northern-Tanaris rework (Sandmoon Village) - left for Tanaris; taking it alone left a 72-yd step. take_new_wmos: the chunks holding Turtle's new buildings are taken too (the Windhorn Canyon entrance cave MooCave, cut into the cliff with holes, and Torthon Stonemane's hut stand on unchanged ground). take_wmo_names: MooCave (the canyon entrance) has its origin in a Dustwallow Marsh chunk at the border: taken by name.",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "area_bits": {},
+  "exclude_creatures": [
+    50533,
+    80301,
+    80302,
+    51685
+  ],
+  "_exclude_creatures": "Turtle systems: Dolores (npc_dolores, the Mirage Raceway race start - Turtle's race cars and lap timing are C++ and custom spells, not in the source) and the Red/Green Rocket Cars (no 3.3.5 model); the Riding Wyvern on Thunderhorn Peak (npc_flying_mount: Turtle's free-flight rental, a custom aura).",
+  "exclude_gameobjects": [
+    1000373
+  ],
+  "_exclude_gameobjects": "Gardening Zone Check (Turtle gardening).",
+  "exclude_quests": [
+    50310,
+    50311,
+    50312,
+    50313
+  ],
+  "_exclude_quests": "The Mirage Raceway race quests (Goblin Engineering At Its Finest!, Gnomes Are Genuine Inventors, Mirage Raceway: Goblin's/Gnome's Team): they need Turtle's race (Dolores, the race cars, Daisy's lap times). The race crews, spectators and the two chief engineers stay as scenery.",
+  "notes": []
+}

@@ -1,0 +1,184 @@
+# Gillijim's Isle
+
+File: `data/sql/db-world/mod_turtle_008_gillijims_isle.sql`  
+Terrain mode: **turtle**
+
+## Counts
+
+- areatable_dbc: 18
+- creature: 737
+- creature_addon: 48
+- creature_equip_template: 49
+- creature_loot_template: 8137
+- creature_questender: 27
+- creature_queststarter: 27
+- creature_template: 87
+- creature_template_addon: 4
+- creature_template_model: 87
+- creature_template_movement: 87
+- creature_template_resistance: 7
+- gameobject: 309
+- gameobject_loot_template: 4
+- gameobject_template: 25
+- gameobject_template_addon: 6
+- gossip_menu: 21
+- npc_text: 21
+- npc_vendor: 114
+- pickpocketing_loot_template: 23
+- pool_gameobject: 27
+- pool_pool: 9
+- pool_template: 10
+- quest_offer_reward: 26
+- quest_request_items: 27
+- quest_template: 27
+- quest_template_addon: 27
+- skinning_loot_template: 7
+- smart_scripts: 36
+- waypoint_data: 132
+
+## Client tiles (45)
+
+- 1430 sea-bed chunks around the zone taken from Turtle (keep their 3.3.5 area); 2626 other reshaped chunks left as 3.3.5 (reshaped: sea)
+- 1704 edge points where Turtle's own tiles do not meet: both sides set to the average
+- seams between Turtle and 3.3.5 chunks: 3182 edge points aligned (largest step 514.03 yd, 3.3.5 side moved)
+- Azeroth_24_59: 144 sea-floor edge points matched to the 3.3.5 tiles next to it
+- Azeroth_25_59: 144 sea-floor edge points matched to the 3.3.5 tiles next to it
+- Azeroth_26_59: 144 sea-floor edge points matched to the 3.3.5 tiles next to it
+- Azeroth_24_56: no 3.3.5 tile - built on open sea (stock tile moved here), added to Azeroth.wdt
+- Azeroth_24_57: no 3.3.5 tile - built on open sea (stock tile moved here), added to Azeroth.wdt
+- Azeroth_24_58: no 3.3.5 tile - built on open sea (stock tile moved here), added to Azeroth.wdt
+- Azeroth_24_59: no 3.3.5 tile - built on open sea (stock tile moved here), added to Azeroth.wdt
+- Azeroth_25_59: no 3.3.5 tile - built on open sea (stock tile moved here), added to Azeroth.wdt
+- Azeroth_26_59: no 3.3.5 tile - built on open sea (stock tile moved here), added to Azeroth.wdt
+- Azeroth_24_55: merged - 3 of 256 chunks from Turtle
+- Azeroth_24_56: merged - 51 of 256 chunks from Turtle
+- Azeroth_24_57: merged - 127 of 256 chunks from Turtle (32 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_24_58: merged - 126 of 256 chunks from Turtle (33 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_24_59: merged - 23 of 256 chunks from Turtle (12 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_25_55: merged - 7 of 256 chunks from Turtle
+- Azeroth_25_56: merged - 138 of 256 chunks from Turtle (1 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_25_57: merged - 256 of 256 chunks from Turtle (56 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_25_58: merged - 256 of 256 chunks from Turtle
+- Azeroth_25_59: merged - 69 of 256 chunks from Turtle (39 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_26_55: merged - 52 of 256 chunks from Turtle
+- Azeroth_26_56: merged - 209 of 256 chunks from Turtle
+- Azeroth_26_57: merged - 256 of 256 chunks from Turtle (8 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_26_58: merged - 256 of 256 chunks from Turtle
+- Azeroth_26_59: merged - 50 of 256 chunks from Turtle (34 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_27_54: merged - 0 of 256 chunks from Turtle
+- Azeroth_27_55: merged - 225 of 256 chunks from Turtle (219 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_27_56: merged - 256 of 256 chunks from Turtle (88 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_27_57: merged - 256 of 256 chunks from Turtle
+- Azeroth_27_58: merged - 256 of 256 chunks from Turtle
+- Azeroth_27_59: merged - 73 of 256 chunks from Turtle (5 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_28_54: merged - 0 of 256 chunks from Turtle
+- Azeroth_28_55: merged - 233 of 256 chunks from Turtle (233 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_28_56: merged - 256 of 256 chunks from Turtle (256 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_28_57: merged - 256 of 256 chunks from Turtle (186 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_28_58: merged - 256 of 256 chunks from Turtle (133 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_28_59: merged - 98 of 256 chunks from Turtle (95 of them reshaped ground that keeps its 3.3.5 area)
+- Azeroth_29_54: merged - 0 of 256 chunks from Turtle
+- Azeroth_29_55: merged - 0 of 256 chunks from Turtle
+- Azeroth_29_56: merged - 0 of 256 chunks from Turtle
+- Azeroth_29_57: merged - 0 of 256 chunks from Turtle
+- Azeroth_29_58: merged - 0 of 256 chunks from Turtle
+- Azeroth_29_59: merged - 0 of 256 chunks from Turtle
+
+## Client assets (1)
+
+- 0 Turtle files (buildings, textures) shipped in the client patch
+
+## Model stand in (4)
+
+- WORLD\AZEROTH\DUSKWOOD\BUILDINGS\GYPSYWAGON\GYPSYWAGON2.M2 -> World\Azeroth\Duskwood\Buildings\GypsyWagon\GypsyWagon.m2
+- WORLD\KALIMDOR\BALOR\PASSIVEDOODADS\WATERFALLS\WaterfallRed.MDX -> World\Kalimdor\Mauradon\PassiveDoodads\Waterfalls\MaraudonCorruptedFalls03.m2
+- World\Azeroth\balor\shield_crest_a_02balor.MDX -> World\Azeroth\Elwynn\PassiveDoodads\BattleGladeShield1\BattleGladeShield1.m2
+- world\azeroth\Balor\BalorThrone.MDX -> World\Azeroth\Karazahn\PassiveDoodads\Throne\KarazahnThrone01.m2
+
+## New areas (18)
+
+- 5054 The Broken Reef (subzone of 408, map 0, exploration bit 3713, level 48)
+- 5055 Deeptide Sanctum (subzone of 408, map 0, exploration bit 3714, level 49)
+- 5056 The Silver Coast (subzone of 408, map 0, exploration bit 3715, level 48)
+- 5057 The Silver Sandbar (subzone of 408, map 0, exploration bit 3716, level 52)
+- 5058 Zul'Razar (subzone of 408, map 0, exploration bit 3717, level 50)
+- 5059 The Tangled Wood (subzone of 408, map 0, exploration bit 3718, level 48)
+- 5060 The Jade Mine (subzone of 408, map 0, exploration bit 3719, level 51)
+- 5061 Ruins of Zul'Razar (subzone of 408, map 0, exploration bit 3720, level 50)
+- 5062 Gillijim Strand (subzone of 408, map 0, exploration bit 3721, level 48)
+- 5063 Deepneck Cove (subzone of 408, map 0, exploration bit 3722, level 49)
+- 5064 Gillijim Canyon (subzone of 408, map 0, exploration bit 3723, level 49)
+- 5065 Maul'ogg Refuge (subzone of 408, map 0, exploration bit 3724, level 48)
+- 5066 Maul'ogg Post (subzone of 408, map 0, exploration bit 3725, level 51)
+- 5067 Kalkor Point (subzone of 408, map 0, exploration bit 3726, level 52)
+- 5068 Kazon Island (subzone of 408, map 0, exploration bit 3727, level 48)
+- 5069 The Southsea Sandbar (subzone of 408, map 0, exploration bit 3728, level 51)
+- 5070 Distillery Island (subzone of 408, map 0, exploration bit 3729, level 48)
+- 5071 Faelon's Folly (subzone of 408, map 0, exploration bit 3730, level 50)
+
+## Existing templates (2)
+
+- 1 creature spawns of 1 templates 3.3.5 already has (AzerothCore's template is used)
+- 124 object spawns of 19 templates 3.3.5 already has (herbs, ore, chests ...)
+
+## Cpp script (7)
+
+- 60446 Insom'ni: Turtle C++ script 'npc_insomni' (see manual/052_gillijims_isle.sql)
+- 91960 Junglepaw Panther: Turtle C++ script 'generic_spell_ai' (see manual/052_gillijims_isle.sql)
+- 91961 Junglepaw Shadow Panther: Turtle C++ script 'generic_spell_ai' (see manual/052_gillijims_isle.sql)
+- 92137 'Moonshine' Marty: Turtle C++ script 'npc_marty_moonshine' (see manual/052_gillijims_isle.sql)
+- 92144 Captain Saltbeard: Turtle C++ script 'npc_captain_saltbeard' (see manual/052_gillijims_isle.sql)
+- 92180 Lord Cruk'Zogg: Turtle C++ script 'npc_lord_crukzogg' (see manual/052_gillijims_isle.sql)
+- 92191 Blazno Blastpipe: Turtle C++ script 'npc_blazno' (see manual/052_gillijims_isle.sql)
+
+## Display stand in (6)
+
+- 60497 First Mate McGillicuddy: Turtle display 18705 -> stand-in 9333
+- 91840 Deeptide Myrmidon: Turtle display 9134 -> stand-in 4036
+- 91842 Deeptide Tidehunter: Turtle display 9134 -> stand-in 4036
+- 91843 Deeptide Serpent Guard: Turtle display 9134 -> stand-in 4036
+- 92161 Tidelord Hakash: Turtle display 6747 -> stand-in 4036
+- 92184 Haz'gorg the Great Seer: Turtle display 11539 -> stand-in 33
+
+## Spell sub (1)
+
+- Razzari Priest: spell 19285 Hex of Weakness -> stand-in 11980 Curse of Weakness
+
+## Go display added (10)
+
+- 2001854 World AZEROTH ELWYNN PASSIVEDOODADS DETAIL ElwynnGrass01.mdx: new display row
+- 2001855 World AZEROTH ELWYNN PASSIVEDOODADS DETAIL ElwynnGrass02 Elw: new display row
+- 2002053 World AZEROTH STRANGLETHORN PASSIVEDOODADS CrystalCreatures : new display row
+- 2002055 World AZEROTH STRANGLETHORN PASSIVEDOODADS Detail StranglePl: new display row
+- 2002056 World AZEROTH STRANGLETHORN PASSIVEDOODADS Detail StranglePl: new display row
+- 2002058 World AZEROTH STRANGLETHORN PASSIVEDOODADS Detail StranglePl: new display row
+- 2002059 World AZEROTH STRANGLETHORN PASSIVEDOODADS Detail StrangleTh: new display row
+- 2002065 World AZEROTH STRANGLETHORN PASSIVEDOODADS Detail Strangleth: new display row
+- 2006376 World KHAZMODAN WETLANDS PASSIVEDOODADS BUSHES WetlandGrass0: new display row
+- 2020298 Tropical Wood Tree: new display row
+
+## Turtle only lock (1)
+
+- 2020298 Tropical Wood Tree: lock 1662 is a Turtle-only lock type (e.g. Survival gathering) - left out
+
+## Pools (1)
+
+- 10 spawn pools (27 objects, 0 creatures)
+
+## Area triggers (1)
+
+- Turtle trigger 5 Gillijim's Isle - Maul'ogg Refuge (rest area) -> 5910
+
+## Graveyards (1)
+
+- Turtle graveyard 146 Gilijim Isle -> 1908
+
+## Flight paths (3)
+
+- node 437 Maul'Ogg Refuge, Gillijim's Isle (Turtle 96)
+- path 2006: 18 -> 437, 22 points, cost 0
+- path 2007: 437 -> 18, 23 points, cost 0
+
+## World map (1)
+
+- WorldMapArea 2006 'Gillijim' + 15 subzone overlays, 50 map images

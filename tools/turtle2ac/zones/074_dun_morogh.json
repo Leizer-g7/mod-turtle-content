@@ -1,0 +1,110 @@
+{
+  "name": "Dun Morogh",
+  "slot": 29,
+  "map": 0,
+  "zone_id": 1,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle reworked in places: the Frostmane Hollow entrance (cave frostmanecave.wmo east of the Gates of Ironforge, area 5735), the Ironforge Airfields' ground (area 4020, a Northrend id in 3.3.5: remapped to 6102), the hills above Gnomeregan (Gnomeregan Reclamation Facility), Rugford's Mountain Rest (5599) on the Loch Modan side, and reshaped ground along the north. The 3.3.5 zone, its NPCs and quests stay.",
+  "merge_region": {
+    "x": [
+      29,
+      37
+    ],
+    "y": [
+      39,
+      45
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "reshaped_skip_zones": [
+      11,
+      38,
+      3,
+      51,
+      1537,
+      36,
+      267
+    ],
+    "heal_turtle_seams": true,
+    "take_new_wmos": true,
+    "match_stock_edges": true,
+    "reshaped_take_areas": [
+      2365,
+      51,
+      3
+    ]
+  },
+  "_merge_region": "own=changed: only Dun Morogh chunks Turtle reshaped or gave a new subzone. reshaped_skip_zones: Wetlands, Loch Modan, Badlands, Searing Gorge, Ironforge, Alterac Mountains, Hillsbrad (merged with their own zones or not ported). reshaped_take_areas: The Great Sea north of Gnomeregan (2365, raised by Turtle into the hills of its Reclamation Facility quests) and Searing Gorge's north rim under Rugford's Mountain Rest (51, raised up to 100 yd): left out they leave 60-90 yd cliffs. Badlands (3): the one chunk Badlands left 3.3.5 next to Rugford's (36_43 chunk 197, a 44-yd step against Rugford's ground).",
+  "area_bits": {
+    "5735": 3799,
+    "5599": 3800,
+    "4020": 3801
+  },
+  "_area_bits": "Frostmane Hollow (entrance), Rugford's Mountain Rest, Ironforge Airfields (written as 6102).",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "exclude_creatures": [
+    51580,
+    61909,
+    61910,
+    61911,
+    61912,
+    73102,
+    62953,
+    62954,
+    62967,
+    60624,
+    63203,
+    61168,
+    61171,
+    50637,
+    61467,
+    70067,
+    61930
+  ],
+  "_exclude_creatures": "Turtle systems: the rented riding wolf, Jewelcrafting (Dagred Flintbeard, Frabus Barleymantle, Torvag Thunderhand, Mayva Togview, Thegren), Survival (Theminn/Eissinn Cragbelly, Dyrohrinn Boulderhorn), Merk Boltratch (Turtle's Orgrimmar - Kargath zeppelin, left out with Badlands), Fanwyn Wildbrand (Thorn Gorge battlemaster, a Turtle battleground), the Winter Veil storytellers (Great Spirit of Winter, Greatfather Winter: Turtle's Winter Veil story quests). Kept 3.3.5 where Turtle replaced it: Gelwin Brasspipe (Gnomeregan Envoy) stands on High Tinker Mekkatorque's spot and the six Airfield Engineers on the 3.3.5 Gnome Engineers' spots (Turtle moved those 3.3.5 NPCs away; 3.3.5 keeps them). The Shivering Moonkin Hatchling: it only serves 'Bracing The Inevitable' (50318, a Winter Veil quest whose giver is not in this build) and its model has no 3.3.5 equivalent. Motsog Kegsipper (The Undermarket): his only quests are the Undermarket chain (see _exclude_quests).",
+  "exclude_gameobjects": [
+    1000055,
+    1000373,
+    2010798,
+    2020089,
+    2020410
+  ],
+  "_exclude_gameobjects": "Speedy's Jukebox (go_radio) and the Gardening Zone Check (Turtle's gardening system), as in Tanaris. The Azurestone (a decorative stone on the spot of 3.3.5's Portal to Blasted Lands in the Mystic Ward: the portal stays). The Ironforge Jewelers Guild and Cragbelly Survival Necessities signs (Turtle's Jewelcrafting and Survival, whose NPCs are left out).",
+  "exclude_quests": [
+    40510,
+    41300,
+    41301,
+    41302
+  ],
+  "_exclude_quests": "Broodling Imposters?! (40510, Masey Wirefuse): its Robotic Broodling Guts drop only from Turtle's Peculiar Broodlings in the Burning Steppes (not ported yet; Masey's other quests stay). The Undermarket chain (41300-41302, Motsog Kegsipper): it asks for Jewelcrafting jewellery and rewards Jewelcrafting plans (Turtle's Jewelcrafting).",
+  "extra_gameobject_spawns": [
+    5015102,
+    5015104,
+    5015108
+  ],
+  "_extra_gameobject_spawns": "In 3.3.5's Gnomeregan: the Alpha Channel Valve and Reserve Pump Lever (Backup System Activation, 40856) and the Schematic: High Energy Regulator chest (High Energy Regulator, 40861).",
+  "extra_creature_templates": [
+    60347,
+    60042,
+    60043
+  ],
+  "_extra_creature_templates": "Quest credit dummies the manual script gives: 'The Azurestone' (60347, Tholdan Mountainheart), 'Backup System Activation' (60042 / 60043, the Gnomeregan valve and lever).",
+  "force_display": {
+    "80252": 855
+  },
+  "_force_display": "Young Arctic Fox: Turtle's Mistfox model has no 3.3.5 equivalent -> 3.3.5's small wolf (display 855, 'Foxy').",
+  "notes": [],
+  "spawn_boxes": [
+    [
+      -4900,
+      -4600,
+      150,
+      460
+    ]
+  ],
+  "_spawn_boxes": "The Reclamation quest area north of Gnomeregan (Malfunctioning Servitors, Corrosive Backups, XV-81, the Spare Parts), on chunks Turtle files under The Great Sea."
+}

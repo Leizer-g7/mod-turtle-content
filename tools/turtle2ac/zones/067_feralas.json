@@ -1,0 +1,79 @@
+{
+  "name": "Feralas",
+  "slot": 22,
+  "map": 1,
+  "zone_id": 357,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle reworked in its east: Thalanaar's new camp, Chimaera Roost Vale and the Feralkin Cave, with their NPCs and quests. The 3.3.5 zone, its NPCs and quests stay; Turtle's additions are merged in.",
+  "merge_region": {
+    "x": [
+      30,
+      34
+    ],
+    "y": [
+      37,
+      43
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 12,
+    "reshaped_skip_zones": [
+      215,
+      400,
+      405,
+      490,
+      1377,
+      440
+    ],
+    "heal_turtle_seams": true,
+    "drop_removed_wmos": false,
+    "take_new_wmos": true,
+    "match_stock_edges": true
+  },
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "area_bits": {
+    "5210": 3791,
+    "5556": 3792
+  },
+  "_area_bits": "Chimaera Roost Vale 5210, Feralkin Cave 5556.",
+  "exclude_creatures": [
+    51569,
+    51686,
+    81261
+  ],
+  "exclude_gameobjects": [
+    1000373,
+    2020095
+  ],
+  "exclude_quests": [],
+  "notes": [],
+  "_exclude_creatures": "Turtle systems: the rented Riding Gryphon and Beaky (npc_flying_mount: Turtle's free-flight rental), Dinka Dinker (serves only members of the player guild 'Traveler', guild id 172, with a slow-fall cast).",
+  "_exclude_gameobjects": "Gardening Zone Check (Turtle gardening); Gemstone Deposit (Turtle Jewelcrafting gem node, used by Jarkal Mossmeld's quests, left out with Badlands).",
+  "extra_spawns": [
+    2578314,
+    2589563,
+    2589564,
+    2589565,
+    2589566,
+    2589567,
+    2589568,
+    2589569,
+    2589570,
+    2589571,
+    2589572,
+    2589573,
+    2589574,
+    2589575,
+    2589576
+  ],
+  "_extra_spawns": "The Ancient Guardian in Durotar by the Southfury River (its drop, the Essence of Zalmos, finishes Cenerron's 'Essence of Zalmos'); Turtle's Bramblehide Rootshapers and Gnarled Bramblehides in Razorfen Kraul (they drop the Gnarled Brambleroot for Calaran Windseeker's 'The Gnarled Bramblehide').",
+  "extra_creature_templates": [
+    60378,
+    60379,
+    60380
+  ],
+  "_extra_creature_templates": "Quest credits of The Way of the Spiritwolf III-V (given by manual/067)."
+}

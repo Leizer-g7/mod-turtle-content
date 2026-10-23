@@ -1,0 +1,85 @@
+{
+  "name": "Westfall",
+  "slot": 40,
+  "map": 0,
+  "zone_id": 40,
+  "terrain": "turtle",
+  "_terrain": "A 3.3.5 zone Turtle changed in a few places: Gartside Plot (area 5102, Maltimor Gartside's farm north-west of Sentinel Hill, a new house), the Longshore coast south-west of the lighthouse and a few sea chunks off the coast. Elsewhere Turtle adds NPCs, objects and quests (the Harvest Golem Mystery, the Old Church of Westfall, Captain Grayson, the Venture drones). The 3.3.5 zone, its NPCs and quests stay.",
+  "merge_region": {
+    "x": [
+      26,
+      32
+    ],
+    "y": [
+      49,
+      53
+    ],
+    "height_tolerance": 0.5,
+    "own": "changed",
+    "reshaped": "connected",
+    "connect_depth": 4,
+    "reshaped_skip_zones": [
+      409,
+      408,
+      33,
+      12,
+      1519,
+      5561,
+      214
+    ],
+    "heal_turtle_seams": true,
+    "take_new_wmos": true,
+    "match_stock_edges": true,
+    "seam_report_yd": 2
+  },
+  "_merge_region": "own=changed: only the Westfall chunks Turtle reshaped or gave a new subzone. Not taken: Lapidis Isle (409, merged by 053), Gillijim's Isle (408), Stranglethorn (33), Elwynn (12), Stormwind (1519), Balor (5561), the open sea outside Westfall (214). y stops at 53: Azeroth_27_54 is Lapidis Isle's tile (its Westfall-coast chunks were taken as reshaped ground and met the 3.3.5 shore with 108-yd steps).",
+  "area_bits": {
+    "5102": 3826
+  },
+  "_area_bits": "Gartside Plot.",
+  "zone_from_adt": true,
+  "zone_from_335_tiles": true,
+  "ship_assets": true,
+  "exclude_creatures": [
+    50514,
+    50515,
+    50516,
+    51561
+  ],
+  "_exclude_creatures": "Turtle systems: training dummies, rented riding mounts.",
+  "exclude_gameobjects": [
+    1000373,
+    1000055,
+    2020300,
+    2020095,
+    2020273,
+    2010811
+  ],
+  "_exclude_gameobjects": "Gardening Zone Check, Speedy's Jukebox, Survival's Dead Wood Trees / Gemstone Deposits / Simple Wood Trees. The Mysterious Muddy Pile (2010811): it starts and ends Turtle's Mysterious Cow Scroll chain (40052/40053, filed under another zone, not in this build).",
+  "notes": [],
+  "extra_quests": [
+    40593,
+    40395
+  ],
+  "_extra_quests": "Started by objects in Westfall: 'The Old Church of Westfall' (40593, the Abandoned Footlocker at the church) and 'Food for Sailing Thoughts?' (40395, the Guide to a Sailor's Stomach on the north coast).",
+  "extra_spawns": [
+    2571558,
+    2571563
+  ],
+  "_extra_spawns": "Farad Wrightsow and Gazzirik in their shack south of Darkshire (Duskwood, not ported yet): 'The Harvest Golem Mystery' (40485) ends with them, and Farad carries the 'Letter from Maltimor' (40529).",
+  "extra_gameobject_spawns": [
+    5008152
+  ],
+  "_extra_gameobject_spawns": "The Lordaeron Needles among the gnoll hovels near Lakeshire (Redridge, not ported yet) for 40482.",
+  "extra_creature_templates": [
+    60381,
+    60392,
+    60871,
+    60709
+  ],
+  "_extra_creature_templates": "Turtle's dummy credit NPCs for 40529 (Maltimor's letter) and 40597 (Brother Neals' story), the Harvest Reaper Maltimor rewires (40476) and Cookie's ghost (Captain Grayson, 40396). 40476's credit 60375 is Burning Steppes' (083).",
+  "force_display": {
+    "80254": 161
+  },
+  "_force_display": "Young Brown Fox: Turtle's model is the Cataclysm Mistfox, which 3.3.5 does not have - Coyote's display (161) instead, at Turtle's small scale (0.6)."
+}
